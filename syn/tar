@@ -1,0 +1,5 @@
+rm -rf havefun/*
+rm havefun.tar.gz
+cp -rf output/ havefun/
+cp -rf report/ havefun/
+tar -zcvf havefun.tar.gz havefun/
