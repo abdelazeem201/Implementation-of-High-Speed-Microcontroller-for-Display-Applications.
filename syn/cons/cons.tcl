@@ -1,0 +1,10 @@
+create_clock -name xin -period 80 -waveform {0.000 40} [get_ports xin]
+#create_clock -name {TCK_SWCLK} -period 100 -waveform { 0.000 50 } [get_ports TCK_SWCLK]
+create_generated_clock -name pllClk -source [get_pins PLL_inst/XIN]  -multiply_by 8  -master_clock xin [get_pins PLL_inst/CLK_OUT]
+set_input_delay -max 1 -clock [get_clocks pllClk] [remove_from_collection [all_inputs] [get_ports xin]]
+set_output_delay -max 1 -clock [get_clocks pllClk] [all_outputs]
+set_clock_uncertainty 0.2 [get_clocks]
+set_false_path -hold -from [remove_from_collection [all_inputs] [get_ports xin]]
+set_false_path -hold -to [all_outputs]
+#set_max_area 0.0
+set_dont_touch [get_cells {hsync_pad_out vsync_pad_out rgb_pad_out_0 rgb_pad_out_1 rgb_pad_out_2 rgb_pad_out_3 rgb_pad_out_4 rgb_pad_out_5 rgb_pad_out_6 rgb_pad_out_7 Tx_pad_out TDO_SWO_pad_out RESET_pad_in Rx_pad_in TCK_SWCLK_pad_in TDI_NC_pad_in debugger_pad_io gpio_pad_io_0 gpio_pad_io_1 gpio_pad_io_2 gpio_pad_io_3 gpio_pad_io_4 gpio_pad_io_5 gpio_pad_io_6 gpio_pad_io_7 gpio_pad_io_8 gpio_pad_io_9 gpio_pad_io_10 gpio_pad_io_11 gpio_pad_io_12 gpio_pad_io_13 gpio_pad_io_14 gpio_pad_io_15 xtal_pad_special}]
