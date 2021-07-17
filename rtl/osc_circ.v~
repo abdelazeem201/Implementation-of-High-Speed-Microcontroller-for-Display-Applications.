@@ -1,0 +1,10 @@
+module osc_circ(XIN, XOUT, XC);
+
+output  XC;   // synopsys keep_signal_name "XC"
+input   XIN;  // synopsys keep_signal_name "XIN"
+output	XOUT; // synopsys keep_signal_name "XOUT"
+
+INVX20 u0(.A(XIN), .Y(XOUT));
+INVX20 u1(.A(XOUT), .Y(XC));
+
+endmodule
