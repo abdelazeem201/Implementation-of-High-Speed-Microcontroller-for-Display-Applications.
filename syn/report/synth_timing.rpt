@@ -1,0 +1,847 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : chip_top_v2
+Version: K-2015.06
+Date   : Tue Apr 18 00:10:37 2017
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1792/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[9] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1796/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[8] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1800/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[7] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1803/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[6] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1806/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[5] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1809/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[4] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1811/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[3] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1815/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[2] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1817/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[1] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg
+              (rising edge-triggered flip-flop clocked by pllClk)
+  Endpoint: u0/uAHB2MEM/u_asic_rom/u0
+            (rising edge-triggered flip-flop clocked by pllClk)
+  Path Group: pllClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock pllClk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/CK (DFFSX1)
+                                                          0.00 #     0.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/P5vpw6_reg/Q (DFFSX1)
+                                                          0.80       0.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1744/Y (NAND2XL)      0.19       0.99 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U616/Y (NAND2BXL)      0.16       1.15 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U613/Y (NAND4XL)       0.12       1.27 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U666/Y (NOR2BX1)       0.46       1.73 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U450/Y (INVX1)         0.35       2.08 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1422/Y (MXI2XL)       0.35       2.43 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U161/Y (OR2XL)         0.14       2.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U130/Y (AOI21X1)       0.10       2.67 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U115/Y (OAI21X2)       0.13       2.80 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U97/Y (AOI21X2)        0.06       2.87 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U95/Y (OAI21X1)        0.13       3.00 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U94/Y (AOI21XL)        0.10       3.10 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1768/Y (OAI21XL)      0.17       3.28 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U91/Y (AOI21XL)        0.12       3.39 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U85/Y (OAI21X1)        0.15       3.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U74/Y (AOI21XL)        0.11       3.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U71/Y (OAI21X1)        0.14       3.79 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U70/Y (AOI21XL)        0.10       3.89 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1760/Y (OAI21XL)      0.17       4.07 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U68/Y (AOI21XL)        0.11       4.18 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1731/Y (OAI21XL)      0.18       4.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U64/Y (AOI21XL)        0.11       4.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1755/Y (OAI21XL)      0.18       4.64 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U62/Y (AOI21XL)        0.12       4.75 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U61/Y (OAI21X1)        0.19       4.94 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U60/Y (AOI21X2)        0.08       5.02 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U59/Y (OAI21X2)        0.11       5.13 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U57/Y (AOI21X1)        0.08       5.21 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U1767/Y (OAI21XL)      0.14       5.35 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U55/CO (ADDFXL)        0.19       5.54 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U54/CO (ADDFXL)        0.18       5.72 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U53/CO (ADDFXL)        0.18       5.90 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U52/CO (ADDFXL)        0.18       6.08 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U50/CO (ADDFXL)        0.18       6.26 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U49/CO (ADDFXL)        0.18       6.45 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U46/CO (ADDFXL)        0.18       6.63 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U43/CO (ADDFXL)        0.18       6.81 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U41/S (ADDFXL)         0.20       7.01 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U37/S (ADDHXL)         0.22       7.24 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2107/Y (AOI22XL)      0.13       7.36 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U29/Y (OAI21XL)        0.10       7.46 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U28/Y (NAND2XL)        0.11       7.57 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U26/Y (NOR3XL)         0.07       7.65 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2395/Y (AOI21XL)      0.10       7.74 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2394/Y (NAND2XL)      0.05       7.79 f
+  u0/u_CORTEXM0INTEGRATION/u_logic/U2393/Y (NAND2X1)      0.09       7.88 r
+  u0/u_CORTEXM0INTEGRATION/u_logic/HTRANS[1] (cortexm0ds_logic)
+                                                          0.00       7.88 r
+  U1617/Y (NAND2X1)                                       0.14       8.03 f
+  U1790/Y (NOR2X4)                                        0.26       8.28 r
+  U1612/Y (INVX1)                                         0.40       8.68 f
+  U1826/Y (AOI22X2)                                       0.84       9.53 r
+  u0/uAHB2MEM/u_asic_rom/u0/A[0] (RA1SHD)                 0.00       9.53 r
+  data arrival time                                                  9.53
+
+  clock pllClk (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  u0/uAHB2MEM/u_asic_rom/u0/CLK (RA1SHD)                  0.00       9.80 r
+  library setup time                                     -0.27       9.53
+  data required time                                                 9.53
+  --------------------------------------------------------------------------
+  data required time                                                 9.53
+  data arrival time                                                 -9.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

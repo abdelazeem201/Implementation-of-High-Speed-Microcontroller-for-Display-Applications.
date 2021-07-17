@@ -1,0 +1,3131 @@
+ 
+****************************************
+Report : cell
+Design : chip_top_v2
+Version: K-2015.06
+Date   : Tue Apr 18 00:10:36 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    d - dont_touch
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+PLL_inst                  S018PLLGS_500   SMIC_PLL_18     150423.000000
+                                                                    b, d, mo, so
+RESET_pad_in              BUFX20          typical         53.222401 d
+Rx_pad_in                 BUFX20          typical         53.222401 d
+TCK_SWCLK_pad_in          BUFX20          typical         53.222401 d
+TDI_NC_pad_in             BUFX20          typical         53.222401 d
+TDO_SWO_pad_out           BUFX20          typical         53.222401 d
+Tx_pad_out                BUFX20          typical         53.222401 d
+U1611                     INVX1           typical         6.652800  
+U1612                     INVX1           typical         6.652800  
+U1613                     OR2XL           typical         13.305600 
+U1614                     OR2XL           typical         13.305600 
+U1615                     NOR2XL          typical         9.979200  
+U1616                     NOR2XL          typical         9.979200  
+U1617                     NAND2X1         typical         9.979200  
+U1618                     AOI32XL         typical         23.284800 
+U1619                     AOI32XL         typical         23.284800 
+U1620                     INVX1           typical         6.652800  
+U1621                     NAND3X2         typical         23.284800 
+U1622                     NAND4XL         typical         16.632000 
+U1623                     NOR2X1          typical         9.979200  
+U1624                     NOR2X1          typical         9.979200  
+U1625                     NOR2XL          typical         9.979200  
+U1626                     INVX1           typical         6.652800  
+U1627                     NAND3XL         typical         13.305600 
+U1628                     NAND2XL         typical         9.979200  
+U1629                     NOR4BXL         typical         19.958401 
+U1630                     NAND3XL         typical         13.305600 
+U1631                     NOR3XL          typical         13.305600 
+U1632                     NOR2XL          typical         9.979200  
+U1633                     INVXL           typical         6.652800  
+U1634                     AND3XL          typical         16.632000 
+U1635                     INVXL           typical         6.652800  
+U1636                     NOR2XL          typical         9.979200  
+U1637                     NOR2XL          typical         9.979200  
+U1638                     NOR2XL          typical         9.979200  
+U1639                     AOI21X1         typical         13.305600 
+U1640                     OAI21XL         typical         13.305600 
+U1641                     AOI21X1         typical         13.305600 
+U1642                     NOR2XL          typical         9.979200  
+U1643                     NAND2BXL        typical         13.305600 
+U1644                     NOR2X1          typical         9.979200  
+U1645                     NOR2XL          typical         9.979200  
+U1646                     NOR2X1          typical         9.979200  
+U1647                     AND2X1          typical         13.305600 
+U1648                     NOR2X1          typical         9.979200  
+U1649                     INVXL           typical         6.652800  
+U1650                     INVX1           typical         6.652800  
+U1651                     INVX1           typical         6.652800  
+U1652                     INVXL           typical         6.652800  
+U1653                     AOI22XL         typical         16.632000 
+U1654                     NOR3XL          typical         13.305600 
+U1655                     NOR2BXL         typical         13.305600 
+U1656                     AOI22X1         typical         16.632000 
+U1657                     AOI22XL         typical         16.632000 
+U1658                     OAI22XL         typical         19.958401 
+U1659                     OAI22XL         typical         19.958401 
+U1660                     OAI22XL         typical         19.958401 
+U1661                     OAI22XL         typical         19.958401 
+U1662                     INVX1           typical         6.652800  
+U1663                     AOI22XL         typical         16.632000 
+U1664                     AOI22XL         typical         16.632000 
+U1665                     AOI22XL         typical         16.632000 
+U1666                     AOI22XL         typical         16.632000 
+U1667                     AOI22XL         typical         16.632000 
+U1668                     AOI22XL         typical         16.632000 
+U1669                     AOI22XL         typical         16.632000 
+U1670                     AOI22XL         typical         16.632000 
+U1671                     AOI22XL         typical         16.632000 
+U1672                     AOI22XL         typical         16.632000 
+U1673                     AOI22XL         typical         16.632000 
+U1674                     AOI22XL         typical         16.632000 
+U1675                     AOI22XL         typical         16.632000 
+U1676                     OAI32XL         typical         23.284800 
+U1677                     OAI32XL         typical         23.284800 
+U1678                     OAI32XL         typical         23.284800 
+U1679                     OAI32XL         typical         23.284800 
+U1680                     INVX1           typical         6.652800  
+U1681                     AOI22XL         typical         16.632000 
+U1682                     AOI22XL         typical         16.632000 
+U1683                     AOI22XL         typical         16.632000 
+U1684                     AOI22XL         typical         16.632000 
+U1685                     AOI22XL         typical         16.632000 
+U1686                     AOI22XL         typical         16.632000 
+U1687                     AOI22XL         typical         16.632000 
+U1688                     AOI22XL         typical         16.632000 
+U1689                     AOI22XL         typical         16.632000 
+U1690                     AOI22XL         typical         16.632000 
+U1691                     AOI22XL         typical         16.632000 
+U1692                     AOI22XL         typical         16.632000 
+U1693                     NAND2XL         typical         9.979200  
+U1694                     NAND2XL         typical         9.979200  
+U1695                     NAND2XL         typical         9.979200  
+U1696                     NAND2XL         typical         9.979200  
+U1697                     NAND2XL         typical         9.979200  
+U1698                     NAND2XL         typical         9.979200  
+U1699                     NAND2XL         typical         9.979200  
+U1700                     NAND2XL         typical         9.979200  
+U1701                     NAND4BXL        typical         19.958401 
+U1702                     NOR2XL          typical         9.979200  
+U1703                     NOR2XL          typical         9.979200  
+U1704                     AND2XL          typical         13.305600 
+U1705                     NAND3XL         typical         13.305600 
+U1706                     NOR2XL          typical         9.979200  
+U1707                     NAND2XL         typical         9.979200  
+U1708                     NAND4XL         typical         16.632000 
+U1709                     NOR3XL          typical         13.305600 
+U1710                     INVXL           typical         6.652800  
+U1711                     INVXL           typical         6.652800  
+U1712                     INVXL           typical         6.652800  
+U1713                     NOR2XL          typical         9.979200  
+U1714                     INVXL           typical         6.652800  
+U1715                     NOR2XL          typical         9.979200  
+U1716                     NAND2XL         typical         9.979200  
+U1717                     NAND3XL         typical         13.305600 
+U1718                     NAND4XL         typical         16.632000 
+U1719                     INVXL           typical         6.652800  
+U1720                     INVXL           typical         6.652800  
+U1721                     AND2XL          typical         13.305600 
+U1722                     AND2XL          typical         13.305600 
+U1723                     AND2XL          typical         13.305600 
+U1724                     AND2XL          typical         13.305600 
+U1725                     AND2XL          typical         13.305600 
+U1726                     AND2XL          typical         13.305600 
+U1727                     AND2XL          typical         13.305600 
+U1728                     AND2XL          typical         13.305600 
+U1729                     OAI21XL         typical         13.305600 
+U1730                     INVXL           typical         6.652800  
+U1731                     AOI33XL         typical         26.611200 
+U1732                     AND3XL          typical         16.632000 
+U1733                     INVXL           typical         6.652800  
+U1734                     NAND3XL         typical         13.305600 
+U1735                     INVXL           typical         6.652800  
+U1736                     INVXL           typical         6.652800  
+U1737                     NAND2XL         typical         9.979200  
+U1738                     NOR2XL          typical         9.979200  
+U1739                     NAND2XL         typical         9.979200  
+U1740                     NOR2XL          typical         9.979200  
+U1741                     INVXL           typical         6.652800  
+U1742                     NOR3XL          typical         13.305600 
+U1743                     NOR3XL          typical         13.305600 
+U1744                     INVXL           typical         6.652800  
+U1745                     AND2XL          typical         13.305600 
+U1746                     INVXL           typical         6.652800  
+U1747                     NAND2XL         typical         9.979200  
+U1748                     NAND3XL         typical         13.305600 
+U1749                     INVXL           typical         6.652800  
+U1750                     NOR2XL          typical         9.979200  
+U1751                     INVXL           typical         6.652800  
+U1752                     NOR2XL          typical         9.979200  
+U1753                     AOI21XL         typical         13.305600 
+U1754                     OAI21XL         typical         13.305600 
+U1755                     AOI21XL         typical         13.305600 
+U1756                     INVXL           typical         6.652800  
+U1757                     AOI22XL         typical         16.632000 
+U1758                     OAI21XL         typical         13.305600 
+U1759                     INVXL           typical         6.652800  
+U1760                     AOI22XL         typical         16.632000 
+U1761                     AOI22XL         typical         16.632000 
+U1762                     INVXL           typical         6.652800  
+U1763                     AOI22XL         typical         16.632000 
+U1764                     AOI22XL         typical         16.632000 
+U1765                     AOI22XL         typical         16.632000 
+U1766                     AOI221XL        typical         23.284800 
+U1767                     AOI21XL         typical         13.305600 
+U1768                     AOI22XL         typical         16.632000 
+U1769                     OAI221XL        typical         23.284800 
+U1770                     INVXL           typical         6.652800  
+U1771                     AOI22XL         typical         16.632000 
+U1772                     OAI221XL        typical         23.284800 
+U1773                     INVXL           typical         6.652800  
+U1774                     AOI22XL         typical         16.632000 
+U1775                     OAI221XL        typical         23.284800 
+U1776                     AOI22XL         typical         16.632000 
+U1777                     OAI221XL        typical         23.284800 
+U1778                     INVXL           typical         6.652800  
+U1779                     AOI22XL         typical         16.632000 
+U1780                     OAI221XL        typical         23.284800 
+U1781                     AOI22XL         typical         16.632000 
+U1782                     OAI221XL        typical         23.284800 
+U1783                     OR4XL           typical         19.958401 
+U1784                     OR3XL           typical         16.632000 
+U1785                     NOR2XL          typical         9.979200  
+U1786                     AOI31XL         typical         16.632000 
+U1787                     OAI21XL         typical         13.305600 
+U1788                     AOI211XL        typical         16.632000 
+U1789                     NOR3X1          typical         13.305600 
+U1790                     NOR2X4          typical         23.284800 
+U1791                     INVXL           typical         6.652800  
+U1792                     AOI22X2         typical         29.937599 
+U1793                     NOR2X4          typical         23.284800 
+U1794                     AOI22X2         typical         29.937599 
+U1795                     INVXL           typical         6.652800  
+U1796                     AOI22X2         typical         29.937599 
+U1797                     AOI22X2         typical         29.937599 
+U1798                     INVXL           typical         6.652800  
+U1799                     AOI22X2         typical         29.937599 
+U1800                     AOI22X2         typical         29.937599 
+U1801                     INVXL           typical         6.652800  
+U1802                     AOI22X2         typical         29.937599 
+U1803                     AOI22X2         typical         29.937599 
+U1804                     INVXL           typical         6.652800  
+U1805                     AOI22X2         typical         29.937599 
+U1806                     AOI22X2         typical         29.937599 
+U1807                     INVXL           typical         6.652800  
+U1808                     AOI22X2         typical         29.937599 
+U1809                     AOI22X2         typical         29.937599 
+U1810                     INVXL           typical         6.652800  
+U1811                     AOI22X2         typical         29.937599 
+U1812                     AOI22X2         typical         29.937599 
+U1813                     INVXL           typical         6.652800  
+U1814                     AOI22X2         typical         29.937599 
+U1815                     AOI22X2         typical         29.937599 
+U1816                     INVXL           typical         6.652800  
+U1817                     AOI22X2         typical         29.937599 
+U1818                     AOI22X2         typical         29.937599 
+U1819                     AOI22X2         typical         29.937599 
+U1820                     AOI22X2         typical         29.937599 
+U1821                     INVXL           typical         6.652800  
+U1822                     AOI22X2         typical         29.937599 
+U1823                     AOI22X2         typical         29.937599 
+U1824                     INVXL           typical         6.652800  
+U1825                     AOI22X2         typical         29.937599 
+U1826                     AOI22X2         typical         29.937599 
+U1827                     INVX1           typical         6.652800  
+U1828                     INVX1           typical         6.652800  
+U1829                     INVX1           typical         6.652800  
+U1830                     INVX1           typical         6.652800  
+U1831                     INVX1           typical         6.652800  
+U1832                     OR2XL           typical         13.305600 
+U1833                     INVXL           typical         6.652800  
+U1834                     AOI22XL         typical         16.632000 
+U1835                     NOR2XL          typical         9.979200  
+U1836                     AOI21XL         typical         13.305600 
+U1837                     NAND2XL         typical         9.979200  
+U1838                     OAI21XL         typical         13.305600 
+U1839                     INVXL           typical         6.652800  
+U1840                     NOR2XL          typical         9.979200  
+U1841                     AOI21XL         typical         13.305600 
+U1842                     AOI21XL         typical         13.305600 
+U1843                     INVXL           typical         6.652800  
+U1844                     NOR2XL          typical         9.979200  
+U1845                     AOI21XL         typical         13.305600 
+U1846                     NAND2XL         typical         9.979200  
+U1847                     INVXL           typical         6.652800  
+U1848                     OR4XL           typical         19.958401 
+U1849                     NAND4XL         typical         16.632000 
+U1850                     NOR4XL          typical         19.958401 
+U1851                     NAND2XL         typical         9.979200  
+U1852                     OAI21XL         typical         13.305600 
+U1853                     INVXL           typical         6.652800  
+U1854                     NAND3XL         typical         13.305600 
+U1855                     INVXL           typical         6.652800  
+U1856                     NAND2XL         typical         9.979200  
+U1857                     NOR4BXL         typical         19.958401 
+U1858                     NOR2XL          typical         9.979200  
+U1859                     NAND2XL         typical         9.979200  
+U1860                     AOI32XL         typical         23.284800 
+U1861                     OAI21XL         typical         13.305600 
+U1862                     INVXL           typical         6.652800  
+U1863                     NOR3XL          typical         13.305600 
+U1864                     INVXL           typical         6.652800  
+U1865                     NOR2XL          typical         9.979200  
+U1866                     AOI21XL         typical         13.305600 
+U1867                     NOR4XL          typical         19.958401 
+U1868                     OR4XL           typical         19.958401 
+U1869                     OR4XL           typical         19.958401 
+U1870                     NOR3XL          typical         13.305600 
+U1871                     NOR3XL          typical         13.305600 
+U1872                     NAND4BXL        typical         19.958401 
+U1873                     NOR3XL          typical         13.305600 
+U1874                     NAND4XL         typical         16.632000 
+U1875                     NAND2XL         typical         9.979200  
+U1876                     OAI211XL        typical         19.958401 
+U1877                     NAND3XL         typical         13.305600 
+U1878                     INVXL           typical         6.652800  
+U1879                     NAND2XL         typical         9.979200  
+U1880                     INVXL           typical         6.652800  
+U1881                     NAND2XL         typical         9.979200  
+U1882                     NOR2XL          typical         9.979200  
+U1883                     AOI21XL         typical         13.305600 
+U1884                     NAND2XL         typical         9.979200  
+U1885                     INVXL           typical         6.652800  
+U1886                     AOI21XL         typical         13.305600 
+U1887                     OR2XL           typical         13.305600 
+U1888                     AOI22XL         typical         16.632000 
+U1889                     NOR2XL          typical         9.979200  
+U1890                     OAI21XL         typical         13.305600 
+U1891                     AOI21XL         typical         13.305600 
+U1892                     AOI21XL         typical         13.305600 
+U1893                     AOI22XL         typical         16.632000 
+U1894                     AOI22XL         typical         16.632000 
+U1895                     AOI22XL         typical         16.632000 
+U1896                     AOI22XL         typical         16.632000 
+U1897                     AOI22XL         typical         16.632000 
+U1898                     AOI22XL         typical         16.632000 
+U1899                     AOI22XL         typical         16.632000 
+U1900                     AOI22XL         typical         16.632000 
+U1901                     AOI22XL         typical         16.632000 
+U1902                     AOI22XL         typical         16.632000 
+U1903                     AOI22XL         typical         16.632000 
+U1904                     AOI22XL         typical         16.632000 
+U1905                     AOI22XL         typical         16.632000 
+U1906                     AOI22XL         typical         16.632000 
+U1907                     AOI22XL         typical         16.632000 
+U1908                     AOI22XL         typical         16.632000 
+U1909                     AOI22XL         typical         16.632000 
+U1910                     NAND2XL         typical         9.979200  
+U1911                     INVXL           typical         6.652800  
+U1912                     AOI22XL         typical         16.632000 
+U1913                     NAND2XL         typical         9.979200  
+U1914                     NOR2XL          typical         9.979200  
+U1915                     AOI21XL         typical         13.305600 
+U1916                     NAND2XL         typical         9.979200  
+U1917                     NAND2XL         typical         9.979200  
+U1918                     OAI21XL         typical         13.305600 
+U1919                     INVXL           typical         6.652800  
+U1920                     NOR2XL          typical         9.979200  
+U1921                     NOR2BXL         typical         13.305600 
+U1922                     NAND2XL         typical         9.979200  
+U1923                     OR4XL           typical         19.958401 
+U1924                     NOR2XL          typical         9.979200  
+U1925                     NAND3XL         typical         13.305600 
+U1926                     NAND3BXL        typical         16.632000 
+U1927                     INVXL           typical         6.652800  
+U1928                     NOR2XL          typical         9.979200  
+U1929                     AOI21XL         typical         13.305600 
+U1930                     AOI22XL         typical         16.632000 
+U1931                     NOR2XL          typical         9.979200  
+U1932                     AOI211XL        typical         16.632000 
+U1933                     NAND2XL         typical         9.979200  
+U1934                     OAI21XL         typical         13.305600 
+U1935                     INVXL           typical         6.652800  
+U1936                     OAI2BB1XL       typical         16.632000 
+U1937                     INVXL           typical         6.652800  
+U1938                     NOR2XL          typical         9.979200  
+U1939                     NOR2XL          typical         9.979200  
+U1940                     AOI21XL         typical         13.305600 
+U1941                     NOR3XL          typical         13.305600 
+U1942                     NAND3XL         typical         13.305600 
+U1943                     NAND2XL         typical         9.979200  
+U1944                     INVXL           typical         6.652800  
+U1945                     NAND2XL         typical         9.979200  
+U1946                     NOR3XL          typical         13.305600 
+U1947                     AOI2BB2XL       typical         23.284800 
+U1948                     AOI22XL         typical         16.632000 
+U1949                     NOR3XL          typical         13.305600 
+U1950                     NAND4XL         typical         16.632000 
+U1951                     INVXL           typical         6.652800  
+U1952                     NOR2XL          typical         9.979200  
+U1953                     NAND2XL         typical         9.979200  
+U1954                     AOI211XL        typical         16.632000 
+U1955                     NOR2XL          typical         9.979200  
+U1956                     AOI21XL         typical         13.305600 
+U1957                     NOR2XL          typical         9.979200  
+U1958                     AOI211XL        typical         16.632000 
+U1959                     AOI21XL         typical         13.305600 
+U1960                     OAI32XL         typical         23.284800 
+U1961                     NAND2XL         typical         9.979200  
+U1962                     OAI21XL         typical         13.305600 
+U1963                     INVXL           typical         6.652800  
+U1964                     NAND3XL         typical         13.305600 
+U1965                     NOR2XL          typical         9.979200  
+U1966                     NAND3XL         typical         13.305600 
+U1967                     NOR3XL          typical         13.305600 
+U1968                     NAND2XL         typical         9.979200  
+U1969                     AOI2BB2XL       typical         23.284800 
+U1970                     INVXL           typical         6.652800  
+U1971                     AOI22XL         typical         16.632000 
+U1972                     NOR2XL          typical         9.979200  
+U1973                     MXI2XL          typical         23.284800 
+U1974                     AOI22XL         typical         16.632000 
+U1975                     AOI22XL         typical         16.632000 
+U1976                     AOI22XL         typical         16.632000 
+U1977                     NAND2XL         typical         9.979200  
+U1978                     NAND3XL         typical         13.305600 
+U1979                     INVXL           typical         6.652800  
+U1980                     AOI211XL        typical         16.632000 
+U1981                     NOR2XL          typical         9.979200  
+U1982                     OR3XL           typical         16.632000 
+U1983                     OAI211XL        typical         19.958401 
+U1984                     INVXL           typical         6.652800  
+U1985                     NAND2XL         typical         9.979200  
+U1986                     NOR2BXL         typical         13.305600 
+U1987                     AOI22XL         typical         16.632000 
+U1988                     INVXL           typical         6.652800  
+U1989                     OAI21XL         typical         13.305600 
+U1990                     AOI32XL         typical         23.284800 
+U1991                     AND3XL          typical         16.632000 
+U1992                     NAND2XL         typical         9.979200  
+U1993                     NAND2XL         typical         9.979200  
+U1994                     NOR3XL          typical         13.305600 
+U1995                     AOI21XL         typical         13.305600 
+U1996                     NOR2XL          typical         9.979200  
+U1997                     INVXL           typical         6.652800  
+U1998                     OAI21XL         typical         13.305600 
+U1999                     AND2XL          typical         13.305600 
+U2000                     AOI22XL         typical         16.632000 
+U2001                     NOR2XL          typical         9.979200  
+U2002                     AOI21XL         typical         13.305600 
+U2003                     OAI21XL         typical         13.305600 
+U2004                     AOI21XL         typical         13.305600 
+U2005                     INVXL           typical         6.652800  
+U2006                     NOR2XL          typical         9.979200  
+U2007                     AOI21XL         typical         13.305600 
+U2008                     OAI22XL         typical         19.958401 
+U2009                     INVXL           typical         6.652800  
+U2010                     NOR2XL          typical         9.979200  
+U2011                     AOI211XL        typical         16.632000 
+U2012                     NOR2XL          typical         9.979200  
+U2013                     NAND4XL         typical         16.632000 
+U2014                     AOI22XL         typical         16.632000 
+U2015                     NAND2XL         typical         9.979200  
+U2016                     INVXL           typical         6.652800  
+U2017                     AOI22XL         typical         16.632000 
+U2018                     INVXL           typical         6.652800  
+U2019                     AOI21XL         typical         13.305600 
+U2020                     AOI31XL         typical         16.632000 
+U2021                     AOI31XL         typical         16.632000 
+U2022                     NAND2XL         typical         9.979200  
+U2023                     NOR2BXL         typical         13.305600 
+U2024                     OAI22XL         typical         19.958401 
+U2025                     NOR2XL          typical         9.979200  
+U2026                     AOI211XL        typical         16.632000 
+U2027                     NOR2XL          typical         9.979200  
+U2028                     AOI22XL         typical         16.632000 
+U2029                     OAI221XL        typical         23.284800 
+U2030                     AOI22XL         typical         16.632000 
+U2031                     AOI211XL        typical         16.632000 
+U2032                     OAI21XL         typical         13.305600 
+U2033                     NOR3XL          typical         13.305600 
+U2034                     INVXL           typical         6.652800  
+U2035                     OAI22XL         typical         19.958401 
+U2036                     OAI21XL         typical         13.305600 
+U2037                     INVXL           typical         6.652800  
+U2038                     NAND2XL         typical         9.979200  
+U2039                     NOR2XL          typical         9.979200  
+U2040                     NAND2XL         typical         9.979200  
+U2041                     NOR2XL          typical         9.979200  
+U2042                     INVXL           typical         6.652800  
+U2043                     OAI21XL         typical         13.305600 
+U2044                     AOI22XL         typical         16.632000 
+U2045                     AOI21XL         typical         13.305600 
+U2046                     AOI22XL         typical         16.632000 
+U2047                     NAND2XL         typical         9.979200  
+U2048                     NAND2XL         typical         9.979200  
+U2049                     NAND2XL         typical         9.979200  
+U2050                     AOI22XL         typical         16.632000 
+U2051                     AOI222XL        typical         26.611200 
+U2052                     AOI22XL         typical         16.632000 
+U2053                     NOR3XL          typical         13.305600 
+U2054                     INVXL           typical         6.652800  
+U2055                     AOI22XL         typical         16.632000 
+U2056                     AOI22XL         typical         16.632000 
+U2057                     AOI22XL         typical         16.632000 
+U2058                     AOI22XL         typical         16.632000 
+U2059                     AOI22XL         typical         16.632000 
+U2060                     AOI22XL         typical         16.632000 
+U2061                     AOI22XL         typical         16.632000 
+U2062                     AOI22XL         typical         16.632000 
+U2063                     INVXL           typical         6.652800  
+U2064                     OAI21XL         typical         13.305600 
+U2065                     AOI32XL         typical         23.284800 
+U2066                     NOR2XL          typical         9.979200  
+U2067                     NAND3XL         typical         13.305600 
+U2068                     AOI21XL         typical         13.305600 
+U2069                     INVXL           typical         6.652800  
+U2070                     AOI22XL         typical         16.632000 
+U2071                     INVXL           typical         6.652800  
+U2072                     NAND2XL         typical         9.979200  
+U2073                     NOR2XL          typical         9.979200  
+U2074                     AND3XL          typical         16.632000 
+U2075                     AOI211XL        typical         16.632000 
+U2076                     OAI21XL         typical         13.305600 
+U2077                     AOI32XL         typical         23.284800 
+U2078                     NAND2XL         typical         9.979200  
+U2079                     NAND2XL         typical         9.979200  
+U2080                     NAND2XL         typical         9.979200  
+U2081                     AOI22XL         typical         16.632000 
+U2082                     NAND2XL         typical         9.979200  
+U2083                     AND2XL          typical         13.305600 
+U2084                     AOI21XL         typical         13.305600 
+U2085                     INVXL           typical         6.652800  
+U2086                     AOI2BB1XL       typical         16.632000 
+U2087                     AOI22XL         typical         16.632000 
+U2088                     AOI31XL         typical         16.632000 
+U2089                     AOI31XL         typical         16.632000 
+U2090                     INVXL           typical         6.652800  
+U2091                     INVXL           typical         6.652800  
+U2092                     OAI21XL         typical         13.305600 
+U2093                     AOI32XL         typical         23.284800 
+U2094                     NAND2XL         typical         9.979200  
+U2095                     INVXL           typical         6.652800  
+U2096                     NAND2XL         typical         9.979200  
+U2097                     INVXL           typical         6.652800  
+U2098                     NAND2XL         typical         9.979200  
+U2099                     INVXL           typical         6.652800  
+U2100                     NAND2XL         typical         9.979200  
+U2101                     INVXL           typical         6.652800  
+U2102                     NAND2XL         typical         9.979200  
+U2103                     NOR2XL          typical         9.979200  
+U2104                     AOI21XL         typical         13.305600 
+U2105                     INVXL           typical         6.652800  
+U2106                     NAND2XL         typical         9.979200  
+U2107                     NAND2XL         typical         9.979200  
+U2108                     NOR2XL          typical         9.979200  
+U2109                     NOR2XL          typical         9.979200  
+U2110                     AOI22XL         typical         16.632000 
+U2111                     NAND2XL         typical         9.979200  
+U2112                     NOR2XL          typical         9.979200  
+U2113                     NOR2XL          typical         9.979200  
+U2114                     AOI22XL         typical         16.632000 
+U2115                     NAND2XL         typical         9.979200  
+U2116                     NOR2XL          typical         9.979200  
+U2117                     OR2XL           typical         13.305600 
+U2118                     INVXL           typical         6.652800  
+U2119                     NOR2XL          typical         9.979200  
+U2120                     NOR2XL          typical         9.979200  
+U2121                     AOI22XL         typical         16.632000 
+U2122                     OAI21XL         typical         13.305600 
+U2123                     NAND2XL         typical         9.979200  
+U2124                     NOR2XL          typical         9.979200  
+U2125                     NOR2XL          typical         9.979200  
+U2126                     AOI22XL         typical         16.632000 
+U2127                     NOR2XL          typical         9.979200  
+U2128                     NOR2XL          typical         9.979200  
+U2129                     AOI22XL         typical         16.632000 
+U2130                     NAND2XL         typical         9.979200  
+U2131                     NOR2XL          typical         9.979200  
+U2132                     NOR2XL          typical         9.979200  
+U2133                     AOI22XL         typical         16.632000 
+U2134                     NOR2XL          typical         9.979200  
+U2135                     NOR2XL          typical         9.979200  
+U2136                     AOI22XL         typical         16.632000 
+U2137                     NAND4XL         typical         16.632000 
+U2138                     AOI211XL        typical         16.632000 
+U2139                     NAND3XL         typical         13.305600 
+U2140                     NOR2XL          typical         9.979200  
+U2141                     AOI22XL         typical         16.632000 
+U2142                     AOI22XL         typical         16.632000 
+U2143                     AOI22XL         typical         16.632000 
+U2144                     INVXL           typical         6.652800  
+U2145                     AOI22XL         typical         16.632000 
+U2146                     OAI21XL         typical         13.305600 
+U2147                     AOI22XL         typical         16.632000 
+U2148                     AOI22XL         typical         16.632000 
+U2149                     AOI22XL         typical         16.632000 
+U2150                     AOI22XL         typical         16.632000 
+U2151                     NAND4XL         typical         16.632000 
+U2152                     AOI211XL        typical         16.632000 
+U2153                     NAND3XL         typical         13.305600 
+U2154                     AOI222XL        typical         26.611200 
+U2155                     AOI22XL         typical         16.632000 
+U2156                     AOI22XL         typical         16.632000 
+U2157                     INVXL           typical         6.652800  
+U2158                     AOI22XL         typical         16.632000 
+U2159                     OAI21XL         typical         13.305600 
+U2160                     AOI22XL         typical         16.632000 
+U2161                     AOI22XL         typical         16.632000 
+U2162                     AOI22XL         typical         16.632000 
+U2163                     AOI22XL         typical         16.632000 
+U2164                     NAND4XL         typical         16.632000 
+U2165                     AOI211XL        typical         16.632000 
+U2166                     NAND3XL         typical         13.305600 
+U2167                     AOI222XL        typical         26.611200 
+U2168                     AOI22XL         typical         16.632000 
+U2169                     AOI22XL         typical         16.632000 
+U2170                     INVXL           typical         6.652800  
+U2171                     AOI22XL         typical         16.632000 
+U2172                     OAI21XL         typical         13.305600 
+U2173                     AOI22XL         typical         16.632000 
+U2174                     AOI22XL         typical         16.632000 
+U2175                     AOI22XL         typical         16.632000 
+U2176                     AOI22XL         typical         16.632000 
+U2177                     NAND4XL         typical         16.632000 
+U2178                     AOI211XL        typical         16.632000 
+U2179                     NAND3XL         typical         13.305600 
+U2180                     AOI222XL        typical         26.611200 
+U2181                     AOI22XL         typical         16.632000 
+U2182                     AOI22XL         typical         16.632000 
+U2183                     INVXL           typical         6.652800  
+U2184                     AOI22XL         typical         16.632000 
+U2185                     OAI21XL         typical         13.305600 
+U2186                     AOI22XL         typical         16.632000 
+U2187                     AOI22XL         typical         16.632000 
+U2188                     AOI22XL         typical         16.632000 
+U2189                     AOI22XL         typical         16.632000 
+U2190                     NAND4XL         typical         16.632000 
+U2191                     AOI211XL        typical         16.632000 
+U2192                     NAND3XL         typical         13.305600 
+U2193                     AOI222XL        typical         26.611200 
+U2194                     AOI22XL         typical         16.632000 
+U2195                     AOI22XL         typical         16.632000 
+U2196                     INVXL           typical         6.652800  
+U2197                     AOI22XL         typical         16.632000 
+U2198                     OAI21XL         typical         13.305600 
+U2199                     AOI22XL         typical         16.632000 
+U2200                     AOI22XL         typical         16.632000 
+U2201                     AOI22XL         typical         16.632000 
+U2202                     AOI22XL         typical         16.632000 
+U2203                     NAND4XL         typical         16.632000 
+U2204                     AOI211XL        typical         16.632000 
+U2205                     NAND3XL         typical         13.305600 
+U2206                     AOI222XL        typical         26.611200 
+U2207                     AOI22XL         typical         16.632000 
+U2208                     AOI22XL         typical         16.632000 
+U2209                     INVXL           typical         6.652800  
+U2210                     AOI22XL         typical         16.632000 
+U2211                     OAI21XL         typical         13.305600 
+U2212                     AOI22XL         typical         16.632000 
+U2213                     AOI22XL         typical         16.632000 
+U2214                     AOI22XL         typical         16.632000 
+U2215                     AOI22XL         typical         16.632000 
+U2216                     NAND4XL         typical         16.632000 
+U2217                     AOI211XL        typical         16.632000 
+U2218                     NAND3XL         typical         13.305600 
+U2219                     AOI222XL        typical         26.611200 
+U2220                     AOI22XL         typical         16.632000 
+U2221                     AOI22XL         typical         16.632000 
+U2222                     INVXL           typical         6.652800  
+U2223                     AOI22XL         typical         16.632000 
+U2224                     OAI21XL         typical         13.305600 
+U2225                     AOI22XL         typical         16.632000 
+U2226                     AOI22XL         typical         16.632000 
+U2227                     AOI22XL         typical         16.632000 
+U2228                     AOI22XL         typical         16.632000 
+U2229                     NAND4XL         typical         16.632000 
+U2230                     AOI211XL        typical         16.632000 
+U2231                     NAND3XL         typical         13.305600 
+U2232                     AOI222XL        typical         26.611200 
+U2233                     NAND2XL         typical         9.979200  
+U2234                     NAND2XL         typical         9.979200  
+U2235                     INVXL           typical         6.652800  
+U2236                     NAND2XL         typical         9.979200  
+U2237                     NOR2XL          typical         9.979200  
+U2238                     INVXL           typical         6.652800  
+U2239                     INVXL           typical         6.652800  
+U2240                     AOI22XL         typical         16.632000 
+U2241                     INVXL           typical         6.652800  
+U2242                     AOI22XL         typical         16.632000 
+U2243                     INVXL           typical         6.652800  
+U2244                     AOI22XL         typical         16.632000 
+U2245                     INVXL           typical         6.652800  
+U2246                     AOI22XL         typical         16.632000 
+U2247                     INVXL           typical         6.652800  
+U2248                     AOI22XL         typical         16.632000 
+U2249                     INVXL           typical         6.652800  
+U2250                     AOI22XL         typical         16.632000 
+U2251                     INVXL           typical         6.652800  
+U2252                     AOI22XL         typical         16.632000 
+U2253                     INVXL           typical         6.652800  
+U2254                     AOI22XL         typical         16.632000 
+U2255                     OR4XL           typical         19.958401 
+U2256                     NOR3XL          typical         13.305600 
+U2257                     NAND4XL         typical         16.632000 
+U2258                     NOR3BXL         typical         19.958401 
+U2259                     INVXL           typical         6.652800  
+U2260                     AOI22XL         typical         16.632000 
+U2261                     NOR2XL          typical         9.979200  
+U2262                     NAND2BXL        typical         13.305600 
+U2263                     INVXL           typical         6.652800  
+U2264                     AOI32XL         typical         23.284800 
+U2265                     NAND3XL         typical         13.305600 
+U2266                     NOR2XL          typical         9.979200  
+U2267                     INVXL           typical         6.652800  
+U2268                     AOI22XL         typical         16.632000 
+U2269                     AOI22XL         typical         16.632000 
+U2270                     NAND2XL         typical         9.979200  
+U2271                     NOR2XL          typical         9.979200  
+U2272                     INVXL           typical         6.652800  
+U2273                     AOI22XL         typical         16.632000 
+U2274                     AOI22XL         typical         16.632000 
+U2275                     AOI22XL         typical         16.632000 
+U2276                     AOI22XL         typical         16.632000 
+U2277                     AOI22XL         typical         16.632000 
+U2278                     AOI22XL         typical         16.632000 
+U2279                     AOI22XL         typical         16.632000 
+U2280                     AOI32XL         typical         23.284800 
+U2281                     AOI22XL         typical         16.632000 
+U2282                     AOI22XL         typical         16.632000 
+U2283                     AOI22XL         typical         16.632000 
+U2284                     AOI22XL         typical         16.632000 
+U2285                     AOI22XL         typical         16.632000 
+U2286                     AOI32XL         typical         23.284800 
+U2287                     AOI22XL         typical         16.632000 
+U2288                     AOI22XL         typical         16.632000 
+U2289                     AOI22XL         typical         16.632000 
+U2290                     AOI22XL         typical         16.632000 
+U2291                     AOI22XL         typical         16.632000 
+U2292                     AOI22XL         typical         16.632000 
+U2293                     AOI22XL         typical         16.632000 
+U2294                     AOI32XL         typical         23.284800 
+U2295                     AOI22XL         typical         16.632000 
+U2296                     AOI22XL         typical         16.632000 
+U2297                     AOI22XL         typical         16.632000 
+U2298                     AOI22XL         typical         16.632000 
+U2299                     AOI22XL         typical         16.632000 
+U2300                     AOI32XL         typical         23.284800 
+U2301                     AOI22XL         typical         16.632000 
+U2302                     AOI22XL         typical         16.632000 
+U2303                     AOI32XL         typical         23.284800 
+U2304                     AOI22XL         typical         16.632000 
+U2305                     AOI22XL         typical         16.632000 
+U2306                     AOI22XL         typical         16.632000 
+U2307                     AOI32XL         typical         23.284800 
+U2308                     AOI22XL         typical         16.632000 
+U2309                     AOI22XL         typical         16.632000 
+U2310                     AOI22XL         typical         16.632000 
+U2311                     AOI32XL         typical         23.284800 
+U2312                     AOI22XL         typical         16.632000 
+U2313                     AOI22XL         typical         16.632000 
+U2314                     AOI32XL         typical         23.284800 
+U2315                     AOI32XL         typical         23.284800 
+U2316                     AOI32XL         typical         23.284800 
+U2317                     AOI32XL         typical         23.284800 
+U2318                     AOI22XL         typical         16.632000 
+U2319                     AOI22XL         typical         16.632000 
+U2320                     AOI22XL         typical         16.632000 
+U2321                     AOI22XL         typical         16.632000 
+U2322                     AOI22XL         typical         16.632000 
+U2323                     NAND2XL         typical         9.979200  
+U2324                     NAND2XL         typical         9.979200  
+U2325                     INVXL           typical         6.652800  
+U2326                     NAND2XL         typical         9.979200  
+U2327                     NOR2XL          typical         9.979200  
+U2328                     INVXL           typical         6.652800  
+U2329                     INVXL           typical         6.652800  
+U2330                     AOI22XL         typical         16.632000 
+U2331                     AOI32XL         typical         23.284800 
+U2332                     AOI32XL         typical         23.284800 
+U2333                     AOI22XL         typical         16.632000 
+U2334                     AOI22XL         typical         16.632000 
+U2335                     AOI22XL         typical         16.632000 
+U2336                     AOI22XL         typical         16.632000 
+U2337                     AOI32XL         typical         23.284800 
+U2338                     AOI22XL         typical         16.632000 
+U2339                     AOI22XL         typical         16.632000 
+U2340                     AOI22XL         typical         16.632000 
+U2341                     AOI22XL         typical         16.632000 
+U2342                     AOI32XL         typical         23.284800 
+U2343                     AOI22XL         typical         16.632000 
+U2344                     AOI22XL         typical         16.632000 
+U2345                     INVXL           typical         6.652800  
+U2346                     AOI22XL         typical         16.632000 
+U2347                     INVXL           typical         6.652800  
+U2348                     AOI22XL         typical         16.632000 
+U2349                     INVXL           typical         6.652800  
+U2350                     AOI22XL         typical         16.632000 
+U2351                     INVXL           typical         6.652800  
+U2352                     AOI22XL         typical         16.632000 
+U2353                     AOI22XL         typical         16.632000 
+U2354                     INVXL           typical         6.652800  
+U2355                     AOI22XL         typical         16.632000 
+U2356                     AOI22XL         typical         16.632000 
+U2357                     INVXL           typical         6.652800  
+U2358                     NOR2XL          typical         9.979200  
+U2359                     NAND2XL         typical         9.979200  
+U2360                     NAND3XL         typical         13.305600 
+U2361                     NAND2BXL        typical         13.305600 
+U2362                     NAND3XL         typical         13.305600 
+U2363                     NAND2XL         typical         9.979200  
+U2364                     AOI21XL         typical         13.305600 
+U2365                     OAI21XL         typical         13.305600 
+U2366                     INVXL           typical         6.652800  
+U2367                     AOI32XL         typical         23.284800 
+U2368                     NOR2XL          typical         9.979200  
+U2369                     OAI21XL         typical         13.305600 
+U2370                     NAND2XL         typical         9.979200  
+U2371                     NOR3XL          typical         13.305600 
+U2372                     AOI22XL         typical         16.632000 
+U2373                     OAI21XL         typical         13.305600 
+U2374                     INVXL           typical         6.652800  
+U2375                     NOR2XL          typical         9.979200  
+U2376                     NAND2XL         typical         9.979200  
+U2377                     NAND2XL         typical         9.979200  
+U2378                     NAND2XL         typical         9.979200  
+U2379                     OAI21XL         typical         13.305600 
+U2380                     NAND3XL         typical         13.305600 
+U2381                     INVXL           typical         6.652800  
+U2382                     NAND2XL         typical         9.979200  
+U2383                     NOR2XL          typical         9.979200  
+U2384                     OAI21XL         typical         13.305600 
+U2385                     OAI21XL         typical         13.305600 
+U2386                     AOI32XL         typical         23.284800 
+U2387                     NAND3XL         typical         13.305600 
+U2388                     NOR2XL          typical         9.979200  
+U2389                     NOR2XL          typical         9.979200  
+U2390                     NOR2BXL         typical         13.305600 
+U2391                     NOR2XL          typical         9.979200  
+U2392                     AOI22XL         typical         16.632000 
+U2393                     NAND2XL         typical         9.979200  
+U2394                     OAI21XL         typical         13.305600 
+U2395                     AOI21XL         typical         13.305600 
+U2396                     AOI22XL         typical         16.632000 
+U2397                     NAND2XL         typical         9.979200  
+U2398                     NAND4XL         typical         16.632000 
+U2399                     NOR3XL          typical         13.305600 
+U2400                     NAND3XL         typical         13.305600 
+U2401                     AOI21XL         typical         13.305600 
+U2402                     OAI21XL         typical         13.305600 
+U2403                     AOI221XL        typical         23.284800 
+U2404                     OAI32XL         typical         23.284800 
+U2405                     NOR2XL          typical         9.979200  
+U2406                     AOI22XL         typical         16.632000 
+U2407                     OR2XL           typical         13.305600 
+U2408                     NAND3XL         typical         13.305600 
+U2409                     INVXL           typical         6.652800  
+U2410                     NAND2XL         typical         9.979200  
+U2411                     NOR2XL          typical         9.979200  
+U2412                     NAND2XL         typical         9.979200  
+U2413                     NOR2XL          typical         9.979200  
+U2414                     NAND2XL         typical         9.979200  
+U2415                     NOR2XL          typical         9.979200  
+U2416                     NAND2XL         typical         9.979200  
+U2417                     NOR2XL          typical         9.979200  
+U2418                     NAND2XL         typical         9.979200  
+U2419                     NOR2XL          typical         9.979200  
+U2420                     NAND2XL         typical         9.979200  
+U2421                     NOR2XL          typical         9.979200  
+U2422                     NAND2XL         typical         9.979200  
+U2423                     NOR2XL          typical         9.979200  
+U2424                     NAND2XL         typical         9.979200  
+U2425                     NOR2XL          typical         9.979200  
+U2426                     NAND2XL         typical         9.979200  
+U2427                     NOR2XL          typical         9.979200  
+U2428                     NAND2XL         typical         9.979200  
+U2429                     NOR2XL          typical         9.979200  
+U2430                     NAND2XL         typical         9.979200  
+U2431                     NOR2XL          typical         9.979200  
+U2432                     NAND2XL         typical         9.979200  
+U2433                     NOR2XL          typical         9.979200  
+U2434                     NAND2XL         typical         9.979200  
+U2435                     NOR2XL          typical         9.979200  
+U2436                     NAND2XL         typical         9.979200  
+U2437                     NOR2XL          typical         9.979200  
+U2438                     NAND2XL         typical         9.979200  
+U2439                     NOR2XL          typical         9.979200  
+U2440                     AOI22XL         typical         16.632000 
+U2441                     NOR2XL          typical         9.979200  
+U2442                     NAND2XL         typical         9.979200  
+U2443                     NAND2XL         typical         9.979200  
+U2444                     NOR2XL          typical         9.979200  
+U2445                     NOR2XL          typical         9.979200  
+U2446                     NOR2XL          typical         9.979200  
+U2447                     NOR2XL          typical         9.979200  
+U2448                     NOR2XL          typical         9.979200  
+U2449                     NOR2XL          typical         9.979200  
+U2450                     NOR2XL          typical         9.979200  
+U2451                     OAI21XL         typical         13.305600 
+U2452                     OAI21XL         typical         13.305600 
+U2453                     AOI222XL        typical         26.611200 
+U2454                     AOI21XL         typical         13.305600 
+U2455                     INVXL           typical         6.652800  
+U2456                     AOI222XL        typical         26.611200 
+U2457                     AOI21XL         typical         13.305600 
+U2458                     INVXL           typical         6.652800  
+U2459                     AOI222XL        typical         26.611200 
+U2460                     OAI21XL         typical         13.305600 
+U2461                     AOI222XL        typical         26.611200 
+U2462                     AOI21XL         typical         13.305600 
+U2463                     INVXL           typical         6.652800  
+U2464                     AOI222XL        typical         26.611200 
+U2465                     AOI21XL         typical         13.305600 
+U2466                     INVXL           typical         6.652800  
+U2467                     AOI222XL        typical         26.611200 
+U2468                     AOI21XL         typical         13.305600 
+U2469                     INVXL           typical         6.652800  
+U2470                     AOI222XL        typical         26.611200 
+U2471                     OAI21XL         typical         13.305600 
+U2472                     AOI222XL        typical         26.611200 
+U2473                     OAI21XL         typical         13.305600 
+U2474                     AOI222XL        typical         26.611200 
+U2475                     OAI21XL         typical         13.305600 
+U2476                     AOI222XL        typical         26.611200 
+U2477                     OAI21XL         typical         13.305600 
+U2478                     AOI222XL        typical         26.611200 
+U2479                     AOI21XL         typical         13.305600 
+U2480                     INVXL           typical         6.652800  
+U2481                     AOI222XL        typical         26.611200 
+U2482                     NOR2XL          typical         9.979200  
+U2483                     OAI21XL         typical         13.305600 
+U2484                     AOI222XL        typical         26.611200 
+U2485                     AOI21XL         typical         13.305600 
+U2486                     INVXL           typical         6.652800  
+U2487                     AOI222XL        typical         26.611200 
+U2488                     OAI21XL         typical         13.305600 
+U2489                     AOI222XL        typical         26.611200 
+U2490                     AOI21XL         typical         13.305600 
+U2491                     INVXL           typical         6.652800  
+U2492                     AOI222XL        typical         26.611200 
+U2493                     OAI21XL         typical         13.305600 
+U2494                     AOI222XL        typical         26.611200 
+U2495                     OAI21XL         typical         13.305600 
+U2496                     AOI222XL        typical         26.611200 
+U2497                     OAI21XL         typical         13.305600 
+U2498                     AOI222XL        typical         26.611200 
+U2499                     AOI21XL         typical         13.305600 
+U2500                     INVXL           typical         6.652800  
+U2501                     AOI222XL        typical         26.611200 
+U2502                     AOI21XL         typical         13.305600 
+U2503                     INVXL           typical         6.652800  
+U2504                     AOI222XL        typical         26.611200 
+U2505                     AOI21XL         typical         13.305600 
+U2506                     INVXL           typical         6.652800  
+U2507                     AOI222XL        typical         26.611200 
+U2508                     OAI21XL         typical         13.305600 
+U2509                     AOI222XL        typical         26.611200 
+U2510                     AOI21XL         typical         13.305600 
+U2511                     INVXL           typical         6.652800  
+U2512                     AOI222XL        typical         26.611200 
+U2513                     AOI21XL         typical         13.305600 
+U2514                     INVXL           typical         6.652800  
+U2515                     AOI222XL        typical         26.611200 
+U2516                     OAI21XL         typical         13.305600 
+U2517                     AOI222XL        typical         26.611200 
+U2518                     AOI22XL         typical         16.632000 
+U2519                     AOI222XL        typical         26.611200 
+U2520                     OAI21XL         typical         13.305600 
+U2521                     AOI222XL        typical         26.611200 
+U2522                     OAI21XL         typical         13.305600 
+U2523                     AOI222XL        typical         26.611200 
+U2524                     AOI21XL         typical         13.305600 
+U2525                     INVXL           typical         6.652800  
+U2526                     AOI222XL        typical         26.611200 
+U2527                     OAI21XL         typical         13.305600 
+U2528                     AOI222XL        typical         26.611200 
+U2529                     AOI2BB2XL       typical         23.284800 
+U2530                     AOI21XL         typical         13.305600 
+U2531                     AOI22XL         typical         16.632000 
+U2532                     AOI22XL         typical         16.632000 
+U2533                     AOI22XL         typical         16.632000 
+U2534                     AOI22XL         typical         16.632000 
+U2535                     AOI22XL         typical         16.632000 
+U2536                     AOI22XL         typical         16.632000 
+U2537                     AOI22XL         typical         16.632000 
+U2538                     AOI22XL         typical         16.632000 
+U2539                     AOI22XL         typical         16.632000 
+U2540                     OAI21XL         typical         13.305600 
+U2541                     AOI211XL        typical         16.632000 
+U2542                     NOR3XL          typical         13.305600 
+U2543                     AND2XL          typical         13.305600 
+U2544                     INVXL           typical         6.652800  
+U2545                     AOI31XL         typical         16.632000 
+U2546                     AOI21XL         typical         13.305600 
+U2547                     NAND3XL         typical         13.305600 
+U2548                     NAND2XL         typical         9.979200  
+U2549                     NOR2XL          typical         9.979200  
+U2550                     NAND3XL         typical         13.305600 
+U2551                     NAND2XL         typical         9.979200  
+U2552                     NOR2XL          typical         9.979200  
+U2553                     AOI22XL         typical         16.632000 
+U2554                     NAND2BXL        typical         13.305600 
+U2555                     AOI21XL         typical         13.305600 
+U2556                     NAND2BXL        typical         13.305600 
+U2557                     AOI21XL         typical         13.305600 
+U2558                     AOI22XL         typical         16.632000 
+U2559                     NAND3XL         typical         13.305600 
+U2560                     NAND3XL         typical         13.305600 
+U2561                     NAND2BXL        typical         13.305600 
+U2562                     NOR2XL          typical         9.979200  
+U2563                     NOR2XL          typical         9.979200  
+U2564                     AOI22XL         typical         16.632000 
+U2565                     NAND3XL         typical         13.305600 
+U2566                     NOR2XL          typical         9.979200  
+U2567                     OAI21XL         typical         13.305600 
+U2568                     INVXL           typical         6.652800  
+U2569                     AOI21XL         typical         13.305600 
+U2570                     NOR2XL          typical         9.979200  
+U2571                     NAND2XL         typical         9.979200  
+U2572                     NOR2XL          typical         9.979200  
+U2573                     AOI22XL         typical         16.632000 
+U2574                     AOI21XL         typical         13.305600 
+U2575                     NAND2XL         typical         9.979200  
+U2576                     NOR2XL          typical         9.979200  
+U2577                     AOI22XL         typical         16.632000 
+U2578                     AOI21XL         typical         13.305600 
+U2579                     NAND2XL         typical         9.979200  
+U2580                     NAND4XL         typical         16.632000 
+U2581                     NAND3XL         typical         13.305600 
+U2582                     INVXL           typical         6.652800  
+U2583                     AOI21XL         typical         13.305600 
+U2584                     AOI22XL         typical         16.632000 
+U2585                     INVXL           typical         6.652800  
+U2586                     INVXL           typical         6.652800  
+U2587                     NOR2XL          typical         9.979200  
+U2588                     AOI22XL         typical         16.632000 
+U2589                     OAI21XL         typical         13.305600 
+U2590                     AOI31XL         typical         16.632000 
+U2591                     NAND2XL         typical         9.979200  
+U2592                     NOR2XL          typical         9.979200  
+U2593                     NAND2XL         typical         9.979200  
+U2594                     NOR2XL          typical         9.979200  
+U2595                     NOR2XL          typical         9.979200  
+U2596                     AOI22XL         typical         16.632000 
+U2597                     NOR2XL          typical         9.979200  
+U2598                     NAND2XL         typical         9.979200  
+U2599                     NOR2XL          typical         9.979200  
+U2600                     AOI22XL         typical         16.632000 
+U2601                     NAND2XL         typical         9.979200  
+U2602                     NOR2XL          typical         9.979200  
+U2603                     OR2XL           typical         13.305600 
+U2604                     NOR2XL          typical         9.979200  
+U2605                     NOR2XL          typical         9.979200  
+U2606                     AOI22XL         typical         16.632000 
+U2607                     OAI21XL         typical         13.305600 
+U2608                     NAND2XL         typical         9.979200  
+U2609                     NOR2XL          typical         9.979200  
+U2610                     NOR2XL          typical         9.979200  
+U2611                     AOI22XL         typical         16.632000 
+U2612                     NOR2XL          typical         9.979200  
+U2613                     NOR2XL          typical         9.979200  
+U2614                     AOI22XL         typical         16.632000 
+U2615                     NOR2XL          typical         9.979200  
+U2616                     NOR2XL          typical         9.979200  
+U2617                     AOI22XL         typical         16.632000 
+U2618                     NOR2XL          typical         9.979200  
+U2619                     AOI22XL         typical         16.632000 
+U2620                     NAND4XL         typical         16.632000 
+U2621                     AOI211XL        typical         16.632000 
+U2622                     NAND2XL         typical         9.979200  
+U2623                     AOI31XL         typical         16.632000 
+U2624                     NAND2XL         typical         9.979200  
+U2625                     NOR2XL          typical         9.979200  
+U2626                     AOI21XL         typical         13.305600 
+U2627                     AOI22XL         typical         16.632000 
+U2628                     INVXL           typical         6.652800  
+U2629                     AOI211XL        typical         16.632000 
+U2630                     NAND4XL         typical         16.632000 
+U2631                     NAND2XL         typical         9.979200  
+U2632                     NOR2XL          typical         9.979200  
+U2633                     NOR2XL          typical         9.979200  
+U2634                     AOI22XL         typical         16.632000 
+U2635                     NAND2XL         typical         9.979200  
+U2636                     NOR2XL          typical         9.979200  
+U2637                     AOI21XL         typical         13.305600 
+U2638                     AOI22XL         typical         16.632000 
+U2639                     AOI21XL         typical         13.305600 
+U2640                     AOI22XL         typical         16.632000 
+U2641                     NAND2XL         typical         9.979200  
+U2642                     NAND4XL         typical         16.632000 
+U2643                     AOI21XL         typical         13.305600 
+U2644                     AOI22XL         typical         16.632000 
+U2645                     AOI22XL         typical         16.632000 
+U2646                     NAND2XL         typical         9.979200  
+U2647                     NAND4XL         typical         16.632000 
+U2648                     AOI22XL         typical         16.632000 
+U2649                     AOI22XL         typical         16.632000 
+U2650                     AOI22XL         typical         16.632000 
+U2651                     NAND3XL         typical         13.305600 
+U2652                     AOI21XL         typical         13.305600 
+U2653                     AOI22XL         typical         16.632000 
+U2654                     AOI22XL         typical         16.632000 
+U2655                     NAND2XL         typical         9.979200  
+U2656                     NAND4XL         typical         16.632000 
+U2657                     AOI21XL         typical         13.305600 
+U2658                     AOI22XL         typical         16.632000 
+U2659                     AOI22XL         typical         16.632000 
+U2660                     NAND2XL         typical         9.979200  
+U2661                     NAND4XL         typical         16.632000 
+U2662                     AOI22XL         typical         16.632000 
+U2663                     AOI22XL         typical         16.632000 
+U2664                     AOI22XL         typical         16.632000 
+U2665                     AOI22XL         typical         16.632000 
+U2666                     AOI22XL         typical         16.632000 
+U2667                     OAI21XL         typical         13.305600 
+U2668                     AOI22XL         typical         16.632000 
+U2669                     AOI22XL         typical         16.632000 
+U2670                     AOI22XL         typical         16.632000 
+U2671                     AOI22XL         typical         16.632000 
+U2672                     NAND4XL         typical         16.632000 
+U2673                     AOI211XL        typical         16.632000 
+U2674                     AOI31XL         typical         16.632000 
+U2675                     AOI22XL         typical         16.632000 
+U2676                     OAI21XL         typical         13.305600 
+U2677                     AOI211XL        typical         16.632000 
+U2678                     NAND4XL         typical         16.632000 
+U2679                     AOI22XL         typical         16.632000 
+U2680                     AOI22XL         typical         16.632000 
+U2681                     AOI22XL         typical         16.632000 
+U2682                     AOI22XL         typical         16.632000 
+U2683                     AOI22XL         typical         16.632000 
+U2684                     OAI21XL         typical         13.305600 
+U2685                     AOI22XL         typical         16.632000 
+U2686                     AOI22XL         typical         16.632000 
+U2687                     AOI22XL         typical         16.632000 
+U2688                     AOI22XL         typical         16.632000 
+U2689                     NAND4XL         typical         16.632000 
+U2690                     AOI211XL        typical         16.632000 
+U2691                     AOI31XL         typical         16.632000 
+U2692                     AOI22XL         typical         16.632000 
+U2693                     OAI21XL         typical         13.305600 
+U2694                     AOI211XL        typical         16.632000 
+U2695                     NAND4XL         typical         16.632000 
+U2696                     AOI21XL         typical         13.305600 
+U2697                     AOI22XL         typical         16.632000 
+U2698                     AOI22XL         typical         16.632000 
+U2699                     NAND2XL         typical         9.979200  
+U2700                     NAND4XL         typical         16.632000 
+U2701                     AOI21XL         typical         13.305600 
+U2702                     AOI22XL         typical         16.632000 
+U2703                     AOI22XL         typical         16.632000 
+U2704                     NAND2XL         typical         9.979200  
+U2705                     NAND4XL         typical         16.632000 
+U2706                     NOR2BXL         typical         13.305600 
+U2707                     NOR2XL          typical         9.979200  
+U2708                     NOR2XL          typical         9.979200  
+U2709                     INVXL           typical         6.652800  
+U2710                     NOR2XL          typical         9.979200  
+U2711                     NOR2XL          typical         9.979200  
+U2712                     NOR2XL          typical         9.979200  
+U2713                     AOI22XL         typical         16.632000 
+U2714                     AOI22XL         typical         16.632000 
+U2715                     AOI22XL         typical         16.632000 
+U2716                     AOI22XL         typical         16.632000 
+U2717                     AOI22XL         typical         16.632000 
+U2718                     AOI22XL         typical         16.632000 
+U2719                     OAI21XL         typical         13.305600 
+U2720                     AOI22XL         typical         16.632000 
+U2721                     AOI22XL         typical         16.632000 
+U2722                     AOI22XL         typical         16.632000 
+U2723                     AOI22XL         typical         16.632000 
+U2724                     NAND4XL         typical         16.632000 
+U2725                     AOI211XL        typical         16.632000 
+U2726                     AOI31XL         typical         16.632000 
+U2727                     AOI32XL         typical         23.284800 
+U2728                     NAND4XL         typical         16.632000 
+U2729                     AOI22XL         typical         16.632000 
+U2730                     AOI22XL         typical         16.632000 
+U2731                     AOI22XL         typical         16.632000 
+U2732                     NAND3XL         typical         13.305600 
+U2733                     AOI21XL         typical         13.305600 
+U2734                     AOI22XL         typical         16.632000 
+U2735                     AOI22XL         typical         16.632000 
+U2736                     NAND2XL         typical         9.979200  
+U2737                     NAND4XL         typical         16.632000 
+U2738                     NAND2XL         typical         9.979200  
+U2739                     NAND2XL         typical         9.979200  
+U2740                     AOI22XL         typical         16.632000 
+U2741                     AOI22XL         typical         16.632000 
+U2742                     AOI22XL         typical         16.632000 
+U2743                     AOI22XL         typical         16.632000 
+U2744                     NAND4XL         typical         16.632000 
+U2745                     AOI22XL         typical         16.632000 
+U2746                     AOI22XL         typical         16.632000 
+U2747                     AOI22XL         typical         16.632000 
+U2748                     AOI22XL         typical         16.632000 
+U2749                     NAND4XL         typical         16.632000 
+U2750                     AOI22XL         typical         16.632000 
+U2751                     AOI22XL         typical         16.632000 
+U2752                     AOI22XL         typical         16.632000 
+U2753                     AOI22XL         typical         16.632000 
+U2754                     NAND4XL         typical         16.632000 
+U2755                     NOR3XL          typical         13.305600 
+U2756                     AOI22XL         typical         16.632000 
+U2757                     AOI22XL         typical         16.632000 
+U2758                     AOI22XL         typical         16.632000 
+U2759                     AOI22XL         typical         16.632000 
+U2760                     NAND4XL         typical         16.632000 
+U2761                     AOI22XL         typical         16.632000 
+U2762                     AOI22XL         typical         16.632000 
+U2763                     AOI22XL         typical         16.632000 
+U2764                     AOI22XL         typical         16.632000 
+U2765                     NAND4XL         typical         16.632000 
+U2766                     AOI22XL         typical         16.632000 
+U2767                     AOI22XL         typical         16.632000 
+U2768                     AOI22XL         typical         16.632000 
+U2769                     AOI22XL         typical         16.632000 
+U2770                     NAND4XL         typical         16.632000 
+U2771                     NOR3XL          typical         13.305600 
+U2772                     AOI22XL         typical         16.632000 
+U2773                     AOI22XL         typical         16.632000 
+U2774                     AOI22XL         typical         16.632000 
+U2775                     AOI22XL         typical         16.632000 
+U2776                     AOI22XL         typical         16.632000 
+U2777                     OAI21XL         typical         13.305600 
+U2778                     AOI22XL         typical         16.632000 
+U2779                     AOI22XL         typical         16.632000 
+U2780                     AOI22XL         typical         16.632000 
+U2781                     AOI22XL         typical         16.632000 
+U2782                     NAND4XL         typical         16.632000 
+U2783                     AOI211XL        typical         16.632000 
+U2784                     AOI31XL         typical         16.632000 
+U2785                     AOI22XL         typical         16.632000 
+U2786                     INVXL           typical         6.652800  
+U2787                     AOI211XL        typical         16.632000 
+U2788                     NAND4XL         typical         16.632000 
+U2789                     AOI21XL         typical         13.305600 
+U2790                     AOI22XL         typical         16.632000 
+U2791                     AOI22XL         typical         16.632000 
+U2792                     NAND2XL         typical         9.979200  
+U2793                     NAND4XL         typical         16.632000 
+U2794                     AOI22XL         typical         16.632000 
+U2795                     AOI22XL         typical         16.632000 
+U2796                     AOI22XL         typical         16.632000 
+U2797                     NAND3XL         typical         13.305600 
+U2798                     AOI21XL         typical         13.305600 
+U2799                     AOI22XL         typical         16.632000 
+U2800                     AOI22XL         typical         16.632000 
+U2801                     NAND2XL         typical         9.979200  
+U2802                     NAND4XL         typical         16.632000 
+U2803                     AOI22XL         typical         16.632000 
+U2804                     AOI22XL         typical         16.632000 
+U2805                     AOI22XL         typical         16.632000 
+U2806                     NAND2XL         typical         9.979200  
+U2807                     NAND4XL         typical         16.632000 
+U2808                     AOI22XL         typical         16.632000 
+U2809                     AOI22XL         typical         16.632000 
+U2810                     AOI22XL         typical         16.632000 
+U2811                     AOI22XL         typical         16.632000 
+U2812                     AOI22XL         typical         16.632000 
+U2813                     OAI21XL         typical         13.305600 
+U2814                     AOI22XL         typical         16.632000 
+U2815                     AOI22XL         typical         16.632000 
+U2816                     AOI22XL         typical         16.632000 
+U2817                     AOI22XL         typical         16.632000 
+U2818                     NAND4XL         typical         16.632000 
+U2819                     AOI211XL        typical         16.632000 
+U2820                     AOI31XL         typical         16.632000 
+U2821                     AOI22XL         typical         16.632000 
+U2822                     INVXL           typical         6.652800  
+U2823                     AOI211XL        typical         16.632000 
+U2824                     NAND4XL         typical         16.632000 
+U2825                     AOI22XL         typical         16.632000 
+U2826                     AOI22XL         typical         16.632000 
+U2827                     AOI22XL         typical         16.632000 
+U2828                     NAND3XL         typical         13.305600 
+U2829                     AOI22XL         typical         16.632000 
+U2830                     AOI22XL         typical         16.632000 
+U2831                     AOI22XL         typical         16.632000 
+U2832                     AOI22XL         typical         16.632000 
+U2833                     AOI22XL         typical         16.632000 
+U2834                     OAI21XL         typical         13.305600 
+U2835                     AOI22XL         typical         16.632000 
+U2836                     AOI22XL         typical         16.632000 
+U2837                     AOI22XL         typical         16.632000 
+U2838                     AOI22XL         typical         16.632000 
+U2839                     NAND4XL         typical         16.632000 
+U2840                     AOI211XL        typical         16.632000 
+U2841                     AOI31XL         typical         16.632000 
+U2842                     AOI22XL         typical         16.632000 
+U2843                     INVXL           typical         6.652800  
+U2844                     AOI211XL        typical         16.632000 
+U2845                     NAND4XL         typical         16.632000 
+U2846                     AOI21XL         typical         13.305600 
+U2847                     AOI22XL         typical         16.632000 
+U2848                     AOI22XL         typical         16.632000 
+U2849                     NAND2XL         typical         9.979200  
+U2850                     NAND4XL         typical         16.632000 
+U2851                     AOI21XL         typical         13.305600 
+U2852                     AOI22XL         typical         16.632000 
+U2853                     AOI22XL         typical         16.632000 
+U2854                     NAND2XL         typical         9.979200  
+U2855                     NAND4XL         typical         16.632000 
+U2857                     NAND2XL         typical         9.979200  
+U2858                     AOI21XL         typical         13.305600 
+U2859                     OAI21XL         typical         13.305600 
+U2860                     AOI21XL         typical         13.305600 
+U2861                     OAI221XL        typical         23.284800 
+U2862                     NAND2XL         typical         9.979200  
+U2863                     AOI21XL         typical         13.305600 
+U2864                     AOI31XL         typical         16.632000 
+U2865                     OAI221XL        typical         23.284800 
+U2866                     NAND3XL         typical         13.305600 
+U2867                     AOI21XL         typical         13.305600 
+U2868                     NOR2XL          typical         9.979200  
+U2869                     OAI21XL         typical         13.305600 
+U2870                     OAI221XL        typical         23.284800 
+U2871                     AOI32XL         typical         23.284800 
+U2872                     OAI21XL         typical         13.305600 
+U2873                     NAND2BXL        typical         13.305600 
+U2874                     INVXL           typical         6.652800  
+U2875                     OAI21XL         typical         13.305600 
+U2876                     OAI21XL         typical         13.305600 
+U2877                     OAI21XL         typical         13.305600 
+U2878                     OAI21XL         typical         13.305600 
+U2879                     OAI21XL         typical         13.305600 
+U2880                     OAI21XL         typical         13.305600 
+U2881                     OAI21XL         typical         13.305600 
+U2882                     OAI21XL         typical         13.305600 
+U2883                     OAI21XL         typical         13.305600 
+U2884                     NAND2XL         typical         9.979200  
+U2885                     OAI21XL         typical         13.305600 
+U2886                     INVXL           typical         6.652800  
+U2887                     NAND2XL         typical         9.979200  
+U2888                     OAI21XL         typical         13.305600 
+U2889                     INVXL           typical         6.652800  
+U2890                     NAND2XL         typical         9.979200  
+U2891                     OAI21XL         typical         13.305600 
+U2892                     INVXL           typical         6.652800  
+U2893                     NAND2XL         typical         9.979200  
+U2894                     OAI21XL         typical         13.305600 
+U2895                     INVXL           typical         6.652800  
+U2896                     NAND2XL         typical         9.979200  
+U2897                     OAI21XL         typical         13.305600 
+U2898                     INVXL           typical         6.652800  
+U2899                     NAND2XL         typical         9.979200  
+U2900                     OAI21XL         typical         13.305600 
+U2901                     INVXL           typical         6.652800  
+U2902                     NAND2XL         typical         9.979200  
+U2903                     OAI21XL         typical         13.305600 
+U2904                     XOR2XL          typical         26.611200 
+U2905                     OAI21XL         typical         13.305600 
+U2906                     AOI2BB2XL       typical         23.284800 
+U2907                     AOI2BB2XL       typical         23.284800 
+U2908                     AOI2BB2XL       typical         23.284800 
+U2909                     AOI2BB2XL       typical         23.284800 
+U2910                     AOI2BB2XL       typical         23.284800 
+U2911                     AOI2BB2XL       typical         23.284800 
+U2912                     AOI2BB2XL       typical         23.284800 
+U2913                     AOI2BB2XL       typical         23.284800 
+U2914                     AOI2BB2XL       typical         23.284800 
+U2915                     AOI2BB2XL       typical         23.284800 
+U2916                     AOI2BB2XL       typical         23.284800 
+U2917                     AOI2BB2XL       typical         23.284800 
+U2918                     AOI2BB2XL       typical         23.284800 
+U2919                     AOI2BB2XL       typical         23.284800 
+U2920                     AOI2BB2XL       typical         23.284800 
+U2921                     AOI2BB2XL       typical         23.284800 
+U2922                     NOR2BXL         typical         13.305600 
+U2923                     NAND2XL         typical         9.979200  
+U2924                     INVXL           typical         6.652800  
+U2925                     NAND2XL         typical         9.979200  
+U2926                     AOI21XL         typical         13.305600 
+U2927                     INVXL           typical         6.652800  
+U2928                     AOI22XL         typical         16.632000 
+U2929                     AOI211XL        typical         16.632000 
+U2930                     OAI21XL         typical         13.305600 
+U2931                     AOI22XL         typical         16.632000 
+U2932                     AOI211XL        typical         16.632000 
+U2933                     OAI21XL         typical         13.305600 
+U2934                     AOI21XL         typical         13.305600 
+U2935                     OAI21XL         typical         13.305600 
+U2936                     OAI2BB1XL       typical         16.632000 
+U2937                     NAND3XL         typical         13.305600 
+U2938                     AOI2BB2XL       typical         23.284800 
+U2939                     AOI2BB2XL       typical         23.284800 
+U2940                     AOI2BB2XL       typical         23.284800 
+U2941                     AOI2BB2XL       typical         23.284800 
+U2942                     AOI2BB2XL       typical         23.284800 
+U2943                     AOI2BB2XL       typical         23.284800 
+U2944                     AOI2BB2XL       typical         23.284800 
+U2945                     AOI2BB2XL       typical         23.284800 
+U2946                     NAND2XL         typical         9.979200  
+U2947                     NOR2XL          typical         9.979200  
+U2948                     AOI2BB2XL       typical         23.284800 
+U2949                     AOI2BB2XL       typical         23.284800 
+U2950                     AOI2BB2XL       typical         23.284800 
+U2951                     AOI2BB2XL       typical         23.284800 
+U2952                     AOI2BB2XL       typical         23.284800 
+U2953                     AOI2BB2XL       typical         23.284800 
+U2954                     AOI2BB2XL       typical         23.284800 
+U2955                     AOI2BB2XL       typical         23.284800 
+U2956                     NAND2XL         typical         9.979200  
+U2957                     NOR2XL          typical         9.979200  
+U2958                     AOI2BB2XL       typical         23.284800 
+U2959                     AOI2BB2XL       typical         23.284800 
+U2960                     AOI2BB2XL       typical         23.284800 
+U2961                     AOI2BB2XL       typical         23.284800 
+U2962                     AOI2BB2XL       typical         23.284800 
+U2963                     AOI2BB2XL       typical         23.284800 
+U2964                     AOI2BB2XL       typical         23.284800 
+U2965                     AOI2BB2XL       typical         23.284800 
+U2966                     NOR2XL          typical         9.979200  
+U2967                     AOI2BB2XL       typical         23.284800 
+U2968                     AOI2BB2XL       typical         23.284800 
+U2969                     AOI2BB2XL       typical         23.284800 
+U2970                     AOI2BB2XL       typical         23.284800 
+U2971                     AOI2BB2XL       typical         23.284800 
+U2972                     AOI2BB2XL       typical         23.284800 
+U2973                     AOI2BB2XL       typical         23.284800 
+U2974                     AOI2BB2XL       typical         23.284800 
+U2975                     NAND2XL         typical         9.979200  
+U2976                     NOR2XL          typical         9.979200  
+U2977                     AOI2BB2XL       typical         23.284800 
+U2978                     AOI2BB2XL       typical         23.284800 
+U2979                     AOI2BB2XL       typical         23.284800 
+U2980                     AOI2BB2XL       typical         23.284800 
+U2981                     AOI2BB2XL       typical         23.284800 
+U2982                     AOI2BB2XL       typical         23.284800 
+U2983                     AOI2BB2XL       typical         23.284800 
+U2984                     AOI2BB2XL       typical         23.284800 
+U2985                     NOR2XL          typical         9.979200  
+U2986                     AOI2BB2XL       typical         23.284800 
+U2987                     AOI2BB2XL       typical         23.284800 
+U2988                     AOI2BB2XL       typical         23.284800 
+U2989                     AOI2BB2XL       typical         23.284800 
+U2990                     AOI2BB2XL       typical         23.284800 
+U2991                     AOI2BB2XL       typical         23.284800 
+U2992                     AOI2BB2XL       typical         23.284800 
+U2993                     AOI2BB2XL       typical         23.284800 
+U2994                     NAND2XL         typical         9.979200  
+U2995                     NOR2XL          typical         9.979200  
+U2996                     AOI2BB2XL       typical         23.284800 
+U2997                     AOI2BB2XL       typical         23.284800 
+U2998                     AOI2BB2XL       typical         23.284800 
+U2999                     AOI2BB2XL       typical         23.284800 
+U3000                     AOI2BB2XL       typical         23.284800 
+U3001                     AOI2BB2XL       typical         23.284800 
+U3002                     AOI2BB2XL       typical         23.284800 
+U3003                     AOI2BB2XL       typical         23.284800 
+U3004                     NOR2XL          typical         9.979200  
+U3005                     AOI2BB2XL       typical         23.284800 
+U3006                     AOI2BB2XL       typical         23.284800 
+U3007                     AOI2BB2XL       typical         23.284800 
+U3008                     AOI2BB2XL       typical         23.284800 
+U3009                     AOI2BB2XL       typical         23.284800 
+U3010                     AOI2BB2XL       typical         23.284800 
+U3011                     AOI2BB2XL       typical         23.284800 
+U3012                     AOI2BB2XL       typical         23.284800 
+U3013                     NAND3XL         typical         13.305600 
+U3014                     NOR2XL          typical         9.979200  
+U3015                     AOI2BB2XL       typical         23.284800 
+U3016                     AOI2BB2XL       typical         23.284800 
+U3017                     AOI2BB2XL       typical         23.284800 
+U3018                     AOI2BB2XL       typical         23.284800 
+U3019                     AOI2BB2XL       typical         23.284800 
+U3020                     AOI2BB2XL       typical         23.284800 
+U3021                     AOI2BB2XL       typical         23.284800 
+U3022                     AOI2BB2XL       typical         23.284800 
+U3023                     NOR2XL          typical         9.979200  
+U3024                     AOI2BB2XL       typical         23.284800 
+U3025                     AOI2BB2XL       typical         23.284800 
+U3026                     AOI2BB2XL       typical         23.284800 
+U3027                     AOI2BB2XL       typical         23.284800 
+U3028                     AOI2BB2XL       typical         23.284800 
+U3029                     AOI2BB2XL       typical         23.284800 
+U3030                     AOI2BB2XL       typical         23.284800 
+U3031                     AOI2BB2XL       typical         23.284800 
+U3032                     NOR2XL          typical         9.979200  
+U3033                     AOI2BB2XL       typical         23.284800 
+U3034                     AOI2BB2XL       typical         23.284800 
+U3035                     AOI2BB2XL       typical         23.284800 
+U3036                     AOI2BB2XL       typical         23.284800 
+U3037                     AOI2BB2XL       typical         23.284800 
+U3038                     AOI2BB2XL       typical         23.284800 
+U3039                     AOI2BB2XL       typical         23.284800 
+U3040                     AOI2BB2XL       typical         23.284800 
+U3041                     NOR2XL          typical         9.979200  
+U3042                     AOI2BB2XL       typical         23.284800 
+U3043                     AOI2BB2XL       typical         23.284800 
+U3044                     AOI2BB2XL       typical         23.284800 
+U3045                     AOI2BB2XL       typical         23.284800 
+U3046                     AOI2BB2XL       typical         23.284800 
+U3047                     AOI2BB2XL       typical         23.284800 
+U3048                     AOI2BB2XL       typical         23.284800 
+U3049                     AOI2BB2XL       typical         23.284800 
+U3050                     NOR2XL          typical         9.979200  
+U3051                     AOI2BB2XL       typical         23.284800 
+U3052                     AOI2BB2XL       typical         23.284800 
+U3053                     AOI2BB2XL       typical         23.284800 
+U3054                     AOI2BB2XL       typical         23.284800 
+U3055                     AOI2BB2XL       typical         23.284800 
+U3056                     AOI2BB2XL       typical         23.284800 
+U3057                     AOI2BB2XL       typical         23.284800 
+U3058                     AOI2BB2XL       typical         23.284800 
+U3059                     NOR2XL          typical         9.979200  
+U3060                     AOI2BB2XL       typical         23.284800 
+U3061                     AOI2BB2XL       typical         23.284800 
+U3062                     AOI2BB2XL       typical         23.284800 
+U3063                     AOI2BB2XL       typical         23.284800 
+U3064                     AOI2BB2XL       typical         23.284800 
+U3065                     AOI2BB2XL       typical         23.284800 
+U3066                     AOI2BB2XL       typical         23.284800 
+U3067                     AOI2BB2XL       typical         23.284800 
+U3068                     NOR2XL          typical         9.979200  
+U3069                     AOI2BB2XL       typical         23.284800 
+U3070                     AOI2BB2XL       typical         23.284800 
+U3071                     AOI2BB2XL       typical         23.284800 
+U3072                     AOI2BB2XL       typical         23.284800 
+U3073                     AOI2BB2XL       typical         23.284800 
+U3074                     AOI2BB2XL       typical         23.284800 
+U3075                     AOI2BB2XL       typical         23.284800 
+U3076                     AOI2BB2XL       typical         23.284800 
+U3077                     NAND3XL         typical         13.305600 
+U3078                     NOR2XL          typical         9.979200  
+U3079                     AOI2BB2XL       typical         23.284800 
+U3080                     AOI2BB2XL       typical         23.284800 
+U3081                     AOI2BB2XL       typical         23.284800 
+U3082                     AOI2BB2XL       typical         23.284800 
+U3083                     AOI2BB2XL       typical         23.284800 
+U3084                     AOI2BB2XL       typical         23.284800 
+U3085                     AOI2BB2XL       typical         23.284800 
+U3086                     AOI2BB2XL       typical         23.284800 
+U3087                     NAND2XL         typical         9.979200  
+U3088                     NOR2XL          typical         9.979200  
+U3089                     AOI2BB2XL       typical         23.284800 
+U3090                     AOI2BB2XL       typical         23.284800 
+U3091                     AOI2BB2XL       typical         23.284800 
+U3092                     AOI2BB2XL       typical         23.284800 
+U3093                     AOI2BB2XL       typical         23.284800 
+U3094                     AOI2BB2XL       typical         23.284800 
+U3095                     AOI2BB2XL       typical         23.284800 
+U3096                     AOI2BB2XL       typical         23.284800 
+U3097                     NOR2XL          typical         9.979200  
+U3098                     AOI2BB2XL       typical         23.284800 
+U3099                     AOI2BB2XL       typical         23.284800 
+U3100                     AOI2BB2XL       typical         23.284800 
+U3101                     AOI2BB2XL       typical         23.284800 
+U3102                     AOI2BB2XL       typical         23.284800 
+U3103                     AOI2BB2XL       typical         23.284800 
+U3104                     AOI2BB2XL       typical         23.284800 
+U3105                     AOI2BB2XL       typical         23.284800 
+U3106                     NAND2XL         typical         9.979200  
+U3107                     NOR2XL          typical         9.979200  
+U3108                     AOI2BB2XL       typical         23.284800 
+U3109                     AOI2BB2XL       typical         23.284800 
+U3110                     AOI2BB2XL       typical         23.284800 
+U3111                     AOI2BB2XL       typical         23.284800 
+U3112                     AOI2BB2XL       typical         23.284800 
+U3113                     AOI2BB2XL       typical         23.284800 
+U3114                     AOI2BB2XL       typical         23.284800 
+U3115                     AOI2BB2XL       typical         23.284800 
+U3116                     NOR2XL          typical         9.979200  
+U3117                     AOI2BB2XL       typical         23.284800 
+U3118                     AOI2BB2XL       typical         23.284800 
+U3119                     AOI2BB2XL       typical         23.284800 
+U3120                     AOI2BB2XL       typical         23.284800 
+U3121                     AOI2BB2XL       typical         23.284800 
+U3122                     AOI2BB2XL       typical         23.284800 
+U3123                     AOI2BB2XL       typical         23.284800 
+U3124                     AOI2BB2XL       typical         23.284800 
+U3125                     NAND2XL         typical         9.979200  
+U3126                     NOR2XL          typical         9.979200  
+U3127                     AOI2BB2XL       typical         23.284800 
+U3128                     AOI2BB2XL       typical         23.284800 
+U3129                     AOI2BB2XL       typical         23.284800 
+U3130                     AOI2BB2XL       typical         23.284800 
+U3131                     AOI2BB2XL       typical         23.284800 
+U3132                     AOI2BB2XL       typical         23.284800 
+U3133                     AOI2BB2XL       typical         23.284800 
+U3134                     AOI2BB2XL       typical         23.284800 
+U3135                     NOR2XL          typical         9.979200  
+U3136                     AOI2BB2XL       typical         23.284800 
+U3137                     AOI2BB2XL       typical         23.284800 
+U3138                     AOI2BB2XL       typical         23.284800 
+U3139                     AOI2BB2XL       typical         23.284800 
+U3140                     AOI2BB2XL       typical         23.284800 
+U3141                     AOI2BB2XL       typical         23.284800 
+U3142                     AOI2BB2XL       typical         23.284800 
+U3143                     AOI2BB2XL       typical         23.284800 
+U3144                     NAND3XL         typical         13.305600 
+U3145                     NOR2XL          typical         9.979200  
+U3146                     AOI2BB2XL       typical         23.284800 
+U3147                     AOI2BB2XL       typical         23.284800 
+U3148                     AOI2BB2XL       typical         23.284800 
+U3149                     AOI2BB2XL       typical         23.284800 
+U3150                     AOI2BB2XL       typical         23.284800 
+U3151                     AOI2BB2XL       typical         23.284800 
+U3152                     AOI2BB2XL       typical         23.284800 
+U3153                     AOI2BB2XL       typical         23.284800 
+U3154                     NAND2XL         typical         9.979200  
+U3155                     NOR2XL          typical         9.979200  
+U3156                     AOI2BB2XL       typical         23.284800 
+U3157                     AOI2BB2XL       typical         23.284800 
+U3158                     AOI2BB2XL       typical         23.284800 
+U3159                     AOI2BB2XL       typical         23.284800 
+U3160                     AOI2BB2XL       typical         23.284800 
+U3161                     AOI2BB2XL       typical         23.284800 
+U3162                     AOI2BB2XL       typical         23.284800 
+U3163                     AOI2BB2XL       typical         23.284800 
+U3164                     NOR2XL          typical         9.979200  
+U3165                     AOI2BB2XL       typical         23.284800 
+U3166                     AOI2BB2XL       typical         23.284800 
+U3167                     AOI2BB2XL       typical         23.284800 
+U3168                     AOI2BB2XL       typical         23.284800 
+U3169                     AOI2BB2XL       typical         23.284800 
+U3170                     AOI2BB2XL       typical         23.284800 
+U3171                     AOI2BB2XL       typical         23.284800 
+U3172                     AOI2BB2XL       typical         23.284800 
+U3173                     NOR2XL          typical         9.979200  
+U3174                     AOI2BB2XL       typical         23.284800 
+U3175                     AOI2BB2XL       typical         23.284800 
+U3176                     AOI2BB2XL       typical         23.284800 
+U3177                     AOI2BB2XL       typical         23.284800 
+U3178                     AOI2BB2XL       typical         23.284800 
+U3179                     AOI2BB2XL       typical         23.284800 
+U3180                     AOI2BB2XL       typical         23.284800 
+U3181                     AOI2BB2XL       typical         23.284800 
+U3182                     NOR2XL          typical         9.979200  
+U3183                     AOI2BB2XL       typical         23.284800 
+U3184                     AOI2BB2XL       typical         23.284800 
+U3185                     AOI2BB2XL       typical         23.284800 
+U3186                     AOI2BB2XL       typical         23.284800 
+U3187                     AOI2BB2XL       typical         23.284800 
+U3188                     AOI2BB2XL       typical         23.284800 
+U3189                     AOI2BB2XL       typical         23.284800 
+U3190                     AOI2BB2XL       typical         23.284800 
+U3191                     NOR2XL          typical         9.979200  
+U3192                     AOI2BB2XL       typical         23.284800 
+U3193                     AOI2BB2XL       typical         23.284800 
+U3194                     AOI2BB2XL       typical         23.284800 
+U3195                     AOI2BB2XL       typical         23.284800 
+U3196                     AOI2BB2XL       typical         23.284800 
+U3197                     AOI2BB2XL       typical         23.284800 
+U3198                     AOI2BB2XL       typical         23.284800 
+U3199                     AOI2BB2XL       typical         23.284800 
+U3200                     AOI2BB2XL       typical         23.284800 
+U3201                     AOI2BB2XL       typical         23.284800 
+U3202                     AOI2BB2XL       typical         23.284800 
+U3203                     AOI2BB2XL       typical         23.284800 
+U3204                     AOI2BB2XL       typical         23.284800 
+U3205                     AOI2BB2XL       typical         23.284800 
+U3206                     AOI2BB2XL       typical         23.284800 
+U3207                     AOI2BB2XL       typical         23.284800 
+U3208                     NOR2XL          typical         9.979200  
+U3209                     AOI2BB2XL       typical         23.284800 
+U3210                     AOI2BB2XL       typical         23.284800 
+U3211                     AOI2BB2XL       typical         23.284800 
+U3212                     AOI2BB2XL       typical         23.284800 
+U3213                     AOI2BB2XL       typical         23.284800 
+U3214                     AOI2BB2XL       typical         23.284800 
+U3215                     AOI2BB2XL       typical         23.284800 
+U3216                     AOI2BB2XL       typical         23.284800 
+U3217                     NOR2XL          typical         9.979200  
+U3218                     AOI211XL        typical         16.632000 
+U3219                     OAI21XL         typical         13.305600 
+U3220                     AOI211XL        typical         16.632000 
+U3221                     OAI21XL         typical         13.305600 
+U3222                     AOI21XL         typical         13.305600 
+U3223                     OAI21XL         typical         13.305600 
+U3224                     OAI21XL         typical         13.305600 
+U3226                     NAND2XL         typical         9.979200  
+U3227                     INVXL           typical         6.652800  
+U3228                     AOI21XL         typical         13.305600 
+U3229                     NAND2XL         typical         9.979200  
+U3230                     OAI21XL         typical         13.305600 
+U3231                     NOR2XL          typical         9.979200  
+U3232                     OAI21XL         typical         13.305600 
+U3233                     OAI21XL         typical         13.305600 
+U3234                     NAND3XL         typical         13.305600 
+U3235                     OAI21XL         typical         13.305600 
+U3236                     AOI2BB2XL       typical         23.284800 
+U3237                     INVXL           typical         6.652800  
+U3238                     NAND3XL         typical         13.305600 
+U3239                     MXI2XL          typical         23.284800 
+U3240                     OAI21XL         typical         13.305600 
+U3241                     AOI22XL         typical         16.632000 
+U3242                     OAI221XL        typical         23.284800 
+U3243                     AOI211XL        typical         16.632000 
+U3244                     OAI21XL         typical         13.305600 
+U3245                     OAI21XL         typical         13.305600 
+U3246                     OAI21XL         typical         13.305600 
+U3247                     AOI2BB2XL       typical         23.284800 
+U3248                     AOI2BB2XL       typical         23.284800 
+U3249                     AOI2BB2XL       typical         23.284800 
+U3250                     AOI2BB2XL       typical         23.284800 
+U3251                     AOI2BB2XL       typical         23.284800 
+U3252                     AOI2BB2XL       typical         23.284800 
+U3253                     OAI21XL         typical         13.305600 
+U3254                     OAI21XL         typical         13.305600 
+U3255                     NAND3XL         typical         13.305600 
+U3256                     AOI21XL         typical         13.305600 
+U3257                     OAI21XL         typical         13.305600 
+U3258                     INVXL           typical         6.652800  
+U3259                     OAI21XL         typical         13.305600 
+U3260                     AOI22XL         typical         16.632000 
+U3261                     OAI21XL         typical         13.305600 
+U3262                     NOR2XL          typical         9.979200  
+U3263                     OAI21XL         typical         13.305600 
+U3264                     OAI21XL         typical         13.305600 
+U3265                     NAND2XL         typical         9.979200  
+U3266                     OAI21XL         typical         13.305600 
+U3267                     OAI21XL         typical         13.305600 
+U3268                     OAI222XL        typical         26.611200 
+U3269                     NAND2XL         typical         9.979200  
+U3270                     OAI21XL         typical         13.305600 
+U3271                     OAI21XL         typical         13.305600 
+U3272                     AOI21XL         typical         13.305600 
+U3273                     INVXL           typical         6.652800  
+U3274                     OAI21XL         typical         13.305600 
+U3275                     NOR2XL          typical         9.979200  
+U3276                     OAI222XL        typical         26.611200 
+U3277                     OAI2BB1XL       typical         16.632000 
+U3278                     AOI22XL         typical         16.632000 
+U3279                     AOI22XL         typical         16.632000 
+U3280                     AOI22XL         typical         16.632000 
+U3281                     AND4XL          typical         19.958401 
+U3282                     OAI2BB1XL       typical         16.632000 
+U3283                     AOI22XL         typical         16.632000 
+U3284                     AOI22XL         typical         16.632000 
+U3285                     AOI22XL         typical         16.632000 
+U3286                     AND4XL          typical         19.958401 
+U3287                     OAI2BB1XL       typical         16.632000 
+U3288                     AOI22XL         typical         16.632000 
+U3289                     AOI22XL         typical         16.632000 
+U3290                     AOI22XL         typical         16.632000 
+U3291                     AND4XL          typical         19.958401 
+U3292                     OAI2BB1XL       typical         16.632000 
+U3293                     AOI22XL         typical         16.632000 
+U3294                     AOI22XL         typical         16.632000 
+U3295                     AOI22XL         typical         16.632000 
+U3296                     AND4XL          typical         19.958401 
+U3297                     OAI2BB1XL       typical         16.632000 
+U3298                     AOI22XL         typical         16.632000 
+U3299                     AOI22XL         typical         16.632000 
+U3300                     AOI22XL         typical         16.632000 
+U3301                     AND4XL          typical         19.958401 
+U3302                     OAI2BB1XL       typical         16.632000 
+U3303                     AOI22XL         typical         16.632000 
+U3304                     AOI22XL         typical         16.632000 
+U3305                     AOI22XL         typical         16.632000 
+U3306                     AND4XL          typical         19.958401 
+U3307                     OAI2BB1XL       typical         16.632000 
+U3308                     AOI22XL         typical         16.632000 
+U3309                     AOI22XL         typical         16.632000 
+U3310                     AOI22XL         typical         16.632000 
+U3311                     OAI21XL         typical         13.305600 
+U3312                     AOI22XL         typical         16.632000 
+U3313                     AOI22XL         typical         16.632000 
+U3314                     AOI22XL         typical         16.632000 
+U3315                     AOI22XL         typical         16.632000 
+U3316                     NAND4XL         typical         16.632000 
+U3317                     AOI211XL        typical         16.632000 
+U3318                     AOI31XL         typical         16.632000 
+U3319                     AOI22XL         typical         16.632000 
+U3320                     OAI21XL         typical         13.305600 
+U3321                     AOI22XL         typical         16.632000 
+U3322                     AOI22XL         typical         16.632000 
+U3323                     AOI22XL         typical         16.632000 
+U3324                     NAND4XL         typical         16.632000 
+U3325                     OR3XL           typical         16.632000 
+U3326                     OAI21XL         typical         13.305600 
+U3327                     AOI21XL         typical         13.305600 
+U3328                     OAI2BB2XL       typical         23.284800 
+U3329                     AOI22XL         typical         16.632000 
+U3330                     OAI21XL         typical         13.305600 
+U3331                     NOR2XL          typical         9.979200  
+U3332                     OAI222XL        typical         26.611200 
+U3333                     AOI22XL         typical         16.632000 
+U3334                     NAND2XL         typical         9.979200  
+U3335                     INVXL           typical         6.652800  
+U3336                     OAI211XL        typical         19.958401 
+U3337                     AOI22XL         typical         16.632000 
+U3338                     NAND2XL         typical         9.979200  
+U3339                     AOI22XL         typical         16.632000 
+U3340                     NAND2XL         typical         9.979200  
+U3341                     AOI22XL         typical         16.632000 
+U3342                     NAND2XL         typical         9.979200  
+U3343                     AOI22XL         typical         16.632000 
+U3344                     NAND2XL         typical         9.979200  
+U3345                     AOI21XL         typical         13.305600 
+U3346                     NAND3BXL        typical         16.632000 
+debugger_pad_io           iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_0             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_1             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_2             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_3             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_4             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_5             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_6             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_7             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_8             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_9             iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_10            iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_11            iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_12            iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_13            iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_14            iobuf                           129.729603
+                                                                    d, h, n
+gpio_pad_io_15            iobuf                           129.729603
+                                                                    d, h, n
+hsync_pad_out             BUFX20          typical         53.222401 d
+rgb_pad_out_0             BUFX20          typical         53.222401 d
+rgb_pad_out_1             BUFX20          typical         53.222401 d
+rgb_pad_out_2             BUFX20          typical         53.222401 d
+rgb_pad_out_3             BUFX20          typical         53.222401 d
+rgb_pad_out_4             BUFX20          typical         53.222401 d
+rgb_pad_out_5             BUFX20          typical         53.222401 d
+rgb_pad_out_6             BUFX20          typical         53.222401 d
+rgb_pad_out_7             BUFX20          typical         53.222401 d
+u0/reset_sync_reg_reg[0]  DFFSX1          typical         63.201599 n
+u0/reset_sync_reg_reg[1]  DFFSX1          typical         63.201599 n
+u0/reset_sync_reg_reg[2]  DFFSX1          typical         63.201599 n
+u0/reset_sync_reg_reg[4]  DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_addr_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_en_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[0]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[2]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[3]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[4]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[5]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[6]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[7]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[8]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[9]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[10]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[11]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[12]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[13]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[14]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[15]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[16]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[17]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[18]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[19]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[20]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[21]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[22]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[23]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[24]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[25]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[26]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[27]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[28]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[29]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[30]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_data_reg[31]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_hit_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_pend_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_we_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_we_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_we_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_ahb_to_sram/buf_we_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2MEM/u_asic_rom/_r_cs_reg
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2MEM/u_asic_rom/u0 RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uAHB2MEM/u_asic_rom/u1 RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uAHB2MEM/u_asic_rom/u2 RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uAHB2MEM/u_asic_rom/u3 RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uAHB2VGA/rHSEL_reg     DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_x_reg_reg[6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_y_reg_reg[0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_y_reg_reg[1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_y_reg_reg[2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_y_reg_reg[3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/cur_y_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/font_unit
+                          font_rom                        16798.320248
+                                                                    h, n
+u0/uAHB2VGA/u_gen/iloveu  dpram           DPRAM           564142.562500
+                                                                    b, d
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[8]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x1_reg_reg[9]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[8]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_x2_reg_reg[9]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y1_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y1_reg_reg[5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y1_reg_reg[6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y1_reg_reg[7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y1_reg_reg[8]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y2_reg_reg[4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y2_reg_reg[5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y2_reg_reg[6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y2_reg_reg[7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/pix_y2_reg_reg[8]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_x_reg_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_y_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_y_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_y_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_y_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/cur_y_reg_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_gen/u_clean/current_state_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[0]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[2]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[3]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[4]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[5]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[6]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[7]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[8]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_count_reg_reg[9]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/h_sync_reg_reg
+                          DFFHQXL         typical         53.222401 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[0]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[2]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[3]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[4]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[5]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[6]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[7]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[8]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_count_reg_reg[9]
+                          EDFFX1          typical         76.507202 n
+u0/uAHB2VGA/u_sync/v_sync_reg_reg
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBGPIO/GPIO_0_stage_1_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/GPIO_0_stage_2_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[12]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[13]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[14]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_datain_reg[15]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[12]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[13]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[14]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dataout_reg[15]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[12]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[13]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[14]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/gpio_dir_reg[15]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/intr_0_irq_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HADDR_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HSEL_reg DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HTRANS_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/last_HWRITE_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBGPIO/u_det/sig_dly_reg
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBMUX/APHASE_MUX_SEL_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBMUX/APHASE_MUX_SEL_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBMUX/APHASE_MUX_SEL_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBMUX/APHASE_MUX_SEL_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/clear_reg    DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/control_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/control_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/control_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/control_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/current_state_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/last_HADDR_reg[0]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HADDR_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HADDR_reg[2]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HADDR_reg[3]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HSEL_reg
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HTRANS_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/last_HWRITE_reg
+                          EDFFX1          typical         76.507202 n
+u0/uAHBTIMER/load_reg[0]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[1]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[2]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[3]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[4]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[5]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[6]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[7]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[8]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[9]  DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[10] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[11] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[12] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[13] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[14] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[15] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[16] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[17] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[18] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[19] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[20] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[21] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[22] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[23] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[24] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[25] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[26] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[27] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[28] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[29] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[30] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/load_reg[31] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/timer_irq_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/uprescaler16/counter_reg[0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBTIMER/uprescaler16/counter_reg[1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBTIMER/uprescaler16/counter_reg[2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBTIMER/uprescaler16/counter_reg[3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBTIMER/value_reg[0] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[1] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[2] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[3] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[4] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[5] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[6] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[7] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[8] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[9] DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[12]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[13]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[14]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[15]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[16]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[17]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[18]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[19]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[20]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[21]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[22]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[23]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[24]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[25]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[26]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[27]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[28]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[29]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[30]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBTIMER/value_reg[31]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/last_HADDR_reg[4]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBUART/last_HADDR_reg[5]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBUART/last_HADDR_reg[6]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBUART/last_HADDR_reg[7]
+                          EDFFX1          typical         76.507202 n
+u0/uAHBUART/last_HSEL_reg EDFFX1          typical         76.507202 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[12]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[13]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[14]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[15]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[16]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[17]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[18]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[19]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[20]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uBAUDGEN/count_reg_reg[21]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[0][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[1][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[2][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[3][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[4][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[5][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[6][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[7][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[8][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[9][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[10][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[11][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[12][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[13][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[14][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/array_reg_reg[15][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_RX/empty_reg_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/full_reg_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/r_ptr_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/r_ptr_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/r_ptr_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/r_ptr_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/w_ptr_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/w_ptr_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/w_ptr_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_RX/w_ptr_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[0][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[1][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[2][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[3][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[4][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[5][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[6][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[7][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[8][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[9][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[10][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[11][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[12][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[13][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[14][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][0]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][1]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][2]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][3]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][4]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][5]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][6]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/array_reg_reg[15][7]
+                          DFFHQXL         typical         53.222401 n
+u0/uAHBUART/uFIFO_TX/empty_reg_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/full_reg_reg
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/r_ptr_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/r_ptr_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/r_ptr_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/r_ptr_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/w_ptr_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/w_ptr_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/w_ptr_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uFIFO_TX/w_ptr_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/b_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/b_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/b_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/b_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/count_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/count_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/count_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/current_state_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/current_state_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_RX/data_reg_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/b_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/b_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/b_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/b_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/count_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/count_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/count_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/current_state_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/current_state_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/data_reg_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uAHBUART/uUART_TX/tx_reg_reg
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[4]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[5]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[6]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[7]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[8]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[9]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[10]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_addr_reg[11]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_data_en_reg
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[0]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[1]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[2]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[3]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[4]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[5]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[6]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[7]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[8]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[9]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[10]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[11]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[12]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[13]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[14]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[15]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[16]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[17]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[18]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[19]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[20]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[21]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[22]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[23]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[24]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[25]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[26]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[27]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[28]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[29]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[30]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_data_reg[31]
+                          EDFFX1          typical         76.507202 n
+u0/uRAM/u_ahb_to_sram/buf_hit_reg
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_pend_reg
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_we_reg[0]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_we_reg[1]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_we_reg[2]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_ahb_to_sram/buf_we_reg[3]
+                          DFFSX1          typical         63.201599 n
+u0/uRAM/u_asic_rom/_r_cs_reg
+                          DFFHQXL         typical         53.222401 n
+u0/uRAM/u_asic_rom/u0     RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uRAM/u_asic_rom/u1     RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uRAM/u_asic_rom/u2     RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/uRAM/u_asic_rom/u3     RA1SHD          USERLIB         273055.781250
+                                                                    b, d
+u0/u_CORTEXM0INTEGRATION/u_logic
+                          cortexm0ds_logic                171209.809424
+                                                                    h, n
+vsync_pad_out             BUFX20          typical         53.222401 d
+xtal_pad_special          osc_circ                        126.403198
+                                                                    d, h
+--------------------------------------------------------------------------------
+Total 2453 cells                                          3157942.116849
+1
