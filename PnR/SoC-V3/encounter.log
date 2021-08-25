@@ -1,0 +1,93 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 9.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.04-p052.
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2009.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+@(#)CDS: CPE v09.10-p005
+--- Starting "Encounter v09.10-p004_1" on Fri Oct 16 15:22:06 2020 (mem=57.4M) ---
+--- Running on work-eda (x86_64 w/Linux 2.6.32-431.el6.x86_64) ---
+This version was compiled on Wed Dec 2 20:50:10 PST 2009.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+<CMD> loadConfig chip_top.conf 0
+Reading config file - chip_top.conf
+<CMD> commitConfig
+**ERROR: (ENCSYT-16038):	'chip_top_dp.enc.dat/chip_top.v.gz' not found.
+
+Loading Lef file ../soc/milky/std_cell/tmp/smic18_6lm.lef...
+Set DBUPerIGU to M2 pitch 660.
+Initializing default via types and wire widths ...
+WARNING (LEFPARS-2003): BUSBITCHARS is a required statement on LEF file with version 5.5 and earlier.
+Without BUSBITCHARS defined, the LEF file is technically incorrect.
+Refer to the LEF/DEF 5.5 or earlier Language Reference manual on how to define this statement. See file ../soc/milky/std_cell/tmp/smic18_6lm.lef at line 64991.
+WARNING (LEFPARS-2004): DIVIDERCHAR is a required statement on LEF file with version 5.5 and earlier.
+Without DIVIDECHAR defined, the LEF file is technically incorrect.
+Refer to the LEF/DEF 5.5 or earlier Language Reference manual on how to define this statement. See file ../soc/milky/std_cell/tmp/smic18_6lm.lef at line 64991.
+
+Loading Lef file ../soc/milky/pll/tmp/S018PLLGS_500.lef...
+
+Loading Lef file ../soc/milky/sram/single/tmp/RA1SHD.vclef...
+WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../soc/milky/sram/single/tmp/RA1SHD.vclef at line 12.
+
+Loading Lef file ../soc/milky/sram/dual_fix/tmp/dpram.vclef...
+WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../soc/milky/sram/dual_fix/tmp/dpram.vclef at line 12.
+
+Loading Lef file ../soc/milky/io/tmp/SP018N_V1p0_6MT.lef...
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+
+Power Planner/ViaGen version 8.1.46 promoted on 02/17/2009.
+viaInitial starts at Fri Oct 16 15:23:00 2020
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+viaInitial ends at Fri Oct 16 15:23:00 2020
+**ERROR: (ENCSYT-16038):	'chip_top_dp.enc.dat/chip_top.v.gz' not found.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+
+*** Memory Usage v0.159.4.2 (Current mem = 291.074M, initial mem = 57.359M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=291.1M) ***
+**ERROR: (ENCSYC-300):	Cell chip_top not found.
+**ERROR: (ENCVL-904):	Can't set top cell to "chip_top" because it doesn't exist.  Exiting Encounter!
+
+*** Memory Usage v0.159.4.2 (Current mem = 291.117M, initial mem = 57.359M) ***
+--- Ending "Encounter" (totcpu=0:00:12.9, real=0:01:08, mem=291.1M) ---

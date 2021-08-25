@@ -1,0 +1,656 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Oct 16 19:25:40 2020                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+#@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+#@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+#@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+#@(#)CDS: CPE v09.10-p005
+
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_done.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+fit
+fit
+fit
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+windowSelect 1230.993 1412.319 1471.760 2660.296
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+deselectAll
+selectInst gpio_pad_io_2
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+violationBrowser -all -no_display_false
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+violationBrowserHide -tool Verify -type Short
+violationBrowserHide -tool Verify -type Overlap
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+deselectAll
+fit
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+violationBrowserHide -tool Verify -type Connectivity -subtype {Antenna (DanglingWire)}
+fit
+fit
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+clearDrc
+verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+windowSelect 2488.861 2518.067 2499.881 2516.380
+panPage -1 0
+panPage 1 0
+panPage -1 0
+panPage 1 0
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+deselectAll
+selectInst IOFILLER_N_37
+uiSetTool addVia
+uiSetTool select
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+clearDrc
+selectWire 1732.9760 2484.6350 2345.0600 2485.2350 5 avdd
+deselectAll
+selectWire 1734.0360 2485.5150 2344.0000 2486.1150 5 avss
+deselectAll
+selectWire 1732.9760 2486.3950 2345.0600 2486.9950 5 avdd
+deselectAll
+selectWire 269.4400 2487.6400 2554.1980 2488.6400 5 VDD
+deselectAll
+selectWire 270.5000 2488.9200 2553.1380 2489.9200 5 VSS
+deselectAll
+selectWire 269.4400 2490.2000 2554.1980 2491.2000 5 VDD
+deselectAll
+selectWire 270.5000 2491.4800 2553.1380 2492.4800 5 VSS
+deselectAll
+selectWire 269.4400 2492.7600 2554.1980 2493.7600 5 VDD
+deselectAll
+selectWire 270.5000 2494.0400 2553.1380 2495.0400 5 VSS
+deselectAll
+selectWire 269.4400 2495.3200 2554.1980 2496.3200 5 VDD
+deselectAll
+selectWire 270.5000 2496.6000 2553.1380 2497.6000 5 VSS
+deselectAll
+selectWire 270.5000 2488.9200 2553.1380 2489.9200 5 VSS
+deselectAll
+selectWire 269.4400 2487.6400 2554.1980 2488.6400 5 VDD
+deselectAll
+selectWire 308.4200 2502.6000 2515.7200 2503.2000 5 avss
+deselectAll
+uiSetTool addPoly
+uiSetTool addPoly
+setEdit -layer_polygon METAL6
+editAddPoly 2110.839 2479.459
+setEdit -net_polygon avdd
+editAddPoly 2111.188 2506.234
+editAddPoly 2099.892 2506.513
+editAddPoly 2100.381 2479.250
+editCommitPoly 2100.381 2479.250
+uiSetTool select
+selectWire 1734.0360 2480.2350 2344.0000 2480.8350 5 avss
+deselectAll
+selectWire 1732.9760 2481.1150 2345.0600 2481.7150 5 avdd
+uiSetTool addVia
+setViaEdit -cut_layer VIA56
+setViaEdit -x_space 0.6
+setViaEdit -y_space 0.6
+editAddVia 2105.278 2481.397
+setViaEdit -cols 13
+editAddVia 2105.363 2483.196
+editAddVia 2105.620 2485.037
+editAddVia 2105.064 2486.750
+uiSetTool select
+uiSetTool addVia
+uiSetTool select
+deselectAll
+selectWire 1732.9760 2482.8750 2345.0600 2483.4750 5 avdd
+deselectAll
+selectWire 2099.8920 2479.4590 2110.8390 2506.2340 6 avdd
+deselectAll
+selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+deselectAll
+selectWire 308.4200 2504.3600 2515.7200 2504.9600 5 avss
+deselectAll
+selectWire 307.3600 2503.4800 2516.7800 2504.0800 5 avdd
+deselectAll
+selectWire 308.4200 2502.6000 2515.7200 2503.2000 5 avss
+deselectAll
+uiSetTool addVia
+editAddVia 2105.099 2505.604
+editAddVia 2105.020 2503.737
+uiSetTool select
+selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+deselectAll
+uiSetTool addPoly
+editAddPoly 1960.273 2479.354
+editAddPoly 1960.852 2506.767
+editAddPoly 1945.795 2506.960
+editAddPoly 1948.497 2478.871
+editCommitPoly 1948.497 2478.871
+undo
+uiSetTool select
+setEdit -net_polygon avss
+uiSetTool addPoly
+editAddPoly 1962.300 2479.064
+editAddPoly 1961.335 2507.153
+editAddPoly 1947.725 2507.442
+editAddPoly 1950.331 2478.775
+editCommitPoly 1950.331 2478.775
+uiSetTool select
+selectWire 1947.7250 2479.0640 1962.3000 2507.1530 6 avss
+deselectAll
+selectWire 1734.0360 2480.2350 2344.0000 2480.8350 5 avss
+uiSetTool addVia
+editAddVia 1954.514 2480.428
+editAddVia 1954.715 2482.242
+editAddVia 1954.917 2484.006
+editAddVia 1954.765 2485.820
+uiSetTool select
+deselectAll
+selectWire 1734.0360 2485.5150 2344.0000 2486.1150 5 avss
+deselectAll
+selectWire 1947.7250 2479.0640 1962.3000 2507.1530 6 avss
+deselectAll
+selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+deselectAll
+selectWire 308.4200 2504.3600 2515.7200 2504.9600 5 avss
+uiSetTool addVia
+editAddVia 1954.928 2504.713
+editAddVia 1955.001 2502.893
+uiSetTool select
+deselectAll
+fit
+verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+verifyConnectivity -type all -error 1000 -warning 50
+selectWire 2195.5360 1990.3750 2196.1360 2181.1640 6 VDD
+uiSetTool cutWire
+editCutWire -x1 2196.668 -y1 2180.86 -x2 2187.986 -y2 2180.86
+uiSetTool select
+selectWire 2195.5360 2180.8600 2196.1360 2181.1640 6 VDD
+deleteSelectedFromFPlan
+selectWire 2194.4760 2180.8600 2195.0760 2181.1640 6 VSS
+deleteSelectedFromFPlan
+selectWire 2193.4160 2180.8600 2194.0160 2181.1640 6 VDD
+deleteSelectedFromFPlan
+selectWire 2192.3560 2180.8600 2192.9560 2181.1640 6 VSS
+deleteSelectedFromFPlan
+selectWire 2191.2960 2180.8600 2191.8960 2181.1640 6 VDD
+deleteSelectedFromFPlan
+selectWire 2190.2360 2180.8600 2190.8360 2181.1640 6 VSS
+deleteSelectedFromFPlan
+selectWire 2189.1760 2180.8600 2189.7760 2181.1640 6 VDD
+deleteSelectedFromFPlan
+selectWire 2188.1160 2180.8600 2188.7160 2181.1640 6 VSS
+deleteSelectedFromFPlan
+fit
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+deselectAll
+selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+fit
+saveDesign chip_top_done_pll.enc
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectAll
+selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+deselectAll
+selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+uiSetTool addWire
+uiSetTool select
+editTrim
+selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+editTrim
+fit
+selectWire 1883.5400 1990.3750 1884.1400 2181.1640 6 VDD
+selectWire 1882.4800 1987.7750 1883.0800 2181.1640 6 VSS
+selectWire 1881.4200 1990.3750 1882.0200 2181.1640 6 VDD
+selectWire 1880.3600 1987.7750 1880.9600 2181.1640 6 VSS
+selectWire 1879.3000 1990.3750 1879.9000 2181.1640 6 VDD
+selectWire 1878.2400 1987.7750 1878.8400 2181.1640 6 VSS
+selectWire 1877.1800 1990.3750 1877.7800 2181.1640 6 VDD
+selectWire 1876.1200 1987.7750 1876.7200 2181.1640 6 VSS
+editTrim
+selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+deselectAll
+selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+deselectAll
+selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+deselectAll
+selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+deselectAll
+selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+editTrim
+selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+editTrim
+selectWire 1880.3600 2455.7440 1880.9600 2541.8600 6 VSS
+selectWire 1878.2400 2455.7440 1878.8400 2541.8600 6 VSS
+selectWire 1876.1200 2455.7440 1876.7200 2541.8600 6 VSS
+selectWire 1882.4800 2455.7440 1883.0800 2541.8600 6 VSS
+editTrim
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+editTrim
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+editTrim
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+editTrim
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1247.9710 1672.5470 1651.3400 1673.1470 5 VDD
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+fit
+selectWire 2194.4760 2455.7440 2195.0760 2541.8600 6 VSS
+selectWire 2192.3560 2455.7440 2192.9560 2541.8600 6 VSS
+selectWire 2190.2360 2455.7440 2190.8360 2541.8600 6 VSS
+selectWire 2188.1160 2455.7440 2188.7160 2541.8600 6 VSS
+editTrim
+fit
+selectWire 1235.7440 634.0000 1237.7440 635.5780 5 VSS
+deselectAll
+selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+deselectAll
+selectWire 1235.7440 634.0000 1237.7440 635.5780 5 VSS
+selectWire 1235.7440 629.4580 1237.7440 630.6200 5 VSS
+editTrim
+selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectVia 1643.9900 1670.6400 1644.7900 1671.4400 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1247.9710 1670.7870 1651.3400 1671.3870 5 VDD
+deselectAll
+selectWire 1644.3900 1670.6400 1658.9800 1671.4400 1 VSS
+deselectAll
+selectWire 1247.9710 1672.5470 1651.3400 1673.1470 5 VDD
+deselectAll
+selectWire 1249.0310 1671.6670 1650.2800 1672.2670 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+editTrim
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+fit
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1249.0310 1673.4270 1650.2800 1674.0270 5 VSS
+deselectAll
+selectWire 1247.9710 1674.3070 1651.3400 1674.9070 5 VDD
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+uiSetTool ruler
+uiSetTool move
+editMove -1.528 0.444
+uiSetTool select
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+deselectAll
+selectWire 1641.7920 1675.8440 1643.2620 1676.6440 2 VSS
+uiSetTool cutWire
+editCutWire -x1 1643.297 -y1 1676.355 -x2 1641.781 -y2 1676.355
+uiSetTool select
+selectWire 1641.7920 1676.3550 1643.2620 1676.6440 2 VSS
+deleteSelectedFromFPlan
+uiSetTool move
+selectWire 1641.7920 1675.8440 1643.2620 1676.3550 2 VSS
+editMove 1.601 -0.616
+uiSetTool select
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+editTrim
+fit
+verifyConnectivity -type all -error 1000 -warning 50
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+fit
+deselectAll
+selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+uiSetTool addWire
+uiSetTool select
+editTrim
+fit
+selectWire 2194.4760 1987.7750 2195.0760 2180.8600 6 VSS
+selectWire 2192.3560 1987.7750 2192.9560 2180.8600 6 VSS
+selectWire 2190.2360 1987.7750 2190.8360 2180.8600 6 VSS
+selectWire 2188.1160 1987.7750 2188.7160 2180.8600 6 VSS
+editTrim
+fit
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+setDrawView ameba
+setDrawView fplan
+setDrawView place
+setDrawView fplan
+setDrawView place
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+setLayerPreference allM5 -isVisible 0
+selectWire 1643.3930 1675.2280 1644.8630 1675.7390 2 VSS
+deselectAll
+selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+deselectAll
+selectWire 1643.3930 1675.2280 1644.8630 1675.7390 2 VSS
+editTrim
+setLayerPreference allM5 -isVisible 1
+selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+deselectAll
+selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+fit
+verifyConnectivity -type all -error 1000 -warning 50
+verifyConnectivity -type all -error 1000 -warning 50
+saveDesign chip_top_done_fin.enc
+verifyGeometry
+fit
+fit
+clearDrc
+verifyConnectivity -type all -error 1000 -warning 50
+clearClockDomains
+setClockDomains -all
+timeDesign -preCTS -idealClock -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_preCTS -outDir timingReports
+clearClockDomains
+setClockDomains -all
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_postRoute -outDir timingReports
+optDesign -postRoute
+fit
+fit
+verifyGeometry
+selectWire 1158.3000 1635.3600 1665.8400 1636.1600 1 VDD
+fit
+clearDrc
+getFillerMode -quiet
+addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 -prefix FILLER -markFixed
+verifyGeometry
+saveDesign chip_top_done_opt.enc
+verifyConnectivity -type all -error 1000 -warning 50
+clearDrc
+verifyConnectivity -type all -error 1000 -warning 50
+deselectAll
+selectInst FILLER_27401
+fit
+deselectAll
+verifyGeometry
+clearDrc
+fit
+fit
+fit
+fit
+saveDesign chip_top_done_opt.enc

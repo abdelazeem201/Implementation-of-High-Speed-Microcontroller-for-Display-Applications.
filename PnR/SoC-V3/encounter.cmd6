@@ -1,0 +1,194 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Oct 16 16:57:05 2020                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+#@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+#@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+#@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+#@(#)CDS: CPE v09.10-p005
+
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_cts.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { avss avdd VSS VDD }
+selectInst u0_u_CORTEXM0INTEGRATION_u_logic/U1932
+addIoFiller -cell PFILL50N -prefix IOFILLER -side n
+addIoFiller -cell PFILL22N -prefix IOFILLER -side n
+addIoFiller -cell PFILL20N -prefix IOFILLER -side n
+addIoFiller -cell PFILL10N -prefix IOFILLER -side n
+deselectAll
+fit
+addIoFiller -cell PFILL2N -prefix IOFILLER -side n
+addIoFiller -cell PFILL1N -prefix IOFILLER -side n
+addIoFiller -cell PFILL01N -prefix IOFILLER -side n
+addIoFiller -cell PFILL001N -prefix IOFILLER -side n -fillAnyGap
+selectInst IOFILLER_N_68
+fit
+addIoFiller -cell PFILL50N -prefix IOFILLER -side s
+addIoFiller -cell PFILL22N -prefix IOFILLER -side s
+addIoFiller -cell PFILL20N -prefix IOFILLER -side s
+addIoFiller -cell PFILL10N -prefix IOFILLER -side s
+addIoFiller -cell PFILL2N -prefix IOFILLER -side s
+addIoFiller -cell PFILL1N -prefix IOFILLER -side s
+addIoFiller -cell PFILL01N -prefix IOFILLER -side s
+addIoFiller -cell PFILL001N -prefix IOFILLER -side s -fillAnyGap
+addIoFiller -cell PFILL50N -prefix IOFILLER -side e
+addIoFiller -cell PFILL22N -prefix IOFILLER -side e
+addIoFiller -cell PFILL20N -prefix IOFILLER -side e
+addIoFiller -cell PFILL10N -prefix IOFILLER -side e
+addIoFiller -cell PFILL2N -prefix IOFILLER -side e
+addIoFiller -cell PFILL1N -prefix IOFILLER -side e
+addIoFiller -cell PFILL01N -prefix IOFILLER -side e
+addIoFiller -cell PFILL001N -prefix IOFILLER -side e -fillAnyGap
+deselectAll
+fit
+saveDesign chip_top_filler_dig.enc
+selectInst PAD_A_IO_VSS
+addIoFiller help
+deselectAll
+fit
+fit
+addIoFiller -cell PFILL50AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL20AN -prefix IOFILLER -side w
+addIoFiller -cell PFILL10AN -prefix IOFILLER -side w
+addIoFiller -cell PFILL5AN -prefix IOFILLER -side w
+addIoFiller -cell PFILL2AN -prefix IOFILLER -side w
+addIoFiller -cell PFILL1AN -prefix IOFILLER -side w
+addIoFiller -cell PFILL01AN -prefix IOFILLER -side w
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_filler_dig.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+addIoFiller -cell PFILL001AN -prefix IOFILLER -side w -fillAnyGapaddIoFiller -cell PFILL50AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL20AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL10AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL5AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL2AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL1AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL01AN -prefix IOFILLER -side w -from 610 -to 1603
+addIoFiller -cell PFILL001AN -prefix IOFILLER -side w -fillAnyGap -from 610 -to 1603
+fit
+fit
+addIoFiller -cell PFILL50N -prefix IOFILLER -side w
+addIoFiller -cell PFILL22N -prefix IOFILLER -side w
+addIoFiller -cell PFILL20N -prefix IOFILLER -side w
+addIoFiller -cell PFILL10N -prefix IOFILLER -side w
+addIoFiller -cell PFILL5N -prefix IOFILLER -side w
+addIoFiller -cell PFILL2N -prefix IOFILLER -side w
+addIoFiller -cell PFILL1N -prefix IOFILLER -side w
+addIoFiller -cell PFILL01N -prefix IOFILLER -side w
+addIoFiller -cell PFILL001N -prefix IOFILLER -side w -fillAnyGap
+fit
+saveDesign chip_top_filler_all.enc
+fit
+setNanoRouteMode -quiet -routeWithTimingDriven 1
+setNanoRouteMode -quiet -routeTdrEffort 0
+setNanoRouteMode -quiet -drouteStartIteration default
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+fit
+verifyGeometry
+verifyGeometry -noOverlap
+fit
+violationBrowser -all -no_display_false
+saveDesign chip_top_routed.enc
+verifyGeometry
+clearDrc
+getFillerMode -quiet
+addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 -prefix FILLER -markFixed
+fit
+setDrawView ameba
+setDrawView place
+verifyGeometry
+verifyConnectivity -type all -error 1000 -warning 50
+::Rda_Browser::VB::violationBrowserSetObjs
+zoomBox 2195.336 2180.664 2196.336 2181.664
+zoomBox 2195.336 2180.664 2196.336 2181.664
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+deselectAll
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox -1267.435 -954.365 3778.185 3767.245
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+zoomBox 1429.054 1846.681 2648.982 2791.097
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+fit
+zoomBox 1426.934 1844.741 2651.102 2793.037
+zoomBox 1426.934 1844.741 2651.102 2793.037
+zoomBox 1426.934 1844.741 2651.102 2793.037
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+deselectAll
+selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+zoomBox -1266.905 -952.955 3776.595 3765.835
+zoomBox -1266.905 -952.955 3776.595 3765.835
+fit
+saveDesign chip_top_done.enc
+clearDrc
+fit
+saveNetlist chip_top.v
+streamOut chip_top_gds -mapFile streamOut.map -libName DesignLib -units 1000 -mode ALL
+fit
+fit
+selectInst CORNER1
+deselectAll
+selectInst IOFILLER_N_27
+deselectAll
+selectInst u0_uRAM_u_asic_rom_u0
+deselectAll
+selectInst u0_uRAM_u_asic_rom_u1
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u1
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u2
+deselectAll
+selectInst u0_uAHB2VGA_u_gen_iloveu
+deselectAll
+fit
+fit
+fit
+verifyConnectivity -nets {VDD VSS} -type all -error 1000 -warning 50
+verifyConnectivity -nets {VDD VSS} -type all -noAntenna -error 1000 -warning 50
+fit

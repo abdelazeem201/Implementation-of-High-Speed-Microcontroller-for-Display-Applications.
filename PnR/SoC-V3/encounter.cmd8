@@ -1,0 +1,44 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Oct 16 20:31:16 2020                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+#@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+#@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+#@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+#@(#)CDS: CPE v09.10-p005
+
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_done_opt.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+setDrawView place
+verifyConnectivity -type all -error 1000 -warning 50
+verifyGeometry
+clearClockDomains
+setClockDomains -all
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_postRoute -outDir timingReports
+setDrawView place
+autoFetchDCSources VSS
+setDrawView place
+clearPadLocDisplay -editForm
+autoFetchDCSources VSS
+setDrawView place
+clearPadLocDisplay -editForm
+autoFetchDCSources VSS
+setDrawView place
+uiSetTool getLocation ::Rda_Power::EditPadLoc::setCoord
+uiSetTool getLocation ::Rda_Power::EditPadLoc::setCoord
+savePadLocation -VSformat -net VSS -outfile chip_top.pp
+analyze_early_rail -method static -type net_based -bias_voltage 1.800 -net_voltage 0.000 -volt_limit 0.18 -calculate_power -pad_location_file chip_top.pp -display_IR -net VSS

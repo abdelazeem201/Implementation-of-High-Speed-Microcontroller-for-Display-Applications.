@@ -1,0 +1,46 @@
+*----------------------------------------------------------------------------------------
+*	Encounter 13.10-p003_1 (64bit) 04/17/2013 15:43 (Linux 2.6)
+*	
+*
+* 	Date & Time:	2021-Apr-30 18:17:31 (2021-May-01 01:17:31 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: chip_top
+*
+*	Liberty Libraries used: 
+*
+*	Power Domain used: 
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       report_power -outfile chip_top.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+
+Total (      0 of  14675  )            0           0          0           0
+Total Capacitance                        0 F
+Power Density                   *** No Die Area ***

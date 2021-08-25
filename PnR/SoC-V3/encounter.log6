@@ -1,0 +1,1591 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 9.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.04-p052.
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2009.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+@(#)CDS: CPE v09.10-p005
+--- Starting "Encounter v09.10-p004_1" on Fri Oct 16 16:57:05 2020 (mem=57.4M) ---
+--- Running on work-eda (x86_64 w/Linux 2.6.32-431.el6.x86_64) ---
+This version was compiled on Wed Dec 2 20:50:10 PST 2009.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reading config file - chip_top_cts.enc.dat/chip_top.conf
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+*** End library_loading (cpu=0.03min, mem=8.1M, fe_cpu=0.20min, fe_mem=302.9M) ***
+**WARN: (ENCEXT-2730):	Cap Table generated using Encounter 03.20-p005_1. may cause some accuracy degradation.
+It is highly recommended to regenerate the Cap Table using Encounter 4.1 or newer.
+To regenerate a Cap Table, use the standalone generateCapTbl utility, with following syntax:
+ generateCapTbl -ict <process.ict> -output <process.CapTbl>.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.036 will be used.
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 3 Ohms will be used.
+Set CTS cells: BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL
+**WARN: (ENCDB-1256):	Power pin AVDD of instance PLL_inst is connected to non-p/g net avdd.  Mark the net as power net and create associated snet.
+**WARN: (ENCDB-1257):	Ground pin AVSS of instance PLL_inst is connected to non-p/g net avss.  Mark the net as ground net and create associated snet.
+Loading preference file chip_top_cts.enc.dat/enc.pref.tcl ...
+Loading mode file chip_top_cts.enc.dat/chip_top.mode ...
+**WARN: (ENCSP-506):	Options '-congEffort' and '-fp' are mutually exclusive, using last option specified - '-congEffort'.
+loading place ...
+loading route ...
+<CMD> setDrawView place
+<CMD> sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { avss avdd VSS VDD }
+No routing obstructions were found in the design.
+*** Begin SPECIAL ROUTE on Fri Oct 16 16:58:40 2020 ***
+Sroute/fcroute version 8.1.46 promoted on 02/17/2009.
+SPECIAL ROUTE ran on directory: /home/work/encounter_work/soc_v3
+SPECIAL ROUTE ran on machine: work-eda (Linux 2.6.32-431.el6.x86_64 x86_64 3.80Ghz)
+
+Begin option processing ...
+(from .sroute_17266.conf) srouteConnectPowerBump set to false
+(from .sroute_17266.conf) routeSelectNet set to "avss avdd VSS VDD"
+(from .sroute_17266.conf) routeSpecial set to true
+(from .sroute_17266.conf) srouteConnectStripe set to false
+(from .sroute_17266.conf) srouteCrossoverViaTopLayer set to 6
+(from .sroute_17266.conf) srouteFollowCorePinEnd set to 3
+(from .sroute_17266.conf) srouteFollowPadPin set to true
+(from .sroute_17266.conf) srouteJogControl set to "preferWithChanges differentLayer"
+(from .sroute_17266.conf) sroutePadPinAllPorts set to true
+(from .sroute_17266.conf) sroutePreserveExistingRoutes set to true
+(from .sroute_17266.conf) srouteTopLayerLimit set to 6
+(from .sroute_17266.conf) srouteTopTargetLayerLimit set to 6
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 556.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 13 layers, 6 routing layers, 1 overlap layer
+Read in 649 macros, 159 used
+Read in 14687 components
+  14629 core components: 0 unplaced, 14629 placed, 0 fixed
+  44 pad components: 0 unplaced, 0 placed, 44 fixed
+  10 block/ring components: 0 unplaced, 0 placed, 10 fixed
+  4 other components: 0 unplaced, 0 placed, 4 fixed
+Read in 35 logical pins
+Read in 11 blockages
+Read in 35 nets
+Read in 4 special nets, 4 routed
+Read in 29282 terminals
+4 nets selected.
+
+Begin power routing ...
+**WARN: (ENCSR-1254):	Net VDD does not have block pins to be routed. Please check net list.
+**WARN: (ENCSR-1253):	Net avdd does not have standard cells to be routed. Please check net list.
+**WARN: (ENCSR-1254):	Net VSS does not have block pins to be routed. Please check net list.
+**WARN: (ENCSR-1253):	Net avss does not have standard cells to be routed. Please check net list.
+CPU time for FollowPin 0 seconds
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avdd
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avdd
+CPU time for FollowPin 0 seconds
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avss
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avss
+  Number of IO ports routed: 0
+  Number of Block ports routed: 2
+  Number of Core ports routed: 2066  open: 66
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 1066
+End power routing: cpu: 0:00:04, real: 0:00:04, peak: 583.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 142 via definition ...
+
+sroute post-processing starts at Fri Oct 16 16:58:46 2020
+The viaGen is rebuilding shadow vias for net avss.
+sroute post-processing ends at Fri Oct 16 16:58:46 2020
+
+sroute post-processing starts at Fri Oct 16 16:58:46 2020
+The viaGen is rebuilding shadow vias for net avdd.
+sroute post-processing ends at Fri Oct 16 16:58:46 2020
+
+sroute post-processing starts at Fri Oct 16 16:58:46 2020
+The viaGen is rebuilding shadow vias for net VSS.
+sroute post-processing ends at Fri Oct 16 16:58:47 2020
+
+sroute post-processing starts at Fri Oct 16 16:58:47 2020
+The viaGen is rebuilding shadow vias for net VDD.
+sroute post-processing ends at Fri Oct 16 16:58:48 2020
+
+**WARN: (ENCPP-589):	The power planner detected wires that are close to the standard cell area.
+**WARN: (ENCPP-590):	Turn on violation markers and run verifyGeometry to display violation details.
+
+sroute: Total CPU time used = 0:0:7
+sroute: Total Real time used = 0:0:8
+sroute: Total Memory used = 20.59 megs
+sroute: Total Peak Memory used = 366.57 megs
+<CMD> selectInst u0_u_CORTEXM0INTEGRATION_u_logic/U1932
+<CMD> addIoFiller -cell PFILL50N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL50N', expected cell with class 'PAD SPACER'.
+Added 28 of filler cell 'PFILL50N' on top side.
+<CMD> addIoFiller -cell PFILL22N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL22N', expected cell with class 'PAD SPACER'.
+Added 14 of filler cell 'PFILL22N' on top side.
+<CMD> addIoFiller -cell PFILL20N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL20N' on top side.
+<CMD> addIoFiller -cell PFILL10N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10N', expected cell with class 'PAD SPACER'.
+Added 14 of filler cell 'PFILL10N' on top side.
+<CMD> deselectAll
+<CMD> fit
+<CMD> addIoFiller -cell PFILL2N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL2N' on top side.
+<CMD> addIoFiller -cell PFILL1N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1N', expected cell with class 'PAD SPACER'.
+Added 14 of filler cell 'PFILL1N' on top side.
+<CMD> addIoFiller -cell PFILL01N -prefix IOFILLER -side n
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL01N' on top side.
+<CMD> addIoFiller -cell PFILL001N -prefix IOFILLER -side n -fillAnyGap
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001N', expected cell with class 'PAD SPACER'.
+Added 126 of filler cell 'PFILL001N' on top side.
+<CMD> selectInst IOFILLER_N_68
+<CMD> fit
+<CMD> addIoFiller -cell PFILL50N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL50N', expected cell with class 'PAD SPACER'.
+Added 33 of filler cell 'PFILL50N' on bottom side.
+<CMD> addIoFiller -cell PFILL22N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL22N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL22N' on bottom side.
+<CMD> addIoFiller -cell PFILL20N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL20N' on bottom side.
+<CMD> addIoFiller -cell PFILL10N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL10N' on bottom side.
+<CMD> addIoFiller -cell PFILL2N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL2N' on bottom side.
+<CMD> addIoFiller -cell PFILL1N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL1N' on bottom side.
+<CMD> addIoFiller -cell PFILL01N -prefix IOFILLER -side s
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL01N' on bottom side.
+<CMD> addIoFiller -cell PFILL001N -prefix IOFILLER -side s -fillAnyGap
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL001N' on bottom side.
+<CMD> addIoFiller -cell PFILL50N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL50N', expected cell with class 'PAD SPACER'.
+Added 33 of filler cell 'PFILL50N' on right side.
+<CMD> addIoFiller -cell PFILL22N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL22N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL22N' on right side.
+<CMD> addIoFiller -cell PFILL20N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL20N' on right side.
+<CMD> addIoFiller -cell PFILL10N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL10N' on right side.
+<CMD> addIoFiller -cell PFILL2N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2N', expected cell with class 'PAD SPACER'.
+Added 44 of filler cell 'PFILL2N' on right side.
+<CMD> addIoFiller -cell PFILL1N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL1N' on right side.
+<CMD> addIoFiller -cell PFILL01N -prefix IOFILLER -side e
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01N', expected cell with class 'PAD SPACER'.
+Added 11 of filler cell 'PFILL01N' on right side.
+<CMD> addIoFiller -cell PFILL001N -prefix IOFILLER -side e -fillAnyGap
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001N', expected cell with class 'PAD SPACER'.
+Added 55 of filler cell 'PFILL001N' on right side.
+<CMD> deselectAll
+<CMD> fit
+<CMD> saveDesign chip_top_filler_dig.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_filler_dig.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_filler_dig.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_filler_dig.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 82 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=361.6M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.1 real=0:00:00.0 mem=361.6M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> selectInst PAD_A_IO_VSS
+<CMD> addIoFiller help
+Usage: addIoFiller
+    addIoFiller
+    -cell
+    <fillerCellName>
+    [-prefix <prefix>]
+    [-side {n | w | s | e}]
+    [-from <coord>]
+    [-to <coord>]
+    [-row <rowNumber>]
+    [-fillAnyGap]
+    [-useSmallIoHeight]
+    [-fillerOrient R0 | R90 | R180 | R270 | MX | MX90 | MY | MY90]
+    
+   
+**ERROR: (ENCSYC-194):	Incorrect usage for command 'addIoFiller'.
+<CMD> deselectAll
+<CMD> fit
+<CMD> fit
+<CMD> addIoFiller -cell PFILL50AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL50AN', expected cell with class 'PAD SPACER'.
+Added 15 of filler cell 'PFILL50AN' on left side.
+<CMD> addIoFiller -cell PFILL20AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20AN', expected cell with class 'PAD SPACER'.
+Added 56 of filler cell 'PFILL20AN' on left side.
+<CMD> addIoFiller -cell PFILL10AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10AN', expected cell with class 'PAD SPACER'.
+Added 5 of filler cell 'PFILL10AN' on left side.
+<CMD> addIoFiller -cell PFILL5AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL5AN', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL5AN' on left side.
+<CMD> addIoFiller -cell PFILL2AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2AN', expected cell with class 'PAD SPACER'.
+Added 12 of filler cell 'PFILL2AN' on left side.
+<CMD> addIoFiller -cell PFILL1AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1AN', expected cell with class 'PAD SPACER'.
+Added 12 of filler cell 'PFILL1AN' on left side.
+<CMD> addIoFiller -cell PFILL01AN -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01AN', expected cell with class 'PAD SPACER'.
+Added 12 of filler cell 'PFILL01AN' on left side.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reset to color id 0 for u0_u_CORTEXM0INTEGRATION_u_logic (cortexm0ds_logic) and all their descendants.
+Reset to color id 0 for u0_uAHB2VGA_u_gen_font_unit (font_rom) and all their descendants.
+Free PSO.
+EOS_INFO: EOS cleanup started. (MEM=356.9M)
+EOS_INFO: EOS cleanup completed. (MEM=356.9M)
+Reading config file - chip_top_filler_dig.enc.dat/chip_top.conf
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+*** End library_loading (cpu=0.04min, mem=0.0M, fe_cpu=1.64min, fe_mem=349.5M) ***
+**WARN: (ENCEXT-2730):	Cap Table generated using Encounter 03.20-p005_1. may cause some accuracy degradation.
+It is highly recommended to regenerate the Cap Table using Encounter 4.1 or newer.
+To regenerate a Cap Table, use the standalone generateCapTbl utility, with following syntax:
+ generateCapTbl -ict <process.ict> -output <process.CapTbl>.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.036 will be used.
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 3 Ohms will be used.
+Set CTS cells: BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL
+**WARN: (ENCDB-1256):	Power pin AVDD of instance PLL_inst is connected to non-p/g net avdd.  Mark the net as power net and create associated snet.
+**WARN: (ENCDB-1257):	Ground pin AVSS of instance PLL_inst is connected to non-p/g net avss.  Mark the net as ground net and create associated snet.
+Loading preference file chip_top_filler_dig.enc.dat/enc.pref.tcl ...
+Loading mode file chip_top_filler_dig.enc.dat/chip_top.mode ...
+**WARN: (ENCSP-506):	Options '-congEffort' and '-fp' are mutually exclusive, using last option specified - '-congEffort'.
+loading place ...
+loading route ...
+<CMD> setDrawView place
+<CMD> addIoFiller -cell PFILL001AN -prefix IOFILLER -side w -fillAnyGapaddIoFiller -cell PFILL50AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001AN', expected cell with class 'PAD SPACER'.
+**ERROR: (ENCFP-3353):	Invalid option -fillAnyGapaddIoFiller.
+Usage: addIoFiller
+    addIoFiller
+    -cell
+    <fillerCellName>
+    [-prefix <prefix>]
+    [-side {n | w | s | e}]
+    [-from <coord>]
+    [-to <coord>]
+    [-row <rowNumber>]
+    [-fillAnyGap]
+    [-useSmallIoHeight]
+    [-fillerOrient R0 | R90 | R180 | R270 | MX | MX90 | MY | MY90]
+    
+   
+**ERROR: (ENCSYC-194):	Incorrect usage for command 'addIoFiller'.
+<CMD> addIoFiller -cell PFILL20AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20AN', expected cell with class 'PAD SPACER'.
+Added 40 of filler cell 'PFILL20AN' on left side.
+<CMD> addIoFiller -cell PFILL10AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10AN', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL10AN' on left side.
+<CMD> addIoFiller -cell PFILL5AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL5AN', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL5AN' on left side.
+<CMD> addIoFiller -cell PFILL2AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2AN', expected cell with class 'PAD SPACER'.
+Added 5 of filler cell 'PFILL2AN' on left side.
+<CMD> addIoFiller -cell PFILL1AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1AN', expected cell with class 'PAD SPACER'.
+Added 5 of filler cell 'PFILL1AN' on left side.
+<CMD> addIoFiller -cell PFILL01AN -prefix IOFILLER -side w -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01AN', expected cell with class 'PAD SPACER'.
+Added 5 of filler cell 'PFILL01AN' on left side.
+<CMD> addIoFiller -cell PFILL001AN -prefix IOFILLER -side w -fillAnyGap -from 610 -to 1603
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001AN', expected cell with class 'PAD SPACER'.
+Added 20 of filler cell 'PFILL001AN' on left side.
+<CMD> fit
+<CMD> fit
+<CMD> addIoFiller -cell PFILL50N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL50N', expected cell with class 'PAD SPACER'.
+Added 21 of filler cell 'PFILL50N' on left side.
+<CMD> addIoFiller -cell PFILL22N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL22N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL22N' on left side.
+<CMD> addIoFiller -cell PFILL20N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL20N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL20N' on left side.
+<CMD> addIoFiller -cell PFILL10N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL10N', expected cell with class 'PAD SPACER'.
+Added 7 of filler cell 'PFILL10N' on left side.
+<CMD> addIoFiller -cell PFILL5N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL5N', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL5N' on left side.
+<CMD> addIoFiller -cell PFILL2N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL2N', expected cell with class 'PAD SPACER'.
+Added 7 of filler cell 'PFILL2N' on left side.
+<CMD> addIoFiller -cell PFILL1N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL1N', expected cell with class 'PAD SPACER'.
+Added 7 of filler cell 'PFILL1N' on left side.
+<CMD> addIoFiller -cell PFILL01N -prefix IOFILLER -side w
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL01N', expected cell with class 'PAD SPACER'.
+Added 7 of filler cell 'PFILL01N' on left side.
+<CMD> addIoFiller -cell PFILL001N -prefix IOFILLER -side w -fillAnyGap
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL001N', expected cell with class 'PAD SPACER'.
+Added 28 of filler cell 'PFILL001N' on left side.
+<CMD> fit
+<CMD> saveDesign chip_top_filler_all.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_filler_all.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_filler_all.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_filler_all.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 82 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=349.5M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.1 real=0:00:01.0 mem=349.5M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> fit
+*** Setting net attribute for specified net group...
+*** setAttribute -net {@clock}  -avoid_detour true -weight 10 -preferred_extra_space 1
+*** No nets need to be processed.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven 1
+<CMD> setNanoRouteMode -quiet -routeTdrEffort 0
+<CMD> setNanoRouteMode -quiet -drouteStartIteration default
+<CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+<CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+<CMD> setNanoRouteMode -quiet -drouteEndIteration default
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven true
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+Begin checking placement ...
+*info: Placed = 14629
+*info: Unplaced = 0
+IO instance overlap:96
+Placement Density:31.36%(315379/1005657)
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=349.5M) ***
+
+globalDetailRoute
+
+#Start globalDetailRoute on Fri Oct 16 17:21:37 2020
+#
+#Generating timing graph information, please wait...
+#15269 total nets, 0 already routed, 0 will ignore in trialRoute
+#Dump tif for version 2.1
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+#Write timing file took: cpu time = 00:00:05, elapsed time = 00:00:05, memory = 371.00 (Mb)
+#Done generating timing graph information.
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 371.00 (Mb)
+#setting min_area (0.207200) for layer METAL2 using TOPOFSTACK via via2ts
+#setting min_area (0.207200) for layer METAL3 using TOPOFSTACK via via3ts
+#setting min_area (0.207200) for layer METAL4 using TOPOFSTACK via via4ts
+#setting min_area (0.205200) for layer METAL5 using TOPOFSTACK via via5ts
+#WARNING (NRIG-39)  NanoRoute cannot route to pin xin because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin xout because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin RESET because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin hsync because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin vsync because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin Rx because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin Tx because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[15] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[14] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[13] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[12] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39 Repeated 20 times. Will be suppressed.)  NanoRoute cannot route to pin gpio[11] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (EMS-27) Message (NRIG-39) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#WARNING (NRDB-976) The step 0.560000 for preferred direction tracks is smaller than the pitch 1.120000 for LAYER METAL5. This will cause routability problems for NanoRoute.
+#WARNING (NRDB-976) The step 0.990000 for preferred direction tracks is smaller than the pitch 1.320000 for LAYER METAL6. This will cause routability problems for NanoRoute.
+#Start reading timing information from file .timing_file.tif ...
+#
+#The worst setup slack read in is 0.036  
+#
+#No hold time constraints read in
+#Read in timing information for 35 ports, 14675 instances from timing file .timing_file.tif.
+#NanoRoute Version v09.10-p020 NR091118-1115/USR62-UB
+#WARNING (NREX-28) The height of the first routing layer METAL1 is 0.000000. It should be larger than 0.000000
+#WARNING (NREX-29) The metal thickness of routing layer METAL1 is 0.000000. It should be larger than 0.0. Add this to the technology information for better accuracy.
+#WARNING (NREX-30) Please also check the height and metal thickness values for the routing layers heigher than routing layer METAL1
+#WARNING (NREX-4) No Extended Cap Table was imported. Not enough process information was provided either and default Extended Cap Table database will be used.
+#Merging special wires...
+#Number of eco nets is 0
+#
+#Start data preparation...
+#Auto generating G-grids with size=15 tracks, using layer METAL2's pitch = 0.610.
+#Using automatically generated G-grids.
+#
+#Data preparation is done.
+#
+#Analyzing routing resource...
+#Routing resource analysis is done.
+#  Resource Analysis:
+#
+#               Routing  #Total     %Gcell
+#  Layer      Direction   Gcell     Blocked
+#  ------------------------------------------
+#  Metal 1        H       95480      70.24%
+#  Metal 2        V       95480      66.03%
+#  Metal 3        H       95480      66.81%
+#  Metal 4        V       95480      66.98%
+#  Metal 5        H       95480      33.31%
+#  Metal 6        V       95480      33.40%
+#  ------------------------------------------
+#  Total                 572880      56.13%
+#
+#
+#
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 423.00 (Mb)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#
+#start global routing iteration 2...
+#
+#setting timing driven routing constraints ...
+#
+#cpu time = 00:00:02, elapsed time = 00:00:02, memory = 424.00 (Mb)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:04, elapsed time = 00:00:04, memory = 439.00 (Mb)
+#
+#start global routing iteration 4...
+#cpu time = 00:00:04, elapsed time = 00:00:05, memory = 440.00 (Mb)
+#
+#start global routing iteration 5...
+#cpu time = 00:00:04, elapsed time = 00:00:04, memory = 441.00 (Mb)
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon       OverCon       OverCon       OverCon          
+#                  #Gcell        #Gcell        #Gcell        #Gcell    %Gcell
+#     Layer         (1-2)         (3-4)         (5-6)         (7-9)   OverCon
+#  --------------------------------------------------------------------------
+#   Metal 1      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 2     57(0.18%)     62(0.19%)     36(0.11%)     16(0.05%)   (0.53%)
+#   Metal 3      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 4      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 5      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 6      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#  --------------------------------------------------------------------------
+#     Total     57(0.02%)     62(0.02%)     36(0.01%)     16(0.01%)   (0.07%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 9
+#
+#Complete Global Routing.
+#Total wire length = 1476719 um.
+#Total half perimeter of net bounding box = 1248551 um.
+#Total wire length on LAYER METAL1 = 30056 um.
+#Total wire length on LAYER METAL2 = 340269 um.
+#Total wire length on LAYER METAL3 = 404460 um.
+#Total wire length on LAYER METAL4 = 261864 um.
+#Total wire length on LAYER METAL5 = 275827 um.
+#Total wire length on LAYER METAL6 = 164242 um.
+#Total number of vias = 102457
+#Up-Via Summary (total 102457):
+#           
+#-----------------------
+#  Metal 1        48153
+#  Metal 2        37916
+#  Metal 3         9927
+#  Metal 4         4630
+#  Metal 5         1831
+#-----------------------
+#                102457 
+#
+#Max overcon = 9 tracks.
+#Total overcon = 0.07%.
+#Worst layer Gcell overcon rate = 0.53%.
+#Cpu time = 00:00:19
+#Elapsed time = 00:00:19
+#Increased memory = 11.00 (Mb)
+#Total memory = 419.00 (Mb)
+#Peak memory = 482.00 (Mb)
+#
+#Start Detail Routing.
+#start initial detail routing ...
+#    number of violations = 94
+#cpu time = 00:01:23, elapsed time = 00:01:24, memory = 424.00 (Mb)
+#start 1st optimization iteration ...
+#    number of violations = 9
+#cpu time = 00:00:03, elapsed time = 00:00:03, memory = 424.00 (Mb)
+#start 2nd optimization iteration ...
+#    number of violations = 3
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#start 3rd optimization iteration ...
+#    number of violations = 4
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#start 4th optimization iteration ...
+#    number of violations = 1
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#start 5th optimization iteration ...
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#Complete Detail Routing.
+#Total wire length = 1480530 um.
+#Total half perimeter of net bounding box = 1248551 um.
+#Total wire length on LAYER METAL1 = 95098 um.
+#Total wire length on LAYER METAL2 = 345001 um.
+#Total wire length on LAYER METAL3 = 378261 um.
+#Total wire length on LAYER METAL4 = 251023 um.
+#Total wire length on LAYER METAL5 = 250092 um.
+#Total wire length on LAYER METAL6 = 161056 um.
+#Total number of vias = 138192
+#Up-Via Summary (total 138192):
+#           
+#-----------------------
+#  Metal 1        60523
+#  Metal 2        52828
+#  Metal 3        16696
+#  Metal 4         6019
+#  Metal 5         2126
+#-----------------------
+#                138192 
+#
+#Total number of DRC violations = 0
+#Total number of violations on LAYER METAL1 = 0
+#Total number of violations on LAYER METAL2 = 0
+#Total number of violations on LAYER METAL3 = 0
+#Total number of violations on LAYER METAL4 = 0
+#Total number of violations on LAYER METAL5 = 0
+#Total number of violations on LAYER METAL6 = 0
+#detailRoute Statistics:
+#Cpu time = 00:01:27
+#Elapsed time = 00:01:28
+#Increased memory = 0.00 (Mb)
+#Total memory = 419.00 (Mb)
+#Peak memory = 493.00 (Mb)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:02:00
+#Elapsed time = 00:02:01
+#Increased memory = 69.00 (Mb)
+#Total memory = 418.00 (Mb)
+#Peak memory = 493.00 (Mb)
+#Number of warnings = 27
+#Total number of warnings = 27
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Fri Oct 16 17:23:38 2020
+#
+<CMD> fit
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 419.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 14.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:14.2  MEM: 84.6M)
+
+<CMD> verifyGeometry -noOverlap
+ *** Starting Verify Geometry (MEM: 421.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  8 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 8 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 14 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  8 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 8 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 0 Viols. 0 Wrngs.
+VG: elapsed time: 15.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 0
+End Summary
+
+  Verification Complete : 30 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:14.1  MEM: 84.6M)
+
+<CMD> fit
+<CMD> violationBrowser -all -no_display_false
+<CMD> saveDesign chip_top_routed.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_routed.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_routed.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_routed.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 126 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=421.4M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.6 real=0:00:01.0 mem=421.4M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 421.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 9.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:09.0  MEM: 85.6M)
+
+<CMD> clearDrc
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 -prefix FILLER -markFixed
+**WARN: (ENCSP-9057):	Fillers being added in a FIXED mode to the whole design. Some subsequent
+operations, such as antenna fixing, may fail due to fillers being marked
+as 'FIXED'. If this was not intended, use deleteFiller command to undo.
+*INFO: Adding fillers to top-module.
+*INFO:   Added 983 filler insts (cell FILL64 / prefix FILLER).
+*INFO:   Added 344 filler insts (cell FILL32 / prefix FILLER).
+*INFO:   Added 2581 filler insts (cell FILL16 / prefix FILLER).
+*INFO:   Added 5108 filler insts (cell FILL8 / prefix FILLER).
+*INFO:   Added 7392 filler insts (cell FILL4 / prefix FILLER).
+*INFO:   Added 6947 filler insts (cell FILL2 / prefix FILLER).
+*INFO:   Added 7973 filler insts (cell FILL1 / prefix FILLER).
+*INFO: Total 31328 filler insts added - prefix FILLER (CPU: 0:00:00.9).
+*INFO: Checking for DRC violations on added fillers.
+**WARN: (ENCVFG-47):	Pin of Cell u0_uAHB2VGA_u_gen_iloveu at (321.279, 561.840), (321.420, 561.985) on Layer METAL1 is not connected to any net. Use globalNetConnect or GUI FloorPlan->Connect Global Nets to specify global net connection rules properly.
+
+*INFO: Iteration 0-#1, Found 0 DRC violation  (real: 0:00:05.0).
+*INFO: Adding fillers to top-module.
+*INFO:   Added 0 filler inst of any cell-type.
+*INFO: End DRC Checks. (real: 0:00:05.0 ).
+<CMD> fit
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 507.0) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 24.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:17.4  MEM: 34.9M)
+
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 17:29:07 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+Net avdd: special open.
+Net avss: special open.
+**** 17:29:08 **** Processed 5000 nets (Total 15913)
+**** 17:29:09 **** Processed 10000 nets (Total 15913)
+**** 17:29:09 **** Processed 15000 nets (Total 15913)
+Net VDD: dangling Wire.
+Net VSS: dangling Wire.
+
+VC Elapsed Time: 0:00:04.0
+
+Begin Summary 
+    4 Problem(s) (ENCVFC-200): Special Wires: Pieces of the net are not connected together.
+    31 Problem(s) (ENCVFC-94): The net has dangling wire(s).
+    35 total info(s) created.
+End Summary
+
+End Time: Fri Oct 16 17:29:11 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 35 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.6  MEM: 0.004M)
+
+<CMD> ::Rda_Browser::VB::violationBrowserSetObjs
+<CMD> zoomBox 2195.336 2180.664 2196.336 2181.664
+<CMD> zoomBox 2195.336 2180.664 2196.336 2181.664
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> deselectAll
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> zoomBox 1426.934 1844.741 2651.102 2793.037
+<CMD> zoomBox 1426.934 1844.741 2651.102 2793.037
+<CMD> zoomBox 1426.934 1844.741 2651.102 2793.037
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+**ERROR: (ENCQTF-4044):	Tcl Error in Command '::Rda_Browser::VB::treeBalloon vb violTree 130 41
+': can't read "categoryList(Verify;Connectivity;Antenna)": no such element in array.
+**ERROR: (ENCQTF-4044):	Tcl Error in Command '::Rda_Browser::VB::treeBalloon vb violTree 129 40
+': can't read "categoryList(Verify;Connectivity;Antenna)": no such element in array.
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> fit
+<CMD> saveDesign chip_top_done.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_done.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_done.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_done.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 641 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.1 real=0:00:00.0 mem=507.3M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.6 real=0:00:02.0 mem=507.3M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> clearDrc
+<CMD> fit
+<CMD> saveNetlist chip_top.v
+Writing Netlist "chip_top.v" ...
+<CMD> streamOut chip_top_gds -mapFile streamOut.map -libName DesignLib -units 1000 -mode ALL
+Parse map file...
+Writing GDSII file ...
+	****** db unit per micron = 1000 ******
+	****** output gds2 file unit per micron = 1000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for tile
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation
+Statistics for GDS generated (version 3)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    121                             COMP
+    122                          DIEAREA
+    1                             METAL1
+    2                             METAL1
+    3                             METAL1
+    4                             METAL1
+    7                             METAL1
+    5                             METAL1
+    6                             METAL1
+    8                             METAL1
+    9                             METAL1
+    10                            METAL1
+    15                             VIA12
+    16                             VIA12
+    19                             VIA12
+    17                             VIA12
+    18                             VIA12
+    20                             VIA12
+    21                             VIA12
+    22                            METAL2
+    23                            METAL2
+    24                            METAL2
+    25                            METAL2
+    28                            METAL2
+    26                            METAL2
+    27                            METAL2
+    29                            METAL2
+    30                            METAL2
+    31                            METAL2
+    36                             VIA23
+    37                             VIA23
+    40                             VIA23
+    38                             VIA23
+    39                             VIA23
+    41                             VIA23
+    42                             VIA23
+    43                            METAL3
+    44                            METAL3
+    45                            METAL3
+    46                            METAL3
+    49                            METAL3
+    47                            METAL3
+    48                            METAL3
+    50                            METAL3
+    51                            METAL3
+    52                            METAL3
+    57                             VIA34
+    58                             VIA34
+    61                             VIA34
+    59                             VIA34
+    60                             VIA34
+    62                             VIA34
+    63                             VIA34
+    64                            METAL4
+    65                            METAL4
+    66                            METAL4
+    67                            METAL4
+    70                            METAL4
+    68                            METAL4
+    69                            METAL4
+    71                            METAL4
+    72                            METAL4
+    73                            METAL4
+    78                             VIA45
+    79                             VIA45
+    82                             VIA45
+    80                             VIA45
+    81                             VIA45
+    83                             VIA45
+    84                             VIA45
+    85                            METAL5
+    86                            METAL5
+    87                            METAL5
+    88                            METAL5
+    91                            METAL5
+    89                            METAL5
+    90                            METAL5
+    92                            METAL5
+    93                            METAL5
+    94                            METAL5
+    99                             VIA56
+    100                            VIA56
+    103                            VIA56
+    101                            VIA56
+    102                            VIA56
+    104                            VIA56
+    105                            VIA56
+    106                           METAL6
+    107                           METAL6
+    108                           METAL6
+    109                           METAL6
+    112                           METAL6
+    110                           METAL6
+    111                           METAL6
+    113                           METAL6
+    114                           METAL6
+    115                           METAL6
+    11                            METAL1
+    12                            METAL1
+    13                            METAL1
+    14                            METAL1
+    32                            METAL2
+    33                            METAL2
+    34                            METAL2
+    35                            METAL2
+    53                            METAL3
+    54                            METAL3
+    55                            METAL3
+    56                            METAL3
+    74                            METAL4
+    75                            METAL4
+    76                            METAL4
+    77                            METAL4
+    95                            METAL5
+    96                            METAL5
+    97                            METAL5
+    98                            METAL5
+    116                           METAL6
+    117                           METAL6
+    118                           METAL6
+    119                           METAL6
+
+
+Stream Out Information Processed for GDS version 3:
+Units: 1000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                          46605
+
+Ports/Pins                             0
+
+Nets                              127610
+    metal layer METAL1             20492
+    metal layer METAL2             55616
+    metal layer METAL3             35107
+    metal layer METAL4             10733
+    metal layer METAL5              4334
+    metal layer METAL6              1328
+
+    Via Instances                 138192
+
+Special Nets                        4524
+    metal layer METAL1              3374
+    metal layer METAL2               108
+    metal layer METAL3                15
+    metal layer METAL4                34
+    metal layer METAL5               523
+    metal layer METAL6               470
+
+    Via Instances                  56845
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Text                               15266
+    metal layer METAL1              5786
+    metal layer METAL2              6547
+    metal layer METAL3              2421
+    metal layer METAL4               356
+    metal layer METAL5               129
+    metal layer METAL6                27
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+######Streamout is finished!
+<CMD> fit
+<CMD> fit
+<CMD> selectInst CORNER1
+<CMD> deselectAll
+<CMD> selectInst IOFILLER_N_27
+<CMD> deselectAll
+<CMD> selectInst u0_uRAM_u_asic_rom_u0
+<CMD> deselectAll
+<CMD> selectInst u0_uRAM_u_asic_rom_u1
+<CMD> deselectAll
+<CMD> selectInst u0_uAHB2MEM_u_asic_rom_u1
+<CMD> deselectAll
+<CMD> selectInst u0_uAHB2MEM_u_asic_rom_u2
+<CMD> deselectAll
+<CMD> selectInst u0_uAHB2VGA_u_gen_iloveu
+<CMD> deselectAll
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> verifyConnectivity -nets {VDD VSS} -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 17:37:21 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check specified nets
+Net VDD: dangling Wire.
+Net VSS: dangling Wire.
+
+VC Elapsed Time: 0:00:02.0
+
+Begin Summary 
+    31 Problem(s) (ENCVFC-94): The net has dangling wire(s).
+    31 total info(s) created.
+End Summary
+
+End Time: Fri Oct 16 17:37:23 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 31 Viols.  0 Wrngs.
+  (CPU Time: 0:00:01.7  MEM: 0.004M)
+
+<CMD> verifyConnectivity -nets {VDD VSS} -type all -noAntenna -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 17:38:00 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check specified nets
+
+VC Elapsed Time: 0:00:01.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 17:38:01 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:01.0  MEM: 0.004M)
+
+<CMD> fit
+
+*** Memory Usage v0.159.4.2 (Current mem = 507.316M, initial mem = 57.359M) ***
+--- Ending "Encounter" (totcpu=0:06:54, real=0:41:28, mem=507.3M) ---

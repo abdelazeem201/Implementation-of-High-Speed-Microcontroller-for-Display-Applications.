@@ -1,0 +1,416 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 13.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.43-p014.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2013.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v13.10-p003_1 (64bit) 04/17/2013 15:43 (Linux 2.6)
+@(#)CDS: NanoRoute v13.10-p002 NR130329-0035/13_10-UB (database version 2.30, 190.4.1) {superthreading v1.19}
+@(#)CDS: CeltIC v13.10-p007_1 (64bit) 04/10/2013 12:20:57 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 13.10-p003 (64bit) 04/17/2013 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 13.10-p009_1 (64bit) Apr 10 2013 05:43:58 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v13.10-p010
+@(#)CDS: IQRC/TQRC 12.1.0-s388 (64bit) Fri Mar 29 14:11:58 PDT 2013 (Linux 2.6.18-194.el5)
+--- Starting "Encounter v13.10-p003_1" on Wed Jun 30 03:31:58 2021 (mem=73.6M) ---
+--- Running on mnasser (x86_64 w/Linux 2.6.32-754.28.1.el6.x86_64) ---
+This version was compiled on Wed Apr 17 15:43:31 PDT 2013.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+*** Memory pool thread-safe mode activated.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Loading global variable file chip_top_routed.enc.dat/chip_top.globals ...
+Reading config file - chip_top_routed.enc.dat/chip_top.conf
+**ERROR: (ENCSYT-16038):	'../soc/milky/std_cell/tmp/smic18_6lm.lef' not found.
+**ERROR: (ENCSYT-16038):	'../soc/milky/pll/tmp/S018PLLGS_500.lef' not found.
+**ERROR: (ENCSYT-16038):	'../soc/milky/sram/single/tmp/RA1SHD.vclef' not found.
+**ERROR: (ENCSYT-16038):	'../soc/milky/sram/dual_fix/tmp/dpram.vclef' not found.
+**ERROR: (ENCSYT-16038):	'../soc/milky/io/tmp/SP018N_V1p0_6MT.lef' not found.
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.01 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology LEF file.
+**WARN: (ENCLF-90):	No DATABASE MICRONS statement has been specified, default 100 is used.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+
+
+Debug (MMMC): In commitConfig wrapper <ERROR> **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+
+    while executing
+"error [getError $::uiEmsHandleId 6729 $msg] "
+    (procedure "::CTE::_commitConfigOrig" line 93)
+    invoked from within
+"::CTE::_commitConfigOrig 0 0 "
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd"
+    (procedure "::CTE::_commitConfig" line 35)
+    invoked from within
+"::CTE::_commitConfig 0 0"
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd" 
+
+
+
+**WARN: (ENCSYT-40501):	The design you are restoring is not based on a
+multi-mode/multi-corner (MMMC) configuration. In this release of the software,
+an MMMC configuration is required for most design flows. The software
+will support your current database in this release by automatically update
+the design to an MMMC configuration for you. When the design has been restored,
+you can then saveDesign and it will be saved in the new init_design based format.
+Once the design has been updated, you may only utilize commands that
+are consistent with the MMMC environment. You should refer to the
+'Importing Designs Saved in Previous Versions' section in the 'Importing and Exporting Designs'
+chapter in the EDI11 user guide for more detailed information.
+
+**ERROR: (TCLCMD-995):	Can not open file '../soc/db/std_cell/typical.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file '../soc/db/sram/single/RA1SHD_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file '../soc/db/sram/dual_fix/dpram_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file '../soc/db/pll/SMIC_PLL_18.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file '../soc/db/io/SP018N_V1p0_typ.lib' for library set
+
+
+ERROR: 
+
+DEBUG: Problem creating default_libset_max
+
+
+
+
+
+
+DEBUG: Problem creating default_libset_max
+
+
+
+    while executing
+"error "\n\nDEBUG: Problem creating $CTE::default_libset_max\n$result\n\n""
+    (procedure "buildMmmcEnv" line 147)
+    invoked from within
+"buildMmmcEnv"
+    (procedure "commitConfig" line 155)
+    invoked from within
+"commitConfig 0 $showEolWarnings"
+    (procedure "restoreDesign" line 353)
+
+
+
+**ERROR: (ENCSYT-6300):	DEBUG: Problem creating default_libset_max
+
+
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> restoreDesign chip_top_routed.enc.dat chip_top
+Loading global variable file chip_top_routed.enc.dat/chip_top.globals ...
+Reading config file - chip_top_routed.enc.dat/chip_top.conf
+Sync relative path - .
+**ERROR: (ENCSYT-16038):	'./../soc/milky/std_cell/tmp/smic18_6lm.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/pll/tmp/S018PLLGS_500.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/single/tmp/RA1SHD.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/dual_fix/tmp/dpram.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/io/tmp/SP018N_V1p0_6MT.lef' not found.
+**WARN: (ENCLF-90):	No DATABASE MICRONS statement has been specified, default 100 is used.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+
+
+Debug (MMMC): In commitConfig wrapper <ERROR> **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+
+    while executing
+"error [getError $::uiEmsHandleId 6729 $msg] "
+    (procedure "::CTE::_commitConfigOrig" line 93)
+    invoked from within
+"::CTE::_commitConfigOrig 0 0 "
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd"
+    (procedure "::CTE::_commitConfig" line 35)
+    invoked from within
+"::CTE::_commitConfig 0 0"
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd" 
+
+
+
+**WARN: (ENCSYT-40501):	The design you are restoring is not based on a
+multi-mode/multi-corner (MMMC) configuration. In this release of the software,
+an MMMC configuration is required for most design flows. The software
+will support your current database in this release by automatically update
+the design to an MMMC configuration for you. When the design has been restored,
+you can then saveDesign and it will be saved in the new init_design based format.
+Once the design has been updated, you may only utilize commands that
+are consistent with the MMMC environment. You should refer to the
+'Importing Designs Saved in Previous Versions' section in the 'Importing and Exporting Designs'
+chapter in the EDI11 user guide for more detailed information.
+
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/std_cell/typical.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/single/RA1SHD_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/dual_fix/dpram_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/pll/SMIC_PLL_18.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/io/SP018N_V1p0_typ.lib' for library set
+
+
+ERROR: 
+
+DEBUG: Problem creating default_libset_max
+
+
+
+
+
+
+DEBUG: Problem creating default_libset_max
+
+
+
+    while executing
+"error "\n\nDEBUG: Problem creating $CTE::default_libset_max\n$result\n\n""
+    (procedure "buildMmmcEnv" line 147)
+    invoked from within
+"buildMmmcEnv"
+    (procedure "commitConfig" line 155)
+    invoked from within
+"commitConfig 0 $showEolWarnings"
+    (procedure "restoreDesign" line 353)
+
+
+
+**ERROR: (ENCSYT-6300):	DEBUG: Problem creating default_libset_max
+
+
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> save_global Default.globals
+<CMD> set init_lef_file {../../../../../Desktop/tmp2/smic180/digital/io/lef/SP018N_V1p0_6MT.lef ../../../../../Desktop/tmp2/smic180/digital/pll/S018PLLGS_500/S018PLLGS_500.lef ../../../../../Desktop/tmp2/smic180/digital/sc/lef/smic18_6lm.lef ../../../../../Desktop/tmp2/smic180/digital/sc/lef/smic18_6lm_antenna.lef}
+<CMD> set init_verilog ../../syn/output/chip_top_v2.v
+<CMD> set init_gnd_net VSS
+<CMD> set init_design_settop 0
+<CMD> set init_io_file ../pad.ioc
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+
+Loading LEF file ../../../../../Desktop/tmp2/smic180/digital/io/lef/SP018N_V1p0_6MT.lef...
+**ERROR: (ENCLF-53):	The layer 'METAL6' referenced in pin 'VSS2' in macro 'PDIODEN' is not found in the database. A layer must be defined in the LEF technology LAYER section before it can be referenced.
+**ERROR: (ENCLF-3):	Error found when processing LEF file '../../../../../Desktop/tmp2/smic180/digital/io/lef/SP018N_V1p0_6MT.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Encounter' again.
+Type 'man ENCLF-3' for more detail.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+**ERROR: **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> restoreDesign chip_top_filler_all.enc.dat chip_top
+Loading global variable file chip_top_filler_all.enc.dat/chip_top.globals ...
+Reading config file - chip_top_filler_all.enc.dat/chip_top.conf
+Sync relative path - .
+**ERROR: (ENCSYT-16038):	'./../soc/milky/std_cell/tmp/smic18_6lm.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/pll/tmp/S018PLLGS_500.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/single/tmp/RA1SHD.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/dual_fix/tmp/dpram.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/io/tmp/SP018N_V1p0_6MT.lef' not found.
+**WARN: (ENCLF-90):	No DATABASE MICRONS statement has been specified, default 100 is used.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+
+
+Debug (MMMC): In commitConfig wrapper <ERROR> **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+
+    while executing
+"error [getError $::uiEmsHandleId 6729 $msg] "
+    (procedure "::CTE::_commitConfigOrig" line 93)
+    invoked from within
+"::CTE::_commitConfigOrig 0 0 "
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd"
+    (procedure "::CTE::_commitConfig" line 35)
+    invoked from within
+"::CTE::_commitConfig 0 0"
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd" 
+
+
+
+**WARN: (ENCSYT-40501):	The design you are restoring is not based on a
+multi-mode/multi-corner (MMMC) configuration. In this release of the software,
+an MMMC configuration is required for most design flows. The software
+will support your current database in this release by automatically update
+the design to an MMMC configuration for you. When the design has been restored,
+you can then saveDesign and it will be saved in the new init_design based format.
+Once the design has been updated, you may only utilize commands that
+are consistent with the MMMC environment. You should refer to the
+'Importing Designs Saved in Previous Versions' section in the 'Importing and Exporting Designs'
+chapter in the EDI11 user guide for more detailed information.
+
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/std_cell/typical.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/single/RA1SHD_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/dual_fix/dpram_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/pll/SMIC_PLL_18.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/io/SP018N_V1p0_typ.lib' for library set
+
+
+ERROR: 
+
+DEBUG: Problem creating default_libset_max
+
+
+
+
+
+
+DEBUG: Problem creating default_libset_max
+
+
+
+    while executing
+"error "\n\nDEBUG: Problem creating $CTE::default_libset_max\n$result\n\n""
+    (procedure "buildMmmcEnv" line 147)
+    invoked from within
+"buildMmmcEnv"
+    (procedure "commitConfig" line 155)
+    invoked from within
+"commitConfig 0 $showEolWarnings"
+    (procedure "restoreDesign" line 353)
+
+
+
+**ERROR: (ENCSYT-6300):	DEBUG: Problem creating default_libset_max
+
+
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> restoreDesign chip_top_filler_all.enc.dat chip_top
+Loading global variable file chip_top_filler_all.enc.dat/chip_top.globals ...
+Reading config file - chip_top_filler_all.enc.dat/chip_top.conf
+Sync relative path - .
+**ERROR: (ENCSYT-16038):	'./../soc/milky/std_cell/tmp/smic18_6lm.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/pll/tmp/S018PLLGS_500.lef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/single/tmp/RA1SHD.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/sram/dual_fix/tmp/dpram.vclef' not found.
+**ERROR: (ENCSYT-16038):	'./../soc/milky/io/tmp/SP018N_V1p0_6MT.lef' not found.
+**WARN: (ENCLF-90):	No DATABASE MICRONS statement has been specified, default 100 is used.
+**ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Encounter.
+
+
+Debug (MMMC): In commitConfig wrapper <ERROR> **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+
+    while executing
+"error [getError $::uiEmsHandleId 6729 $msg] "
+    (procedure "::CTE::_commitConfigOrig" line 93)
+    invoked from within
+"::CTE::_commitConfigOrig 0 0 "
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd"
+    (procedure "::CTE::_commitConfig" line 35)
+    invoked from within
+"::CTE::_commitConfig 0 0"
+    ("eval" body line 1)
+    invoked from within
+"eval $cmd" 
+
+
+
+**WARN: (ENCSYT-40501):	The design you are restoring is not based on a
+multi-mode/multi-corner (MMMC) configuration. In this release of the software,
+an MMMC configuration is required for most design flows. The software
+will support your current database in this release by automatically update
+the design to an MMMC configuration for you. When the design has been restored,
+you can then saveDesign and it will be saved in the new init_design based format.
+Once the design has been updated, you may only utilize commands that
+are consistent with the MMMC environment. You should refer to the
+'Importing Designs Saved in Previous Versions' section in the 'Importing and Exporting Designs'
+chapter in the EDI11 user guide for more detailed information.
+
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/std_cell/typical.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/single/RA1SHD_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/sram/dual_fix/dpram_typical_syn.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/pll/SMIC_PLL_18.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file './../soc/db/io/SP018N_V1p0_typ.lib' for library set
+
+
+ERROR: 
+
+DEBUG: Problem creating default_libset_max
+
+
+
+
+
+
+DEBUG: Problem creating default_libset_max
+
+
+
+    while executing
+"error "\n\nDEBUG: Problem creating $CTE::default_libset_max\n$result\n\n""
+    (procedure "buildMmmcEnv" line 147)
+    invoked from within
+"buildMmmcEnv"
+    (procedure "commitConfig" line 155)
+    invoked from within
+"commitConfig 0 $showEolWarnings"
+    (procedure "restoreDesign" line 353)
+
+
+
+**ERROR: (ENCSYT-6300):	DEBUG: Problem creating default_libset_max
+
+
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+
+*** Memory Usage v#7 (Current mem = 519.492M, initial mem = 73.562M) ***
+--- Ending "Encounter" (totcpu=0:03:23, real=0:11:32, mem=519.5M) ---

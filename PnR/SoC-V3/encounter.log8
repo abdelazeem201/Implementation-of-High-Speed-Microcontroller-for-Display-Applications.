@@ -1,0 +1,792 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 9.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.04-p052.
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2009.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+@(#)CDS: CPE v09.10-p005
+--- Starting "Encounter v09.10-p004_1" on Fri Oct 16 20:31:16 2020 (mem=57.4M) ---
+--- Running on work-eda (x86_64 w/Linux 2.6.32-431.el6.x86_64) ---
+This version was compiled on Wed Dec 2 20:50:10 PST 2009.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reading config file - chip_top_done_opt.enc.dat/chip_top.conf
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+*** End library_loading (cpu=0.04min, mem=8.0M, fe_cpu=0.19min, fe_mem=302.9M) ***
+**WARN: (ENCEXT-2730):	Cap Table generated using Encounter 03.20-p005_1. may cause some accuracy degradation.
+It is highly recommended to regenerate the Cap Table using Encounter 4.1 or newer.
+To regenerate a Cap Table, use the standalone generateCapTbl utility, with following syntax:
+ generateCapTbl -ict <process.ict> -output <process.CapTbl>.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.036 will be used.
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 3 Ohms will be used.
+Set CTS cells: BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL
+**WARN: (ENCDB-1256):	Power pin AVDD of instance PLL_inst is connected to non-p/g net avdd.  Mark the net as power net and create associated snet.
+**WARN: (ENCDB-1257):	Ground pin AVSS of instance PLL_inst is connected to non-p/g net avss.  Mark the net as ground net and create associated snet.
+Loading preference file chip_top_done_opt.enc.dat/enc.pref.tcl ...
+Loading mode file chip_top_done_opt.enc.dat/chip_top.mode ...
+**WARN: (ENCSP-506):	Options '-congEffort' and '-fp' are mutually exclusive, using last option specified - '-congEffort'.
+**WARN: (ENCOPT-3058):	Cell typical/ADDFHX2 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDFHX4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDFX2 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDFX4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDHX1 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDHX2 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/ADDHX4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AND2X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AND3X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AND4X2 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI211X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI21X1 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI21X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI221X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI222X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI22X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI2BB1X1 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI2BB2X1 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI31X4 has already a dont_use attribute false.
+**WARN: (ENCOPT-3058):	Cell typical/AOI32X4 has already a dont_use attribute false.
+**WARN: (EMS-62):	Message <ENCOPT-3058> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the set_message_limit <number> command. The message limit can
+be removed by using the unset_message_limit command. Note that setting
+a very large number using the set_message_limit command or removing the
+message limit using the unset_message_limit command can significantly
+increase the log file size.
+loading place ...
+loading route ...
+<CMD> setDrawView place
+<CMD> setDrawView fplan
+<CMD> setDrawView ameba
+<CMD> setDrawView fplan
+<CMD> setDrawView place
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:32:04 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:32:05 **** Processed 5000 nets (Total 15911)
+**** 20:32:06 **** Processed 10000 nets (Total 15911)
+**** 20:32:06 **** Processed 15000 nets (Total 15911)
+
+VC Elapsed Time: 0:00:04.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:32:08 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.2  MEM: 14.949M)
+
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 355.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 15.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:15.2  MEM: 96.9M)
+
+<CMD> clearClockDomains
+<CMD> setClockDomains -all
+setClockDomains -all 
+**WARN: (ENCSYC-1873):	The setClockDomains -all option is unsupported in CTE mode 
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_postRoute -outDir timingReports
+Extraction called for design 'chip_top' of instances=46610 and nets=15911 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+Detail RC Extraction called for design chip_top.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+Process corner(s) are loaded.
+Loading corner...  ../soc/work/STD_PLL_IO/ict_captbl/018cap_table_basic/smic_logic018_6lm_typ.CapTbl
+extractDetailRC Option : -outfile ./chip_top_98UgNc_22034.rcdb.d  -basic
+RC Mode: Detail [Basic CapTable, LEF Resistances]
+Capacitance Scaling Factor   : 1.00000
+Resistance Scaling Factor    : 1.00000
+Coupling Cap. Scaling Factor : 1.00000
+Clock Cap. Scaling Factor    : 1.00000
+Clock Res. Scaling Factor    : 1.00000
+Shrink Factor                : 1.00000
+Checking LVS Completed (CPU Time= 0:00:00.1  MEM= 449.6M)
+Creating parasitic data file './chip_top_98UgNc_22034.rcdb.d/header.seq' for storing RC.
+Extracted 10.0015% (CPU Time= 0:00:00.3  MEM= 449.6M)
+Extracted 20.0014% (CPU Time= 0:00:00.5  MEM= 449.6M)
+Extracted 30.0013% (CPU Time= 0:00:00.6  MEM= 449.6M)
+Extracted 40.0013% (CPU Time= 0:00:00.6  MEM= 449.6M)
+Extracted 50.0012% (CPU Time= 0:00:00.9  MEM= 449.6M)
+Extracted 60.0011% (CPU Time= 0:00:01.0  MEM= 449.6M)
+Extracted 70.001% (CPU Time= 0:00:01.0  MEM= 449.6M)
+Extracted 80.0009% (CPU Time= 0:00:01.1  MEM= 449.6M)
+Extracted 90.0009% (CPU Time= 0:00:01.5  MEM= 449.6M)
+Extracted 100% (CPU Time= 0:00:01.6  MEM= 449.6M)
+Nr. Extracted Resistors     : 267763
+Nr. Extracted Ground Cap.   : 282937
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './chip_top_98UgNc_22034.rcdb.d/header.seq' for reading.
+Detail RC Extraction DONE (CPU Time: 0:00:01.8  Real Time: 0:00:03.0  MEM: 449.570M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):| -0.492  | -0.492  |  7.156  | -0.109  |  8.272  |   N/A   |
+|           TNS (ns):| -40.806 | -40.376 |  0.000  | -0.430  |  0.000  |   N/A   |
+|    Violating Paths:|   337   |   332   |    0    |    5    |    0    |   N/A   |
+|          All Paths:|  2971   |  2939   |   31    |   24    |    1    |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      1 (1)       |   -0.006   |      1 (1)       |
+|   max_tran     |      1 (1)       |   -0.171   |      1 (1)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 100.000%
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 10.31 sec
+Total Real time: 12.0 sec
+Total Memory Usage: 449.570312 Mbytes
+**ERROR: **ERROR: (ENCPARA-2451):	Must specify pad location file.
+
+<CMD> setDrawView place
+<CMD> autoFetchDCSources VSS
+<CMD> setDrawView place
+<CMD> clearPadLocDisplay -editForm
+<CMD> autoFetchDCSources VSS
+<CMD> setDrawView place
+<CMD> clearPadLocDisplay -editForm
+<CMD> autoFetchDCSources VSS
+<CMD> setDrawView place
+<CMD> uiSetTool getLocation ::Rda_Power::EditPadLoc::setCoord
+<CMD> uiSetTool getLocation ::Rda_Power::EditPadLoc::setCoord
+<CMD> savePadLocation -VSformat -net VSS -outfile chip_top.pp
+<CMD> analyze_early_rail -method static -type net_based -bias_voltage 1.800 -net_voltage 0.000 -volt_limit 0.18 -calculate_power -pad_location_file chip_top.pp -display_IR -net VSS
+Constructing power graph for P/G net VSS ...
+Generating power rails ...
+*** End power rail generation ***
+
+
+Start force assigning power rail voltages for view default_view_setup
+Finished assigning power rail voltages
+
+CPE found ground net: avss
+CPE found power net: avdd  voltage: 1.8V
+CPE found ground net: VSS
+CPE found power net: VDD  voltage: 1.8V
+INFO (POWER-1606): Found clock 'pllClk' with frequency 100MHz from SDC file.
+
+INFO (POWER-1606): Found clock 'xin' with frequency 12.5MHz from SDC file.
+
+
+Propagating signal activity...
+
+
+Starting Levelizing
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT)
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 5%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 10%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 15%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 20%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 25%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 30%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 35%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 40%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 45%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 50%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 55%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 60%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 65%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 70%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 75%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 80%
+2020-Oct-16 20:36:06 (2020-Oct-16 12:36:06 GMT): 85%
+2020-Oct-16 20:36:07 (2020-Oct-16 12:36:07 GMT): 90%
+2020-Oct-16 20:36:07 (2020-Oct-16 12:36:07 GMT): 95%
+
+Finished Levelizing
+2020-Oct-16 20:36:07 (2020-Oct-16 12:36:07 GMT)
+
+Starting Activity Propagation
+2020-Oct-16 20:36:07 (2020-Oct-16 12:36:07 GMT)
+INFO (POWER-1356):   No default input activity has been set.  Defaulting to 0.2.
+
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 5%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 10%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 15%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 20%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 25%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 30%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 35%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 40%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 45%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 50%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 55%
+2020-Oct-16 20:36:08 (2020-Oct-16 12:36:08 GMT): 60%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 65%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 70%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 75%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 80%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 85%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 90%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 95%
+
+Finished Activity Propagation
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT)
+WARNING (POWER-1500): 1 cell(s) in the design have timing library models but
+do not have internal power data.  Internal power will not be calculated for these cells:
+
+  S018PLLGS_500
+WARNING (POWER-1501): 1 cell(s) in the design have timing library models but
+do not have leakage power data.  Leakage power will not be calculated for these cells:
+
+  S018PLLGS_500
+
+Starting Calculating power
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT)
+
+Calculating power dissipation...
+
+ ... Calculating switching power
+  instance xtal_pad_special is not connected to any rail
+  instance hsync_pad_out is not connected to any rail
+  instance vsync_pad_out is not connected to any rail
+  instance rgb_pad_out_7 is not connected to any rail
+  instance rgb_pad_out_6 is not connected to any rail
+  only first five unconnected instances are listed...
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 5%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 10%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 15%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 20%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 25%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 30%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 35%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 40%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 45%
+2020-Oct-16 20:36:09 (2020-Oct-16 12:36:09 GMT): 50%
+ ... Calculating internal and leakage power
+Encounter terminated by internal (SEGV) error/signal...
+*** Stack trace:
+/opt/SOC91/tools/fe/bin/32bit/encounter(syStackTrace+0x14a)[0xdd3c684]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0x8d3ce18]
+[0xf7792410]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN13TAInstancePin8instanceEv+0x7)[0xde54931]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN11Pmnl_NetPin23gAverageTransitionTimesEdRdS0_+0xbd)[0xf12bcdd]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8Pm_Power26collectInputPowerFromTableEPvS0_ddP9Pmnl_CellP9Pmnl_Instd+0x2e2)[0xf0a2c12]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8Pm_Power20internalPowerSyntechEP9Pmnl_CellP9Pmnl_InstPfdb+0xcc2)[0xf0a6dc2]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8Pm_Power14calculatePowerESs+0x1842)[0xf0926f2]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8Pm_Power8runPowerESs+0xbb)[0xf09562b]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8Pm_PowerC1EP12Pmnl_NetlistbbbSsbbbbb+0x1e8)[0xf095bb8]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN19Pmio_PowerMeterData14fnComputePowerEb+0x92)[0xef4d1b2]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN14sxclPowerMeter9fnExecuteEPKcS1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_+0x1fcc)[0xef428fc]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xef13544]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z20CPEReportNativePowerPvP10Tcl_InterpiPPc+0x2c77)[0xef1df37]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xdc5ea3b]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN10tcmBaseCmd7executeEP10Tcl_InterpiPPc+0x193)[0xc2918dd]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN6tcmMgr9cmdParserEPvP10Tcl_InterpiPPc+0x223)[0xc28d00f]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclInvokeStringCommand+0x4f)[0xee6666f]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalEx+0x1f6)[0xee68236]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_Eval+0x3c)[0xee686cc]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xad6ae94]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z21ppInstPlacementWriterP7dbsSNetP17ppsEarlyRAOptionsc+0x34)[0xad6b062]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z19ppiWriteOneNetGroupP17ppsEarlyRAOptionsc+0x2b1)[0xad6bbdf]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z20ppEarlyPrototypingRAP10Tcl_InterpPviPPc+0x3b5)[0xad739c3]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xad7f0f0]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN10tcmBaseCmd7executeEP10Tcl_InterpiPPc+0x193)[0xc2918dd]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN6tcmMgr9cmdParserEPvP10Tcl_InterpiPPc+0x223)[0xc28d00f]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclInvokeStringCommand+0x4f)[0xee6666f]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalEx+0x1f6)[0xee68236]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalObjEx+0x7b)[0xee6882b]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalObjCmd+0x57)[0xee6d587]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xee8db2e]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclCompEvalObj+0xa3)[0xee8d093]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalObjEx+0x206)[0xee689b6]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_CatchObjCmd+0x56)[0xee6cf06]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xee8db2e]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_ExprObj+0x22f)[0xee8ccaf]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_ExprBooleanObj+0x33)[0xee69153]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_IfObjCmd+0x211)[0xee703f1]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xee8db2e]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclCompEvalObj+0xa3)[0xee8d093]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclObjInterpProc+0x3da)[0xeebdada]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter[0xee8db2e]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_ExprObj+0x22f)[0xee8ccaf]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_ExprBooleanObj+0x33)[0xee69153]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_IfObjCmd+0x211)[0xee703f1]
+/opt/SOC91/tools/fe/bin/32bit/encounter(TclEvalObjvInternal+0x126)[0xee67686]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_EvalEx+0x1f6)[0xee68236]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_Eval+0x3c)[0xee686cc]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z10qtfTclEvalPc+0x14c)[0xc381074]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8qtfsItem10fUpdateVarEv+0xbe9)[0xc32ab13]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZN8qtfsItem11qt_metacallEN11QMetaObject4CallEiPPv+0x5e)[0xc3c2cb8]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN11QMetaObject8activateEP7QObjectiiPPv+0x1f9)[0xf66b09a9]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN11QMetaObject8activateEP7QObjectPKS_iiPPv+0x60)[0xf66b0dd0]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN15QAbstractButton7clickedEb+0x51)[0xf6fc2dd1]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN22QAbstractButtonPrivate11emitClickedEv+0x49)[0xf6d1a039]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN22QAbstractButtonPrivate5clickEv+0xa0)[0xf6d1b280]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+0x88)[0xf6d1b4d8]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN7QWidget5eventEP6QEvent+0xd03)[0xf69bfda3]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN15QAbstractButton5eventEP6QEvent+0x63)[0xf6d1a673]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN11QPushButton5eventEP6QEvent+0x41)[0xf6dc20f1]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xbf)[0xf696811f]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x521)[0xf696ac61]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN16QCoreApplication14notifyInternalEP7QObjectP6QEvent+0xa6)[0xf669af56]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_E+0x103)[0xf696a143]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN9QETWidget19translateMouseEventEPK7_XEvent+0x4b6)[0xf69d4636]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN12QApplication15x11ProcessEventEP7_XEvent+0x149b)[0xf69d3bbb]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN19QEventDispatcherX1113processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x151)[0xf69f9531]
+/opt/SOC91/tools/lib/libtq.so(_ZN17TqEventDispatcher13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x51)[0xf5e0706f]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN16QCoreApplication13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x49)[0xf669c4e9]
+/opt/SOC91/tools/lib/libtq.so(+0x1800a)[0xf5e0700a]
+/opt/SOC91/tools/fe/bin/32bit/encounter(Tcl_DoOneEvent+0x1ac)[0xeeb4f3c]
+/opt/SOC91/tools/lib/libtq.so(_ZN17TqEventDispatcher13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xae)[0xf5e070cc]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN10QEventLoop13processEventsE6QFlagsINS_17ProcessEventsFlagEE+0x4d)[0xf669a03d]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x9d)[0xf669a1cd]
+/opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4(_ZN16QCoreApplication4execEv+0xa6)[0xf669c336]
+/opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4(_ZN12QApplication4execEv+0x27)[0xf6967a77]
+/opt/SOC91/tools/lib/libtq.so(_ZN13TqApplication4execEv+0x318)[0xf5e095e8]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_Z7fe_mainiPPc+0x33c)[0x8d1db74]
+/opt/SOC91/tools/fe/bin/32bit/encounter(main+0x79)[0x8d1dc3b]
+/lib/libc.so.6(__libc_start_main+0xe6)[0x3b7d26]
+/opt/SOC91/tools/fe/bin/32bit/encounter(_ZNK9QTreeView7indexAtERK6QPoint+0x65)[0x8d1d221]
+========================================
+               pstack
+========================================
+Thread 4 (Thread 0xf3e2bb70 (LWP 22081)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x00a42e66 in nanosleep () from /lib/libpthread.so.0
+#2  0x0961d1ea in rdaiLicRecheck(void*) ()
+#3  0x00a3bbc9 in start_thread () from /lib/libpthread.so.0
+#4  0x00483dee in clone () from /lib/libc.so.6
+Thread 3 (Thread 0xf342ab70 (LWP 22082)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x0047c141 in select () from /lib/libc.so.6
+#2  0x0eed76dc in NotifierThreadProc ()
+#3  0x00a3bbc9 in start_thread () from /lib/libpthread.so.0
+#4  0x00483dee in clone () from /lib/libc.so.6
+Thread 2 (Thread 0xf2a29b70 (LWP 22083)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x00a437d0 in sigwait () from /lib/libpthread.so.0
+#2  0x08d3d269 in ctrlCHandle(void*) ()
+#3  0x00a3bbc9 in start_thread () from /lib/libpthread.so.0
+#4  0x00483dee in clone () from /lib/libc.so.6
+Thread 1 (Thread 0xf5676760 (LWP 22034)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x0044244b in waitpid () from /lib/libc.so.6
+#2  0x003dbc43 in do_system () from /lib/libc.so.6
+#3  0x003dbfd2 in system () from /lib/libc.so.6
+#4  0x00a439ed in system () from /lib/libpthread.so.0
+#5  0x0dd3c6f1 in syStackTrace ()
+#6  0x08d3ce18 in rdaiErrorHandler(int, siginfo*, void*) ()
+#7  <signal handler called>
+#8  0x0de54931 in TAInstancePin::instance() ()
+#9  0x0f12bcdd in Pmnl_NetPin::gAverageTransitionTimes(double, double&, double&) ()
+#10 0x0f0a2c12 in Pm_Power::collectInputPowerFromTable(void*, void*, double, double, Pmnl_Cell*, Pmnl_Inst*, double) ()
+#11 0x0f0a6dc2 in Pm_Power::internalPowerSyntech(Pmnl_Cell*, Pmnl_Inst*, float*, double, bool) ()
+#12 0x0f0926f2 in Pm_Power::calculatePower(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#13 0x0f09562b in Pm_Power::runPower(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#14 0x0f095bb8 in Pm_Power::Pm_Power(Pmnl_Netlist*, bool, bool, bool, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, bool, bool, bool, bool) ()
+#15 0x0ef4d1b2 in Pmio_PowerMeterData::fnComputePower(bool) ()
+#16 0x0ef428fc in sxclPowerMeter::fnExecute(char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*, char const*) ()
+#17 0x0ef13544 in CPEUpdatePower(Tcl_Interp*, char*) ()
+#18 0x0ef1df37 in CPEReportNativePower(void*, Tcl_Interp*, int, char**) ()
+#19 0x0dc5ea3b in reportPowerCmd(void*, Tcl_Interp*, int, char**) ()
+#20 0x0c2918dd in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
+#21 0x0c28d00f in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
+#22 0x0ee6666f in TclInvokeStringCommand ()
+#23 0x0ee67686 in TclEvalObjvInternal ()
+#24 0x0ee68236 in Tcl_EvalEx ()
+#25 0x0ee686cc in Tcl_Eval ()
+#26 0x0ad6ae94 in ppiInstUseCPEPwr(ppsEarlyRAOptions*) ()
+#27 0x0ad6b062 in ppInstPlacementWriter(dbsSNet*, ppsEarlyRAOptions*, char) ()
+#28 0x0ad6bbdf in ppiWriteOneNetGroup(ppsEarlyRAOptions*, char) ()
+#29 0x0ad739c3 in ppEarlyPrototypingRA(Tcl_Interp*, void*, int, char**) ()
+#30 0x0ad7f0f0 in ppiAnalyzeRailCmd ()
+#31 0x0c2918dd in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
+#32 0x0c28d00f in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
+#33 0x0ee6666f in TclInvokeStringCommand ()
+#34 0x0ee67686 in TclEvalObjvInternal ()
+#35 0x0ee68236 in Tcl_EvalEx ()
+#36 0x0ee6882b in Tcl_EvalObjEx ()
+#37 0x0ee6d587 in Tcl_EvalObjCmd ()
+#38 0x0ee67686 in TclEvalObjvInternal ()
+#39 0x0ee8db2e in TclExecuteByteCode ()
+#40 0x0ee8d093 in TclCompEvalObj ()
+#41 0x0ee689b6 in Tcl_EvalObjEx ()
+#42 0x0ee6cf06 in Tcl_CatchObjCmd ()
+#43 0x0ee67686 in TclEvalObjvInternal ()
+#44 0x0ee8db2e in TclExecuteByteCode ()
+#45 0x0ee8ccaf in Tcl_ExprObj ()
+#46 0x0ee69153 in Tcl_ExprBooleanObj ()
+#47 0x0ee703f1 in Tcl_IfObjCmd ()
+#48 0x0ee67686 in TclEvalObjvInternal ()
+#49 0x0ee8db2e in TclExecuteByteCode ()
+#50 0x0ee8d093 in TclCompEvalObj ()
+#51 0x0eebdada in TclObjInterpProc ()
+#52 0x0ee67686 in TclEvalObjvInternal ()
+#53 0x0ee8db2e in TclExecuteByteCode ()
+#54 0x0ee8ccaf in Tcl_ExprObj ()
+#55 0x0ee69153 in Tcl_ExprBooleanObj ()
+#56 0x0ee703f1 in Tcl_IfObjCmd ()
+#57 0x0ee67686 in TclEvalObjvInternal ()
+#58 0x0ee68236 in Tcl_EvalEx ()
+#59 0x0ee686cc in Tcl_Eval ()
+#60 0x0c381074 in qtfTclEval(char*) ()
+#61 0x0c32ab13 in qtfsItem::fUpdateVar() ()
+#62 0x0c3c2cb8 in qtfsItem::qt_metacall(QMetaObject::Call, int, void**) ()
+#63 0xf66b09a9 in QMetaObject::activate(QObject*, int, int, void**) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#64 0xf66b0dd0 in QMetaObject::activate(QObject*, QMetaObject const*, int, int, void**) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#65 0xf6fc2dd1 in QAbstractButton::clicked(bool) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#66 0xf6d1a039 in QAbstractButtonPrivate::emitClicked() () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#67 0xf6d1b280 in QAbstractButtonPrivate::click() () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#68 0xf6d1b4d8 in QAbstractButton::mouseReleaseEvent(QMouseEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#69 0xf69bfda3 in QWidget::event(QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#70 0xf6d1a673 in QAbstractButton::event(QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#71 0xf6dc20f1 in QPushButton::event(QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#72 0xf696811f in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#73 0xf696ac61 in QApplication::notify(QObject*, QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#74 0xf669af56 in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#75 0xf696a143 in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#76 0xf69d4636 in QETWidget::translateMouseEvent(_XEvent const*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#77 0xf69d3bbb in QApplication::x11ProcessEvent(_XEvent*) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#78 0xf69f9531 in QEventDispatcherX11::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#79 0xf5e0706f in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/lib/libtq.so
+#80 0xf669c4e9 in QCoreApplication::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#81 0xf5e0700a in tcl_dispatch_qt () from /opt/SOC91/tools/lib/libtq.so
+#82 0x0eeb4f3c in Tcl_DoOneEvent ()
+#83 0xf5e070cc in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/lib/libtq.so
+#84 0xf669a03d in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#85 0xf669a1cd in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#86 0xf669c336 in QCoreApplication::exec() () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#87 0xf6967a77 in QApplication::exec() () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#88 0xf5e095e8 in TqApplication::exec() () from /opt/SOC91/tools/lib/libtq.so
+#89 0x08d1db74 in fe_main(int, char**) ()
+#90 0x08d1dc3b in main ()
+========================================
+                gdb
+========================================
+Using: gdb
+[?1034h[Thread debugging using libthread_db enabled]
+[New Thread 0xf5676760 (LWP 22034)]
+[New Thread 0xf2a29b70 (LWP 22083)]
+[New Thread 0xf342ab70 (LWP 22082)]
+[New Thread 0xf3e2bb70 (LWP 22081)]
+0xf7792430 in __kernel_vsyscall ()
+
+Thread 4 (Thread 0xf3e2bb70 (LWP 22081)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x00a42e66 in nanosleep () from /lib/libpthread.so.0
+#2  0x0961d1ea in rdaiLicRecheck ()
+#3  0x00a3bbc9 in start_thread () from /lib/libpthread.so.0
+#4  0x00483dee in clone () from /lib/libc.so.6
+
+Thread 3 (Thread 0xf342ab70 (LWP 22082)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x0047c141 in select () from /lib/libc.so.6
+#2  0x0eed76dc in NotifierThreadProc ()
+#3  0x00a3bbc9 in start_thread () from /lib/libpthread.so.0
+#4  0x00483dee in clone () from /lib/libc.so.6
+
+Thread 2 (Thread 0xf2a29b70 (LWP 22083)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x00a437d0 in sigwait () from /lib/libpthread.so.0
+
+Thread 1 (Thread 0xf5676760 (LWP 22034)):
+#0  0xf7792430 in __kernel_vsyscall ()
+#1  0x0044244b in waitpid () from /lib/libc.so.6
+#2  0x003dbc43 in do_system () from /lib/libc.so.6
+#3  0x003dbfd2 in system () from /lib/libc.so.6
+#4  0x00a4cff4 in ?? () from /lib/libpthread.so.0
+#5  0x0dd3c6f1 in syStackTrace ()
+#6  0x08d3ce18 in rdaiErrorHandler ()
+#7  <signal handler called>
+#8  0x0de54931 in TAInstancePin::instance ()
+#9  0x0f12bcdd in Pmnl_NetPin::gAverageTransitionTimes ()
+#10 0x0f0a2c12 in Pm_Power::collectInputPowerFromTable ()
+#11 0x0f0a6dc2 in Pm_Power::internalPowerSyntech ()
+#12 0x0f0926f2 in Pm_Power::calculatePower ()
+#13 0x0f09562b in Pm_Power::runPower ()
+#14 0x0f095bb8 in Pm_Power::Pm_Power ()
+#15 0x0ef4d1b2 in Pmio_PowerMeterData::fnComputePower ()
+#16 0x0ef428fc in sxclPowerMeter::fnExecute ()
+#17 0x0ef13544 in CPEUpdatePower ()
+#18 0x0ef1df37 in CPEReportNativePower ()
+#19 0x0dc5ea3b in reportPowerCmd ()
+#20 0x0c2918dd in tcmBaseCmd::execute ()
+#21 0x0c28d00f in tcmMgr::cmdParser ()
+#22 0x0ee6666f in TclInvokeStringCommand ()
+#23 0x0ee67686 in TclEvalObjvInternal ()
+#24 0x0ee68236 in Tcl_EvalEx ()
+#25 0x0ee686cc in Tcl_Eval ()
+#26 0x0ad6ae94 in ppiInstUseCPEPwr ()
+#27 0x0ad6b062 in ppInstPlacementWriter ()
+#28 0x0ad6bbdf in ppiWriteOneNetGroup ()
+#29 0x0ad739c3 in ppEarlyPrototypingRA ()
+#30 0x0ad7f0f0 in ppiAnalyzeRailCmd ()
+#31 0x0c2918dd in tcmBaseCmd::execute ()
+#32 0x0c28d00f in tcmMgr::cmdParser ()
+#33 0x0ee6666f in TclInvokeStringCommand ()
+#34 0x0ee67686 in TclEvalObjvInternal ()
+#35 0x0ee68236 in Tcl_EvalEx ()
+#36 0x0ee6882b in Tcl_EvalObjEx ()
+#37 0x0ee6d587 in Tcl_EvalObjCmd ()
+#38 0x0ee67686 in TclEvalObjvInternal ()
+#39 0x0ee8db2e in TclExecuteByteCode ()
+#40 0x0ee8d093 in TclCompEvalObj ()
+#41 0x0ee689b6 in Tcl_EvalObjEx ()
+#42 0x0ee6cf06 in Tcl_CatchObjCmd ()
+#43 0x0ee67686 in TclEvalObjvInternal ()
+#44 0x0ee8db2e in TclExecuteByteCode ()
+#45 0x0ee8ccaf in Tcl_ExprObj ()
+#46 0x0ee69153 in Tcl_ExprBooleanObj ()
+#47 0x0ee703f1 in Tcl_IfObjCmd ()
+#48 0x0ee67686 in TclEvalObjvInternal ()
+#49 0x0ee8db2e in TclExecuteByteCode ()
+#50 0x0ee8d093 in TclCompEvalObj ()
+#51 0x0eebdada in TclObjInterpProc ()
+#52 0x0ee67686 in TclEvalObjvInternal ()
+#53 0x0ee8db2e in TclExecuteByteCode ()
+#54 0x0ee8ccaf in Tcl_ExprObj ()
+#55 0x0ee69153 in Tcl_ExprBooleanObj ()
+#56 0x0ee703f1 in Tcl_IfObjCmd ()
+#57 0x0ee67686 in TclEvalObjvInternal ()
+#58 0x0ee68236 in Tcl_EvalEx ()
+#59 0x0ee686cc in Tcl_Eval ()
+#60 0x0c381074 in qtfTclEval ()
+#61 0x0c32ab13 in qtfsItem::fUpdateVar ()
+#62 0x0c3c2cb8 in qtfsItem::qt_metacall ()
+#63 0xf66b09a9 in QMetaObject::activate () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#64 0xf66b0dd0 in QMetaObject::activate () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#65 0xf6fc2dd1 in QAbstractButton::clicked () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#66 0xf6d1a039 in QAbstractButtonPrivate::emitClicked () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#67 0xf6d1b280 in QAbstractButtonPrivate::click () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#68 0xf6d1b4d8 in QAbstractButton::mouseReleaseEvent () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#69 0xf69bfda3 in QWidget::event () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#70 0xf6d1a673 in QAbstractButton::event () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#71 0xf6dc20f1 in QPushButton::event () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#72 0xf696811f in QApplicationPrivate::notify_helper () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#73 0xf696ac61 in QApplication::notify () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#74 0xf669af56 in QCoreApplication::notifyInternal () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#75 0xf696a143 in QApplicationPrivate::sendMouseEvent () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#76 0xf69d4636 in QETWidget::translateMouseEvent () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#77 0xf69d3bbb in QApplication::x11ProcessEvent () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#78 0xf69f9531 in QEventDispatcherX11::processEvents () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#79 0xf5e0706f in TqEventDispatcher::processEvents () from /opt/SOC91/tools/lib/libtq.so
+#80 0xf669c4e9 in QCoreApplication::processEvents () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#81 0xf5e0700a in tcl_dispatch_qt () from /opt/SOC91/tools/lib/libtq.so
+#82 0x0eeb4f3c in Tcl_DoOneEvent ()
+#83 0xf5e070cc in TqEventDispatcher::processEvents () from /opt/SOC91/tools/lib/libtq.so
+#84 0xf669a03d in QEventLoop::processEvents () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#85 0xf669a1cd in QEventLoop::exec () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#86 0xf669c336 in QCoreApplication::exec () from /opt/SOC91/tools/Qt/32bit/lib/libQtCore.so.4
+#87 0xf6967a77 in QApplication::exec () from /opt/SOC91/tools/Qt/32bit/lib/libQtGui.so.4
+#88 0xf5e095e8 in TqApplication::exec () from /opt/SOC91/tools/lib/libtq.so
+#89 0x08d1db74 in fe_main ()
+#90 0x08d1dc3b in main ()
+#0  0xf7792430 in __kernel_vsyscall ()
+The program is running.  Quit anyway (and detach it)? (y or n) [answered Y; input not from terminal]
+
+*** INTERRUPTED *** [signal 1]
+22034: No such process

@@ -1,0 +1,76 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Apr 30 17:09:02 2021                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v13.10-p003_1 (64bit) 04/17/2013 15:43 (Linux 2.6)
+#@(#)CDS: NanoRoute v13.10-p002 NR130329-0035/13_10-UB (database version 2.30, 190.4.1) {superthreading v1.19}
+#@(#)CDS: CeltIC v13.10-p007_1 (64bit) 04/10/2013 12:20:57 (Linux 2.6.18-194.el5)
+#@(#)CDS: AAE 13.10-p003 (64bit) 04/17/2013 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 13.10-p009_1 (64bit) Apr 10 2013 05:43:58 (Linux 2.6.18-194.el5)
+#@(#)CDS: CPE v13.10-p010
+#@(#)CDS: IQRC/TQRC 12.1.0-s388 (64bit) Fri Mar 29 14:11:58 PDT 2013 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_gnd_net VDD
+set init_lef_file {../../../../milky/std_cell/tmp/smic18_6lm.lef ../../../../milky/pll/tmp/S018PLLGS_500.lef ../../../../milky/io/tmp/SP018N_V1p0_6MT.lef ../../../../milky/sram/single/tmp/RA1SHD.vclef ../../../../milky/sram/dual_fix/tmp/dpram.vclef}
+set init_verilog chip_top.v
+set init_io_file ../pad.ioc
+set init_pwr_net VSS
+init_design
+selectInst CORNER2
+fit
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_pp_final.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_pp_final.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+restoreDesign chip_top_cts.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+restoreDesign chip_top_filler_all.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+set init_lef_file {../../../../milky/io/tmp/SP018N_V1p0_6MT.lef ../../../../milky/pll/tmp/S018PLLGS_500.lef ../../../../milky/std_cell/tmp/smic18_6lm.lef ../../../../milky/sram/single/tmp/RA1SHD.vclef ../../../../milky/sram/dual_fix/tmp/dpram.vclef}
+set init_verilog chip_top.v
+set init_gnd_net VDD
+set init_io_file ../pad.ioc
+set init_pwr_net VSS
+init_design
+set init_lef_file {../../../../milky/io/tmp/SP018N_V1p0_6MT.lef ../../../../milky/pll/tmp/S018PLLGS_500.lef ../../../../milky/std_cell/tmp/smic18_6lm.lef ../../../../milky/sram/single/tmp/RA1SHD.vclef ../../../../milky/sram/dual_fix/tmp/dpram.vclef}
+set init_verilog chip_top.v
+set init_gnd_net VDD
+set init_io_file ../pad.ioc
+set init_top_cell chip_top
+set init_pwr_net VSS
+init_design
+setDrawView ameba
+setDrawView place

@@ -1,0 +1,75 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Oct 16 16:41:52 2020                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+#@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+#@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+#@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+#@(#)CDS: CPE v09.10-p005
+
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_cts.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+selectInst u0_uAHB2MEM_u_asic_rom_u3
+fit
+sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { avss avdd VSS VDD }
+deselectAll
+selectWire 1732.9760 2208.0140 1773.4180 2214.9740 3 avdd
+fit
+deselectAll
+selectWire 1734.0360 2435.5960 1774.2850 2442.5560 3 avss
+fit
+fit
+fit
+fit
+deselectAll
+selectInst gpio_pad_io_10
+deselectAll
+selectInst gpio_pad_io_9
+deselectAll
+selectInst gpio_pad_io_8
+deselectAll
+selectInst PAD_cut1
+deselectAll
+selectInst PAD_cut0
+deselectAll
+selectInst PAD_cut1
+deselectAll
+selectInst PAD_cut0
+deselectAll
+selectInst avss_pll
+deselectAll
+selectInst avdd_pll
+deselectAll
+selectInst PAD_A_IO_VSS
+deselectAll
+selectInst PAD_A_IO_VDD
+deselectAll
+selectInst PAD_cut1
+deselectAll
+selectInst RESET_pad_in
+deselectAll
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+uiSetTool select
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+uiSetTool select
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+uiSetTool select
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+uiSetTool select
+uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+zoomBox 191.681 754.222 -101.253 1584.869
+uiSetTool select
+fit
+addIoFiller -cell PFILL5AN -prefix FILLER -side w -from 1041.878 -to 1041.878

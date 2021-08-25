@@ -1,0 +1,2647 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 9.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.04-p052.
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2009.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+@(#)CDS: CPE v09.10-p005
+--- Starting "Encounter v09.10-p004_1" on Fri Oct 16 19:25:39 2020 (mem=57.4M) ---
+--- Running on work-eda (x86_64 w/Linux 2.6.32-431.el6.x86_64) ---
+This version was compiled on Wed Dec 2 20:50:10 PST 2009.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reading config file - chip_top_done.enc.dat/chip_top.conf
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+*** End library_loading (cpu=0.04min, mem=8.0M, fe_cpu=0.17min, fe_mem=302.9M) ***
+**WARN: (ENCEXT-2730):	Cap Table generated using Encounter 03.20-p005_1. may cause some accuracy degradation.
+It is highly recommended to regenerate the Cap Table using Encounter 4.1 or newer.
+To regenerate a Cap Table, use the standalone generateCapTbl utility, with following syntax:
+ generateCapTbl -ict <process.ict> -output <process.CapTbl>.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.036 will be used.
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 3 Ohms will be used.
+Set CTS cells: BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL
+**WARN: (ENCDB-1256):	Power pin AVDD of instance PLL_inst is connected to non-p/g net avdd.  Mark the net as power net and create associated snet.
+**WARN: (ENCDB-1257):	Ground pin AVSS of instance PLL_inst is connected to non-p/g net avss.  Mark the net as ground net and create associated snet.
+Loading preference file chip_top_done.enc.dat/enc.pref.tcl ...
+Loading mode file chip_top_done.enc.dat/chip_top.mode ...
+**WARN: (ENCSP-506):	Options '-congEffort' and '-fp' are mutually exclusive, using last option specified - '-congEffort'.
+loading place ...
+loading route ...
+<CMD> setDrawView place
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> windowSelect 1230.993 1412.319 1471.760 2660.296
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectInst gpio_pad_io_2
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> violationBrowser -all -no_display_false
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD_INTERNAL> violationBrowserHide -tool Verify -type Short
+<CMD_INTERNAL> violationBrowserHide -tool Verify -type Overlap
+**ERROR: (ENCQTF-4044):	Tcl Error in Command '::Rda_Browser::VB::treeBalloon vb violTree 126 38
+': can't read "categoryList(Verify;Connectivity;Antenna)": no such element in array.
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> deselectAll
+<CMD> fit
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox -1267.435 -954.365 3778.185 3767.245
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+**ERROR: (ENCQTF-4044):	Tcl Error in Command '::Rda_Browser::VB::treeBalloon vb violTree 108 33
+': can't read "categoryList(Verify;Connectivity;Antenna)": no such element in array.
+<CMD_INTERNAL> violationBrowserHide -tool Verify -type Connectivity -subtype {Antenna (DanglingWire)}
+<CMD> fit
+<CMD> fit
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> zoomBox -1266.905 -952.955 3776.595 3765.835
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 -1
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> fit
+<CMD> clearDrc
+<CMD> verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 19:33:17 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check specified nets
+Net avdd: special open.
+Net avss: special open.
+
+VC Elapsed Time: 0:00:00.0
+
+Begin Summary 
+    4 Problem(s) (ENCVFC-200): Special Wires: Pieces of the net are not connected together.
+    4 total info(s) created.
+End Summary
+
+End Time: Fri Oct 16 19:33:17 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 4 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.1  MEM: 0.035M)
+
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> windowSelect 2488.861 2518.067 2499.881 2516.380
+<CMD> panPage -1 0
+<CMD> panPage 1 0
+<CMD> panPage -1 0
+<CMD> panPage 1 0
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> zoomBox 1429.054 1846.681 2648.982 2791.097
+<CMD> deselectAll
+<CMD> selectInst IOFILLER_N_37
+<CMD> uiSetTool addVia
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectMarker -6.0300 307.9200 2515.7200 2504.9600 -1 3 7
+<CMD> clearDrc
+<CMD> selectWire 1732.9760 2484.6350 2345.0600 2485.2350 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 1734.0360 2485.5150 2344.0000 2486.1150 5 avss
+<CMD> deselectAll
+<CMD> selectWire 1732.9760 2486.3950 2345.0600 2486.9950 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 269.4400 2487.6400 2554.1980 2488.6400 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 270.5000 2488.9200 2553.1380 2489.9200 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 269.4400 2490.2000 2554.1980 2491.2000 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 270.5000 2491.4800 2553.1380 2492.4800 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 269.4400 2492.7600 2554.1980 2493.7600 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 270.5000 2494.0400 2553.1380 2495.0400 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 269.4400 2495.3200 2554.1980 2496.3200 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 270.5000 2496.6000 2553.1380 2497.6000 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 270.5000 2488.9200 2553.1380 2489.9200 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 269.4400 2487.6400 2554.1980 2488.6400 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 308.4200 2502.6000 2515.7200 2503.2000 5 avss
+<CMD> deselectAll
+<CMD> uiSetTool addPoly
+<CMD> uiSetTool addPoly
+<CMD> setEdit -layer_polygon METAL6
+<CMD> editAddPoly 2110.839 2479.459
+<CMD> setEdit -net_polygon avdd
+<CMD> editAddPoly 2111.188 2506.234
+<CMD> editAddPoly 2099.892 2506.513
+<CMD> editAddPoly 2100.381 2479.250
+<CMD> editCommitPoly 2100.381 2479.250
+<CMD> uiSetTool select
+<CMD> selectWire 1734.0360 2480.2350 2344.0000 2480.8350 5 avss
+<CMD> deselectAll
+<CMD> selectWire 1732.9760 2481.1150 2345.0600 2481.7150 5 avdd
+<CMD> uiSetTool addVia
+<CMD> setViaEdit -cut_layer VIA56
+<CMD> setViaEdit -x_space 0.6
+<CMD> setViaEdit -y_space 0.6
+<CMD> editAddVia 2105.278 2481.397
+<CMD> setViaEdit -cols 13
+<CMD> editAddVia 2105.363 2483.196
+<CMD> editAddVia 2105.620 2485.037
+<CMD> editAddVia 2105.064 2486.750
+<CMD> uiSetTool select
+<CMD> uiSetTool addVia
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectWire 1732.9760 2482.8750 2345.0600 2483.4750 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 2099.8920 2479.4590 2110.8390 2506.2340 6 avdd
+<CMD> deselectAll
+<CMD> selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 308.4200 2504.3600 2515.7200 2504.9600 5 avss
+<CMD> deselectAll
+<CMD> selectWire 307.3600 2503.4800 2516.7800 2504.0800 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 308.4200 2502.6000 2515.7200 2503.2000 5 avss
+<CMD> deselectAll
+<CMD> uiSetTool addVia
+<CMD> editAddVia 2105.099 2505.604
+<CMD> editAddVia 2105.020 2503.737
+<CMD> uiSetTool select
+<CMD> selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+<CMD> deselectAll
+<CMD> uiSetTool addPoly
+<CMD> editAddPoly 1960.273 2479.354
+<CMD> editAddPoly 1960.852 2506.767
+<CMD> editAddPoly 1945.795 2506.960
+<CMD> editAddPoly 1948.497 2478.871
+<CMD> editCommitPoly 1948.497 2478.871
+<CMD> undo
+<CMD> uiSetTool select
+<CMD> setEdit -net_polygon avss
+<CMD> uiSetTool addPoly
+<CMD> editAddPoly 1962.300 2479.064
+<CMD> editAddPoly 1961.335 2507.153
+<CMD> editAddPoly 1947.725 2507.442
+<CMD> editAddPoly 1950.331 2478.775
+<CMD> editCommitPoly 1950.331 2478.775
+<CMD> uiSetTool select
+<CMD> selectWire 1947.7250 2479.0640 1962.3000 2507.1530 6 avss
+<CMD> deselectAll
+<CMD> selectWire 1734.0360 2480.2350 2344.0000 2480.8350 5 avss
+<CMD> uiSetTool addVia
+<CMD> editAddVia 1954.514 2480.428
+<CMD> editAddVia 1954.715 2482.242
+<CMD> editAddVia 1954.917 2484.006
+<CMD> editAddVia 1954.765 2485.820
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectWire 1734.0360 2485.5150 2344.0000 2486.1150 5 avss
+<CMD> deselectAll
+<CMD> selectWire 1947.7250 2479.0640 1962.3000 2507.1530 6 avss
+<CMD> deselectAll
+<CMD> selectWire 307.3600 2505.2400 2516.7800 2505.8400 5 avdd
+<CMD> deselectAll
+<CMD> selectWire 308.4200 2504.3600 2515.7200 2504.9600 5 avss
+<CMD> uiSetTool addVia
+<CMD> editAddVia 1954.928 2504.713
+<CMD> editAddVia 1955.001 2502.893
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> fit
+<CMD> verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 19:45:37 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check specified nets
+
+VC Elapsed Time: 0:00:00.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 19:45:37 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.1  MEM: 0.004M)
+
+<CMD> verifyConnectivity -nets {avdd avss} -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 19:45:58 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check specified nets
+
+VC Elapsed Time: 0:00:00.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 19:45:58 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.1  MEM: 0.004M)
+
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 19:46:12 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 19:46:13 **** Processed 5000 nets (Total 15913)
+**** 19:46:14 **** Processed 10000 nets (Total 15913)
+**** 19:46:14 **** Processed 15000 nets (Total 15913)
+Net VDD: dangling Wire.
+Net VSS: dangling Wire.
+
+VC Elapsed Time: 0:00:04.0
+
+Begin Summary 
+    31 Problem(s) (ENCVFC-94): The net has dangling wire(s).
+    31 total info(s) created.
+End Summary
+
+End Time: Fri Oct 16 19:46:16 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 31 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.8  MEM: 14.883M)
+
+<CMD> selectWire 2195.5360 1990.3750 2196.1360 2181.1640 6 VDD
+<CMD> uiSetTool cutWire
+<CMD> editCutWire -x1 2196.668 -y1 2180.86 -x2 2187.986 -y2 2180.86
+<CMD> uiSetTool select
+<CMD> selectWire 2195.5360 2180.8600 2196.1360 2181.1640 6 VDD
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2194.4760 2180.8600 2195.0760 2181.1640 6 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2193.4160 2180.8600 2194.0160 2181.1640 6 VDD
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2192.3560 2180.8600 2192.9560 2181.1640 6 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2191.2960 2180.8600 2191.8960 2181.1640 6 VDD
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2190.2360 2180.8600 2190.8360 2181.1640 6 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2189.1760 2180.8600 2189.7760 2181.1640 6 VDD
+<CMD> deleteSelectedFromFPlan
+<CMD> selectWire 2188.1160 2180.8600 2188.7160 2181.1640 6 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> fit
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2184.2030 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> fit
+<CMD> saveDesign chip_top_done_pll.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_done_pll.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_done_pll.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_done_pll.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 23 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.1 real=0:00:01.0 mem=372.7M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.6 real=0:00:01.0 mem=372.7M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2005.7810 2317.2230 2186.7630 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 2316.2230 2184.9830 2554.1980 2185.9830 5 VDD
+<CMD> uiSetTool addWire
+<CMD> uiSetTool select
+<CMD> editTrim
+<CMD> selectWire 2316.2230 2182.4230 2554.1980 2183.4230 5 VDD
+<CMD> editTrim
+<CMD> fit
+<CMD> selectWire 1883.5400 1990.3750 1884.1400 2181.1640 6 VDD
+<CMD> selectWire 1882.4800 1987.7750 1883.0800 2181.1640 6 VSS
+<CMD> selectWire 1881.4200 1990.3750 1882.0200 2181.1640 6 VDD
+<CMD> selectWire 1880.3600 1987.7750 1880.9600 2181.1640 6 VSS
+<CMD> selectWire 1879.3000 1990.3750 1879.9000 2181.1640 6 VDD
+<CMD> selectWire 1878.2400 1987.7750 1878.8400 2181.1640 6 VSS
+<CMD> selectWire 1877.1800 1990.3750 1877.7800 2181.1640 6 VDD
+<CMD> selectWire 1876.1200 1987.7750 1876.7200 2181.1640 6 VSS
+<CMD> editTrim
+<CMD> selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1621.6880 2182.4230 1763.8030 2183.4230 5 VDD
+<CMD> editTrim
+<CMD> selectWire 1621.6880 2184.9830 1763.8030 2185.9830 5 VDD
+<CMD> editTrim
+<CMD> selectWire 1880.3600 2455.7440 1880.9600 2541.8600 6 VSS
+<CMD> selectWire 1878.2400 2455.7440 1878.8400 2541.8600 6 VSS
+<CMD> selectWire 1876.1200 2455.7440 1876.7200 2541.8600 6 VSS
+<CMD> selectWire 1882.4800 2455.7440 1883.0800 2541.8600 6 VSS
+<CMD> editTrim
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> editTrim
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> editTrim
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> editTrim
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1247.9710 1672.5470 1651.3400 1673.1470 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> fit
+<CMD> selectWire 2194.4760 2455.7440 2195.0760 2541.8600 6 VSS
+<CMD> selectWire 2192.3560 2455.7440 2192.9560 2541.8600 6 VSS
+<CMD> selectWire 2190.2360 2455.7440 2190.8360 2541.8600 6 VSS
+<CMD> selectWire 2188.1160 2455.7440 2188.7160 2541.8600 6 VSS
+<CMD> editTrim
+<CMD> fit
+<CMD> selectWire 1235.7440 634.0000 1237.7440 635.5780 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1235.7440 634.0000 1237.7440 635.5780 5 VSS
+<CMD> selectWire 1235.7440 629.4580 1237.7440 630.6200 5 VSS
+<CMD> editTrim
+<CMD> selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectVia 1643.9900 1670.6400 1644.7900 1671.4400 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1247.9710 1670.7870 1651.3400 1671.3870 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1644.3900 1670.6400 1658.9800 1671.4400 1 VSS
+<CMD> deselectAll
+<CMD> selectWire 1247.9710 1672.5470 1651.3400 1673.1470 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1671.6670 1650.2800 1672.2670 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> editTrim
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1673.4270 1650.2800 1674.0270 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1247.9710 1674.3070 1651.3400 1674.9070 5 VDD
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1675.4000 1644.7900 1676.2000 2 VSS
+<CMD> uiSetTool ruler
+<CMD> uiSetTool move
+<CMD> editMove -1.528 0.444
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1641.7920 1675.8440 1643.2620 1676.6440 2 VSS
+<CMD> uiSetTool cutWire
+<CMD> editCutWire -x1 1643.297 -y1 1676.355 -x2 1641.781 -y2 1676.355
+<CMD> uiSetTool select
+<CMD> selectWire 1641.7920 1676.3550 1643.2620 1676.6440 2 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> uiSetTool move
+<CMD> selectWire 1641.7920 1675.8440 1643.2620 1676.3550 2 VSS
+<CMD> editMove 1.601 -0.616
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1676.2000 2 VSS
+<CMD> editTrim
+<CMD> fit
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:02:00 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:02:00 **** Processed 5000 nets (Total 15913)
+**** 20:02:01 **** Processed 10000 nets (Total 15913)
+**** 20:02:02 **** Processed 15000 nets (Total 15913)
+Net VSS: dangling Wire.
+
+VC Elapsed Time: 0:00:03.0
+
+Begin Summary 
+    6 Problem(s) (ENCVFC-94): The net has dangling wire(s).
+    6 total info(s) created.
+End Summary
+
+End Time: Fri Oct 16 20:02:03 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 6 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.6  MEM: 9.348M)
+
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1644.3800 1669.0270 1644.9800 2473.7810 6 VDD
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectWire 1237.7440 634.5780 1703.5010 635.5780 5 VSS
+<CMD> uiSetTool addWire
+<CMD> uiSetTool select
+<CMD> editTrim
+<CMD> fit
+<CMD> selectWire 2194.4760 1987.7750 2195.0760 2180.8600 6 VSS
+<CMD> selectWire 2192.3560 1987.7750 2192.9560 2180.8600 6 VSS
+<CMD> selectWire 2190.2360 1987.7750 2190.8360 2180.8600 6 VSS
+<CMD> selectWire 2188.1160 1987.7750 2188.7160 2180.8600 6 VSS
+<CMD> editTrim
+<CMD> fit
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> setDrawView ameba
+<CMD> setDrawView fplan
+<CMD> setDrawView place
+<CMD> setDrawView fplan
+<CMD> setDrawView place
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> selectWire 1643.3930 1675.2280 1644.8630 1675.7390 2 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3200 1669.9070 1643.9200 2472.9010 6 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.3930 1675.2280 1644.8630 1675.7390 2 VSS
+<CMD> editTrim
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> selectWire 1249.0310 1675.1870 1650.2800 1675.7870 5 VSS
+<CMD> deselectAll
+<CMD> selectWire 1643.9900 1671.0400 1644.7900 1675.7870 2 VSS
+<CMD> fit
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:05:41 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:05:41 **** Processed 5000 nets (Total 15913)
+**** 20:05:42 **** Processed 10000 nets (Total 15913)
+**** 20:05:42 **** Processed 15000 nets (Total 15913)
+
+VC Elapsed Time: 0:00:03.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:05:44 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.3  MEM: 10.812M)
+
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:05:53 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:05:55 **** Processed 5000 nets (Total 15913)
+**** 20:05:56 **** Processed 10000 nets (Total 15913)
+**** 20:05:57 **** Processed 15000 nets (Total 15913)
+
+VC Elapsed Time: 0:00:08.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:06:01 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:04.1  MEM: 10.855M)
+
+<CMD> saveDesign chip_top_done_fin.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_done_fin.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_done_fin.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_done_fin.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.1 real=0:00:00.0 mem=373.3M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.6 real=0:00:03.0 mem=373.3M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 373.3) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 18.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:17.4  MEM: 95.5M)
+
+<CMD> fit
+<CMD> fit
+<CMD> clearDrc
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:08:17 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:08:18 **** Processed 5000 nets (Total 15913)
+**** 20:08:18 **** Processed 10000 nets (Total 15913)
+**** 20:08:19 **** Processed 15000 nets (Total 15913)
+
+VC Elapsed Time: 0:00:03.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:08:20 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.5  MEM: 0.004M)
+
+<CMD> clearClockDomains
+<CMD> setClockDomains -all
+setClockDomains -all 
+**WARN: (ENCSYC-1873):	The setClockDomains -all option is unsupported in CTE mode 
+<CMD> timeDesign -preCTS -idealClock -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_preCTS -outDir timingReports
+*** Starting trialRoute (mem=435.3M) ***
+
+There are 0 pin guide points passed to trialRoute.
+Options:  -handlePreroute -keepMarkedOptRoutes -noPinGuide
+
+Nr of prerouted/Fixed nets = 35
+There are 560 nets with 1 extra space.
+There are 9 nets with 2 extra space.
+routingBox: (330 280) (2822820 2812040)
+coreBox:    (316140 315280) (2508137 2497600)
+Number of multi-gpin terms=1712, multi-gpins=3536, moved blk term=35/1100
+
+Phase 1a route (0:00:00.4 435.3M):
+Est net length = 1.422e+06um = 7.019e+05H + 7.203e+05V
+Usage: (6.6%H 8.4%V) = (8.594e+05um 1.056e+06um) = (259764 209406)
+Obstruct: 200256 = 98172 (24.2%H) + 102084 (25.2%V)
+Overflow: 1257 = 893 (0.29% H) + 364 (0.12% V)
+Number obstruct path=303 reroute=0
+
+Phase 1b route (0:00:00.3 435.3M):
+Usage: (6.6%H 8.4%V) = (8.591e+05um 1.057e+06um) = (259667 209675)
+Overflow: 1061 = 758 (0.25% H) + 303 (0.10% V)
+
+Phase 1c route (0:00:00.2 435.3M):
+Usage: (6.6%H 8.4%V) = (8.574e+05um 1.057e+06um) = (259142 209755)
+Overflow: 949 = 714 (0.23% H) + 235 (0.08% V)
+
+Phase 1d route (0:00:00.2 435.3M):
+Usage: (6.6%H 8.4%V) = (8.576e+05um 1.058e+06um) = (259224 209841)
+Overflow: 905 = 698 (0.23% H) + 207 (0.07% V)
+
+Phase 1e route (0:00:00.2 435.3M):
+Usage: (6.6%H 8.4%V) = (8.580e+05um 1.058e+06um) = (259326 209950)
+Overflow: 13 = 3 (0.00% H) + 10 (0.00% V)
+
+Phase 1f route (0:00:00.1 435.3M):
+Usage: (6.6%H 8.4%V) = (8.580e+05um 1.058e+06um) = (259338 209959)
+Overflow: 5 = 0 (0.00% H) + 5 (0.00% V)
+
+Congestion distribution:
+
+Remain	cntH		cntV
+--------------------------------------
+ -1:	0	 0.00%	5	 0.00%
+--------------------------------------
+  0:	50	 0.02%	161	 0.05%
+  1:	120	 0.04%	755	 0.25%
+  2:	239	 0.08%	3821	 1.26%
+  3:	394	 0.13%	109040	35.92%
+  4:	960	 0.31%	52105	17.17%
+  5:	1140	 0.37%	3826	 1.26%
+  6:	1982	 0.64%	4021	 1.32%
+  7:	3195	 1.04%	4844	 1.60%
+  8:	9363	 3.05%	7502	 2.47%
+  9:	161047	52.38%	7014	 2.31%
+ 10:	6794	 2.21%	11460	 3.78%
+ 11:	6412	 2.09%	8031	 2.65%
+ 12:	6855	 2.23%	8312	 2.74%
+ 13:	7084	 2.30%	50460	16.62%
+ 14:	10669	 3.47%	22806	 7.51%
+ 15:	9129	 2.97%	22	 0.01%
+ 16:	8276	 2.69%	57	 0.02%
+ 17:	8886	 2.89%	1	 0.00%
+ 18:	51997	16.91%	164	 0.05%
+ 19:	31	 0.01%	41	 0.01%
+ 20:	12826	 4.17%	9089	 2.99%
+
+
+Global route (cpu=1.5s real=2.0s 435.3M)
+Phase 1l route (0:00:02.0 435.3M):
+
+
+*** After '-updateRemainTrks' operation: 
+
+Usage: (6.9%H 9.0%V) = (8.966e+05um 1.127e+06um) = (270985 223576)
+Overflow: 324 = 36 (0.01% H) + 287 (0.09% V)
+
+Congestion distribution:
+
+Remain	cntH		cntV
+--------------------------------------
+ -6:	0	 0.00%	6	 0.00%
+ -5:	0	 0.00%	4	 0.00%
+ -4:	2	 0.00%	8	 0.00%
+ -3:	2	 0.00%	15	 0.00%
+ -2:	7	 0.00%	57	 0.02%
+ -1:	19	 0.01%	141	 0.05%
+--------------------------------------
+  0:	89	 0.03%	396	 0.13%
+  1:	182	 0.06%	1065	 0.35%
+  2:	336	 0.11%	4310	 1.42%
+  3:	524	 0.17%	109381	36.04%
+  4:	1033	 0.34%	52161	17.18%
+  5:	1242	 0.40%	3724	 1.23%
+  6:	2148	 0.70%	3919	 1.29%
+  7:	3340	 1.09%	4571	 1.51%
+  8:	9430	 3.07%	7276	 2.40%
+  9:	161071	52.39%	6660	 2.19%
+ 10:	6894	 2.24%	11272	 3.71%
+ 11:	6469	 2.10%	7825	 2.58%
+ 12:	6835	 2.22%	8180	 2.69%
+ 13:	7043	 2.29%	50393	16.60%
+ 14:	10568	 3.44%	22793	 7.51%
+ 15:	8936	 2.91%	21	 0.01%
+ 16:	7963	 2.59%	58	 0.02%
+ 17:	8597	 2.80%	5	 0.00%
+ 18:	51865	16.87%	164	 0.05%
+ 19:	30	 0.01%	42	 0.01%
+ 20:	12824	 4.17%	9090	 2.99%
+
+
+
+*** Completed Phase 1 route (0:00:04.2 435.3M) ***
+
+
+Total length: 1.450e+06um, number of vias: 132316
+M1(H) length: 5.043e+00um, number of vias: 56479
+M2(V) length: 2.917e+05um, number of vias: 52249
+M3(H) length: 4.394e+05um, number of vias: 15487
+M4(V) length: 2.902e+05um, number of vias: 5481
+M5(H) length: 2.635e+05um, number of vias: 2620
+M6(V) length: 1.654e+05um
+*** Completed Phase 2 route (0:00:02.7 435.3M) ***
+
+*** Finished all Phases (cpu=0:00:06.9 mem=435.3M) ***
+Peak Memory Usage was 435.3M 
+*** Finished trialRoute (cpu=0:00:07.2 mem=435.3M) ***
+
+Extraction called for design 'chip_top' of instances=46605 and nets=15913 using extraction engine 'preRoute' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+Default RC Extraction called for design chip_top.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+RCMode: Default
+Capacitance Scaling Factor   : 1.00000
+Resistance Scaling Factor    : 1.00000
+Clock Cap. Scaling Factor    : 1.00000
+Clock Res Scaling Factor     : 1.00000
+Shrink Factor                : 1.00000
+Default RC extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Default RC Extraction DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 435.270M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):|  0.022  |  0.022  |  7.251  |  0.407  |   N/A   |   N/A   |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |  0.000  |   N/A   |   N/A   |
+|    Violating Paths:|    0    |    0    |    0    |    0    |   N/A   |   N/A   |
+|          All Paths:|  2968   |  2939   |   29    |   24    |   N/A   |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 100.000%
+Routing Overflow: 0.01% H and 0.09% V
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 15.6 sec
+Total Real time: 17.0 sec
+Total Memory Usage: 435.269531 Mbytes
+<CMD> clearClockDomains
+<CMD> setClockDomains -all
+setClockDomains -all 
+**WARN: (ENCSYC-1873):	The setClockDomains -all option is unsupported in CTE mode 
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix chip_top_postRoute -outDir timingReports
+**WARN: (ENCEXT-3493):	Extraction mode changed by calling extraction setup command 'setExtractRCMode'. Therefore, parasitic data in the tool generated as per previous mode is deleted. Call of extractRC/spefIn will generate/bring parasitic data in the tool as per current mode.
+Extraction called for design 'chip_top' of instances=46605 and nets=15913 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+Detail RC Extraction called for design chip_top.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+Process corner(s) are loaded.
+Loading corner...  ../soc/work/STD_PLL_IO/ict_captbl/018cap_table_basic/smic_logic018_6lm_typ.CapTbl
+extractDetailRC Option : -outfile ./chip_top_ru502r_19451.rcdb.d  -basic
+RC Mode: Detail [Basic CapTable, LEF Resistances]
+Capacitance Scaling Factor   : 1.00000
+Resistance Scaling Factor    : 1.00000
+Coupling Cap. Scaling Factor : 1.00000
+Clock Cap. Scaling Factor    : 1.00000
+Clock Res. Scaling Factor    : 1.00000
+Shrink Factor                : 1.00000
+Checking LVS Completed (CPU Time= 0:00:00.2  MEM= 435.3M)
+Creating parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for storing RC.
+Extracted 10.0012% (CPU Time= 0:00:00.5  MEM= 435.3M)
+Extracted 20.0016% (CPU Time= 0:00:00.7  MEM= 435.3M)
+Extracted 30.0011% (CPU Time= 0:00:00.8  MEM= 435.3M)
+Extracted 40.0014% (CPU Time= 0:00:00.9  MEM= 435.3M)
+Extracted 50.0018% (CPU Time= 0:00:01.0  MEM= 435.3M)
+Extracted 60.0012% (CPU Time= 0:00:01.1  MEM= 435.3M)
+Extracted 70.0016% (CPU Time= 0:00:01.2  MEM= 435.3M)
+Extracted 80.0011% (CPU Time= 0:00:01.4  MEM= 435.3M)
+Extracted 90.0014% (CPU Time= 0:00:01.8  MEM= 435.3M)
+Extracted 100% (CPU Time= 0:00:02.1  MEM= 435.3M)
+Nr. Extracted Resistors     : 247773
+Nr. Extracted Ground Cap.   : 262935
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for reading.
+Detail RC Extraction DONE (CPU Time: 0:00:02.4  Real Time: 0:00:04.0  MEM: 435.270M)
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):| -0.726  | -0.726  |  7.026  | -0.450  |  8.272  |   N/A   |
+|           TNS (ns):|-223.999 |-221.847 |  0.000  | -2.152  |  0.000  |   N/A   |
+|    Violating Paths:|   685   |   680   |    0    |    5    |    0    |   N/A   |
+|          All Paths:|  2971   |  2939   |   31    |   24    |    1    |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      3 (3)       |   -0.003   |      3 (3)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 100.000%
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 10.5 sec
+Total Real time: 12.0 sec
+Total Memory Usage: 435.269531 Mbytes
+<CMD> optDesign -postRoute
+**optDesign ... cpu = 0:00:00, real = 0:00:00, mem = 435.3M **
+#Created 650 library cell signatures
+#Created 15913 NETS and 0 SPECIALNETS signatures
+#Created 46606 instance signatures
+Begin checking placement ...
+*info: Placed = 14629
+*info: Unplaced = 0
+IO instance overlap:96
+Placement Density:100.00%(315379/315379)
+setExtractRCMode -coupled false
+**WARN: (ENCEXT-3493):	Extraction mode changed by calling extraction setup command 'setExtractRCMode'. Therefore, parasitic data in the tool generated as per previous mode is deleted. Call of extractRC/spefIn will generate/bring parasitic data in the tool as per current mode.
+*** optDesign -postRoute ***
+DRC Margin: user margin 0.0; extra margin 0
+Setup Target Slack: user slack 0.0
+Hold Target Slack: user slack 0.0
+*info: Setting setup target slack to 0.000
+*info: Hold target slack is 0.000
+*** CTE mode ***
+Include MVT Delays for Hold Opt
+Deleting the dont_use list
+Extraction called for design 'chip_top' of instances=46605 and nets=15913 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+Detail RC Extraction called for design chip_top.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+Process corner(s) are loaded.
+Loading corner...  ../soc/work/STD_PLL_IO/ict_captbl/018cap_table_basic/smic_logic018_6lm_typ.CapTbl
+extractDetailRC Option : -outfile ./chip_top_ru502r_19451.rcdb.d -maxResLength 200  -basic
+RC Mode: Detail [Basic CapTable, LEF Resistances]
+Capacitance Scaling Factor   : 1.00000
+Resistance Scaling Factor    : 1.00000
+Coupling Cap. Scaling Factor : 1.00000
+Clock Cap. Scaling Factor    : 1.00000
+Clock Res. Scaling Factor    : 1.00000
+Shrink Factor                : 1.00000
+Checking LVS Completed (CPU Time= 0:00:00.2  MEM= 435.3M)
+Creating parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for storing RC.
+Extracted 10.0012% (CPU Time= 0:00:00.5  MEM= 435.3M)
+Extracted 20.0016% (CPU Time= 0:00:00.8  MEM= 435.3M)
+Extracted 30.0011% (CPU Time= 0:00:00.8  MEM= 435.3M)
+Extracted 40.0014% (CPU Time= 0:00:01.0  MEM= 435.3M)
+Extracted 50.0018% (CPU Time= 0:00:01.3  MEM= 435.3M)
+Extracted 60.0012% (CPU Time= 0:00:01.4  MEM= 435.3M)
+Extracted 70.0016% (CPU Time= 0:00:01.5  MEM= 435.3M)
+Extracted 80.0011% (CPU Time= 0:00:01.7  MEM= 435.3M)
+Extracted 90.0014% (CPU Time= 0:00:02.1  MEM= 435.3M)
+Extracted 100% (CPU Time= 0:00:02.4  MEM= 435.3M)
+Nr. Extracted Resistors     : 247773
+Nr. Extracted Ground Cap.   : 262935
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for reading.
+Detail RC Extraction DONE (CPU Time: 0:00:02.7  Real Time: 0:00:04.0  MEM: 435.270M)
+Calculate delays in Single mode...
+Topological Sorting (CPU = 0:00:00.1, MEM = 435.3M)
+Number of Loop : 0
+Start delay calculation (mem=435.270M)...
+delayCal using detail RC...
+Opening parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for reading.
+RC Database In Completed (CPU Time= 0:00:00.3  MEM= 435.3M)
+Closing parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq'. 15262 times net's RC data read were performed.
+Delay calculation completed. (cpu=0:00:02.9 real=0:00:03.0 mem=435.270M 0)
+*** CDM Built up (cpu=0:00:04.3  real=0:00:04.0  mem= 435.3M) ***
+-holdSdfFile {}                            # string, default=""
+-holdSdfScript {}                          # string, default="", private
+
+------------------------------------------------------------
+             Initial Summary                             
+------------------------------------------------------------
+
++--------------------+---------+
+|     Setup mode     |   all   |
++--------------------+---------+
+|           WNS (ns):| -0.726  |
+|           TNS (ns):|-223.999 |
+|    Violating Paths:|   685   |
+|          All Paths:|  2971   |
++--------------------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      3 (3)       |   -0.003   |      3 (3)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 100.000%
+------------------------------------------------------------
+**optDesign ... cpu = 0:00:11, real = 0:00:13, mem = 435.3M **
+*info: Start fixing DRV (Mem = 435.27M) ...
+*info: Options = -postRoute -maxCap -maxTran -noMaxFanout -sensitivity -backward -maxIter 1
+*info: Start fixing DRV iteration 1 ...
+*** Starting dpFixDRCViolation (435.3M)
+*info: 35 io nets excluded
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+*info: 4 clock nets excluded
+*info: 4 special nets excluded.
+*info: 644 no-driver nets excluded.
+*info: 17 multi-driver nets excluded.
+*info: There are 17 candidate Buffer cells
+*info: There are 16 candidate Inverter cells
+Initializing placement sections/sites ...
+Density before buffering = 1.000000
+Start fixing design rules ... (0:00:00.7 435.3M)
+Done fixing design rule (0:00:01.1 435.3M)
+
+Summary:
+0 buffer added on 0 net (with 0 driver resized)
+
+Density after buffering = 1.000000 (> 0.950000); stop prematurally!
+*** Completed dpFixDRCViolation (0:00:01.2 435.3M)
+
+*info:
+*info: Completed fixing DRV (CPU Time = 0:00:02, Mem = 435.27M).
+
+------------------------------------------------------------
+     Summary (cpu=0.03min real=0.03min mem=435.3M)                             
+------------------------------------------------------------
+
++--------------------+---------+
+|     Setup mode     |   all   |
++--------------------+---------+
+|           WNS (ns):| -0.726  |
+|           TNS (ns):|-223.999 |
+|    Violating Paths:|   685   |
+|          All Paths:|  2971   |
++--------------------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      3 (3)       |   -0.003   |      3 (3)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 100.000%
+------------------------------------------------------------
+**optDesign ... cpu = 0:00:14, real = 0:00:16, mem = 435.3M **
+*** Timing NOT met, worst failing slack is -0.726
+*** Check timing (0:00:00.0)
+*** Timing NOT met, worst failing slack is -0.726
+*** Check timing (0:00:00.0)
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+Info: 35 io nets excluded
+Info: 4 clock nets excluded from IPO operation.
+
+*** Start Post Route Setup Fixing (cpu=0:00:00.0 mem=435.3M) ***
+
+Time Engine : CTE
+SSTA Mode   : off
+MMMC mode   : off
+Incr. DC    : on
+CTE SubNetWork Mode   : off
+Up Size     : on
+Down Size   : on
+Resize FFs  : on
+Add Buffer  : off
+Del Buffer  : off
+Pin Swap    : off
+Add InvPair : off
+LegalLoc GS : off
+Speedup  GS : off
+Crit. Range : 20%
+
+density before = 100.000%
+total 15265 net, 33 ipo_ignored
+total 54978 term, 66 ipo_ignored
+total 44613 comb inst, 31377 fixed, 1 dont_touch, 31967 no_footp
+total 1992 seq inst, 9 fixed, 9 dont_touch, 9 no_footp
+total 116 footprint(s)
+   5 footprint(s) with 0 cell(s)
+   2 footprint(s) with 1 cell(s)
+   9 footprint(s) with 2 cell(s)
+   2 footprint(s) with 3 cell(s)
+  92 footprint(s) with 4 cell(s)
+   1 footprint(s) with 5 cell(s)
+   0 footprint(s) with 6 cell(s)
+   0 footprint(s) with 7 cell(s)
+   1 footprint(s) with 8 cell(s)
+   2 footprint(s) with 9 cell(s)
+   2 footprint(s) with 10+ cell(s)
+
+
+Estimated WNS = -0.726ns, TNS = -221.847ns (cpu=0:00:02.0 mem=435.3M)
+
+Iter 0 ...
+
+Collected 3262 nets for fixing
+Evaluate 753(1048) resize, Select 568 cand. (cpu=0:00:29.3 mem=435.3M)
+
+Commit 14 cand, 0 upSize, 0 downSize, 14 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:29.4 mem=435.3M)
+
+Calc. DC (cpu=0:00:29.5 mem=435.3M) ***
+
+Estimated WNS = -0.738ns, TNS = -217.745ns (cpu=0:00:30.2 mem=435.3M)
+
+Iter 1 ...
+
+Collected 3246 nets for fixing
+Evaluate 752(1299) resize, Select 170 cand. (cpu=0:00:57.4 mem=435.3M)
+
+Commit 19 cand, 0 upSize, 2 downSize, 17 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:57.5 mem=435.3M)
+
+Calc. DC (cpu=0:00:57.7 mem=435.3M) ***
+
+Estimated WNS = -0.712ns, TNS = -212.357ns (cpu=0:00:58.3 mem=435.3M)
+
+Iter 2 ...
+
+Collected 3217 nets for fixing
+Evaluate 772(1091) resize, Select 573 cand. (cpu=0:01:24 mem=435.3M)
+
+Commit 8 cand, 0 upSize, 0 downSize, 8 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:01:24 mem=435.3M)
+
+Calc. DC (cpu=0:01:24 mem=435.3M) ***
+
+Estimated WNS = -0.724ns, TNS = -181.957ns (cpu=0:01:24 mem=435.3M)
+
+Iter 3 ...
+
+Collected 3094 nets for fixing
+Evaluate 750(1344) resize, Select 178 cand. (cpu=0:01:53 mem=435.3M)
+
+Commit 5 cand, 0 upSize, 1 downSize, 4 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:01:53 mem=435.3M)
+
+Calc. DC (cpu=0:01:53 mem=435.3M) ***
+
+Estimated WNS = -0.712ns, TNS = -179.479ns (cpu=0:01:54 mem=435.3M)
+
+Calc. DC (cpu=0:01:54 mem=435.3M) ***
+*summary:     57 instances changed cell type
+*info: stop prematurely due to density > 0.950
+density after = 99.994%
+
+*** Finish Post Route Setup Fixing (cpu=0:01:54 mem=435.3M) ***
+
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+Info: 35 io nets excluded
+Info: 4 clock nets excluded from IPO operation.
+
+*** Start Post Route Setup Fixing (cpu=0:00:00.0 mem=435.3M) ***
+
+Time Engine : CTE
+SSTA Mode   : off
+MMMC mode   : off
+Incr. DC    : on
+CTE SubNetWork Mode   : off
+Up Size     : on
+Down Size   : on
+Resize FFs  : on
+Add Buffer  : on
+Del Buffer  : on
+Pin Swap    : off
+Add InvPair : off
+LegalLoc GS : off
+Speedup  GS : off
+Crit. Range : 20%
+
+density before = 99.994%
+total 15265 net, 33 ipo_ignored
+total 54978 term, 66 ipo_ignored
+total 44613 comb inst, 31377 fixed, 1 dont_touch, 31967 no_footp
+total 1992 seq inst, 9 fixed, 9 dont_touch, 9 no_footp
+total 116 footprint(s)
+   5 footprint(s) with 0 cell(s)
+   2 footprint(s) with 1 cell(s)
+   9 footprint(s) with 2 cell(s)
+   2 footprint(s) with 3 cell(s)
+  92 footprint(s) with 4 cell(s)
+   1 footprint(s) with 5 cell(s)
+   0 footprint(s) with 6 cell(s)
+   0 footprint(s) with 7 cell(s)
+   1 footprint(s) with 8 cell(s)
+   2 footprint(s) with 9 cell(s)
+   2 footprint(s) with 10+ cell(s)
+
+BUFFER FOOTPRINT (BUFX2) :
+  BUFXL BUFX1 CLKBUFX1 CLKBUFXL(s) CLKBUFX2
+  BUFX2 CLKBUFX3 BUFX3 CLKBUFX4 BUFX4
+  CLKBUFX8 BUFX8 BUFX12 BUFX16 CLKBUFX12
+  BUFX20 CLKBUFX16 CLKBUFX20
+
+
+Estimated WNS = -0.712ns, TNS = -212.406ns (cpu=0:00:01.9 mem=435.3M)
+
+Iter 0 ...
+
+Collected 3217 nets for fixing
+Evaluate 772(1091) resize, Select 573 cand. (cpu=0:00:20.2 mem=435.3M)
+Evaluate 62(74) addBuf, Select 0 cand. (cpu=0:00:20.4 mem=435.3M)
+Evaluate 101(101) delBuf, Select 1 cand. (cpu=0:00:21.0 mem=435.3M)
+
+Commit 9 cand, 0 upSize, 0 downSize, 8 sameSize, 0 addBuf, 1 delBuf, 0 pinSwap (cpu=0:00:21.0 mem=435.3M)
+
+Calc. DC (cpu=0:00:21.1 mem=435.3M) ***
+
+Estimated WNS = -0.677ns, TNS = -176.876ns (cpu=0:00:21.3 mem=435.3M)
+
+Iter 1 ...
+
+Collected 3073 nets for fixing
+Evaluate 758(1004) resize, Select 172 cand. (cpu=0:00:37.1 mem=435.3M)
+Evaluate 61(96) addBuf, Select 0 cand. (cpu=0:00:37.6 mem=435.3M)
+Evaluate 101(101) delBuf, Select 0 cand. (cpu=0:00:38.3 mem=435.3M)
+
+Commit 8 cand, 0 upSize, 0 downSize, 8 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:38.4 mem=435.3M)
+
+Calc. DC (cpu=0:00:38.5 mem=435.3M) ***
+
+Estimated WNS = -0.666ns, TNS = -177.139ns (cpu=0:00:38.9 mem=435.3M)
+
+Iter 2 ...
+
+Collected 3122 nets for fixing
+Evaluate 750(985) resize, Select 552 cand. (cpu=0:00:53.1 mem=435.3M)
+Evaluate 61(140) addBuf, Select 0 cand. (cpu=0:00:53.8 mem=435.3M)
+Evaluate 101(101) delBuf, Select 1 cand. (cpu=0:00:54.7 mem=435.3M)
+
+Commit 5 cand, 0 upSize, 0 downSize, 4 sameSize, 0 addBuf, 1 delBuf, 0 pinSwap (cpu=0:00:54.7 mem=435.3M)
+
+Calc. DC (cpu=0:00:54.8 mem=435.3M) ***
+
+Estimated WNS = -0.678ns, TNS = -178.631ns (cpu=0:00:55.3 mem=435.3M)
+*summary:     20 instances changed cell type
+*info: stop prematurely due to density > 0.950
+density after = 99.985%
+
+*** Finish Post Route Setup Fixing (cpu=0:00:55.5 mem=435.3M) ***
+
+*** Timing NOT met, worst failing slack is -0.678
+*** Check timing (0:00:00.1)
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+Info: 35 io nets excluded
+Info: 4 clock nets excluded from IPO operation.
+
+*** Start Post Route Setup Fixing (cpu=0:00:00.0 mem=435.3M) ***
+
+Time Engine : CTE
+SSTA Mode   : off
+MMMC mode   : off
+Incr. DC    : on
+CTE SubNetWork Mode   : off
+Up Size     : on
+Down Size   : on
+Resize FFs  : on
+Add Buffer  : off
+Del Buffer  : off
+Pin Swap    : off
+Add InvPair : off
+LegalLoc GS : off
+Speedup  GS : off
+Crit. Range : 20%
+
+density before = 99.985%
+total 15263 net, 33 ipo_ignored
+total 54974 term, 66 ipo_ignored
+total 44611 comb inst, 31377 fixed, 1 dont_touch, 31967 no_footp
+total 1992 seq inst, 9 fixed, 9 dont_touch, 9 no_footp
+total 116 footprint(s)
+   5 footprint(s) with 0 cell(s)
+   2 footprint(s) with 1 cell(s)
+   9 footprint(s) with 2 cell(s)
+   2 footprint(s) with 3 cell(s)
+  92 footprint(s) with 4 cell(s)
+   1 footprint(s) with 5 cell(s)
+   0 footprint(s) with 6 cell(s)
+   0 footprint(s) with 7 cell(s)
+   1 footprint(s) with 8 cell(s)
+   2 footprint(s) with 9 cell(s)
+   2 footprint(s) with 10+ cell(s)
+
+
+Estimated WNS = -0.678ns, TNS = -178.631ns (cpu=0:00:01.6 mem=435.3M)
+
+Iter 0 ...
+
+Collected 3125 nets for fixing
+Evaluate 758(995) resize, Select 569 cand. (cpu=0:00:18.3 mem=435.3M)
+
+Commit 2 cand, 0 upSize, 0 downSize, 2 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:18.3 mem=435.3M)
+
+Calc. DC (cpu=0:00:18.3 mem=435.3M) ***
+
+Estimated WNS = -0.683ns, TNS = -179.385ns (cpu=0:00:18.6 mem=435.3M)
+
+Iter 1 ...
+
+Collected 3125 nets for fixing
+Evaluate 750(1315) resize, Select 158 cand. (cpu=0:00:32.3 mem=435.3M)
+
+Commit 4 cand, 0 upSize, 2 downSize, 2 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:32.3 mem=435.3M)
+
+Calc. DC (cpu=0:00:32.4 mem=435.3M) ***
+
+Estimated WNS = -0.667ns, TNS = -178.335ns (cpu=0:00:32.6 mem=435.3M)
+
+Iter 2 ...
+
+Collected 3117 nets for fixing
+Evaluate 750(981) resize, Select 552 cand. (cpu=0:00:45.5 mem=435.3M)
+
+Commit 1 cand, 0 upSize, 0 downSize, 1 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:45.5 mem=435.3M)
+
+Calc. DC (cpu=0:00:45.5 mem=435.3M) ***
+
+Estimated WNS = -0.679ns, TNS = -179.906ns (cpu=0:00:45.7 mem=435.3M)
+
+Iter 3 ...
+
+Collected 3122 nets for fixing
+Evaluate 750(1327) resize, Select 155 cand. (cpu=0:01:01 mem=435.3M)
+
+Commit 2 cand, 0 upSize, 0 downSize, 2 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:01:01 mem=435.3M)
+
+Calc. DC (cpu=0:01:01 mem=435.3M) ***
+
+Estimated WNS = -0.667ns, TNS = -178.250ns (cpu=0:01:01 mem=435.3M)
+
+Calc. DC (cpu=0:01:01 mem=435.3M) ***
+*summary:      9 instances changed cell type
+*info: stop prematurely due to density > 0.950
+density after = 99.978%
+
+*** Finish Post Route Setup Fixing (cpu=0:01:02 mem=435.3M) ***
+
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+Info: 35 io nets excluded
+Info: 4 clock nets excluded from IPO operation.
+
+*** Start Post Route Setup Fixing (cpu=0:00:00.0 mem=435.3M) ***
+
+Time Engine : CTE
+SSTA Mode   : off
+MMMC mode   : off
+Incr. DC    : on
+CTE SubNetWork Mode   : off
+Up Size     : on
+Down Size   : on
+Resize FFs  : on
+Add Buffer  : on
+Del Buffer  : on
+Pin Swap    : off
+Add InvPair : off
+LegalLoc GS : off
+Speedup  GS : off
+Crit. Range : 20%
+
+density before = 99.978%
+total 15263 net, 33 ipo_ignored
+total 54974 term, 66 ipo_ignored
+total 44611 comb inst, 31377 fixed, 1 dont_touch, 31967 no_footp
+total 1992 seq inst, 9 fixed, 9 dont_touch, 9 no_footp
+total 116 footprint(s)
+   5 footprint(s) with 0 cell(s)
+   2 footprint(s) with 1 cell(s)
+   9 footprint(s) with 2 cell(s)
+   2 footprint(s) with 3 cell(s)
+  92 footprint(s) with 4 cell(s)
+   1 footprint(s) with 5 cell(s)
+   0 footprint(s) with 6 cell(s)
+   0 footprint(s) with 7 cell(s)
+   1 footprint(s) with 8 cell(s)
+   2 footprint(s) with 9 cell(s)
+   2 footprint(s) with 10+ cell(s)
+
+BUFFER FOOTPRINT (BUFX2) :
+  BUFXL BUFX1 CLKBUFX1 CLKBUFXL(s) CLKBUFX2
+  BUFX2 CLKBUFX3 BUFX3 CLKBUFX4 BUFX4
+  CLKBUFX8 BUFX8 BUFX12 BUFX16 CLKBUFX12
+  BUFX20 CLKBUFX16 CLKBUFX20
+
+
+Estimated WNS = -0.667ns, TNS = -178.250ns (cpu=0:00:01.1 mem=435.3M)
+
+Iter 0 ...
+
+Collected 3117 nets for fixing
+Evaluate 750(988) resize, Select 556 cand. (cpu=0:00:13.3 mem=435.3M)
+Evaluate 61(226) addBuf, Select 1 cand. (cpu=0:00:14.1 mem=435.3M)
+Evaluate 101(101) delBuf, Select 0 cand. (cpu=0:00:14.7 mem=435.3M)
+
+Commit 1 cand, 0 upSize, 0 downSize, 1 sameSize, 0 addBuf, 0 delBuf, 0 pinSwap (cpu=0:00:14.7 mem=435.3M)
+
+Calc. DC (cpu=0:00:14.8 mem=435.3M) ***
+
+Estimated WNS = -0.679ns, TNS = -179.821ns (cpu=0:00:14.9 mem=435.3M)
+*summary:      1 instance  changed cell type
+*info: stop prematurely due to density > 0.950
+density after = 99.978%
+
+*** Finish Post Route Setup Fixing (cpu=0:00:15.0 mem=435.3M) ***
+
+*** Timing NOT met, worst failing slack is -0.679
+*** Check timing (0:00:00.0)
+Starting refinePlace ...
+**ERROR: (ENCSP-2002):	Density too high (100.0%). Stopping detail placement.
+Total net length = 1.232e+06 (6.056e+05 6.260e+05) (ext = 0.000e+00)
+**ERROR: (ENCSP-9022):	Command 'refinePlace' completed with some error(s).
+
+------------------------------------------------------------
+     Summary (cpu=4.13min real=4.17min mem=435.3M)                             
+------------------------------------------------------------
+
++--------------------+---------+
+|     Setup mode     |   all   |
++--------------------+---------+
+|           WNS (ns):| -0.679  |
+|           TNS (ns):|-181.973 |
+|    Violating Paths:|   578   |
+|          All Paths:|  2971   |
++--------------------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      3 (3)       |   -0.003   |      3 (3)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 99.978%
+------------------------------------------------------------
+**optDesign ... cpu = 0:04:22, real = 0:04:26, mem = 435.3M **
+*** Timing NOT met, worst failing slack is -0.679
+*** Check timing (0:00:00.2)
+setClockDomains -fromType register -toType register 
+**WARN: (ENCCTE-318):	Paths not in the reg2reg domain will be added 1000ns slack adjustment
+*** Timing NOT met, worst failing slack is -0.679
+*** Check timing (0:00:00.7)
+-routeWithEco false                      # bool, default=false
+-routeWithEco true                       # bool, default=false, user setting
+-routeSelectedNetOnly false              # bool, default=false
+-routeWithTimingDriven true              # bool, default=false, user setting
+-routeWithTimingDriven false             # bool, default=false, user setting
+-routeWithSiDriven false                 # bool, default=false, user setting
+-drouteStartIteration 0                  # int, default=0, user setting
+-drouteStartIteration 0                  # int, default=0
+
+globalDetailRoute
+
+#Start globalDetailRoute on Fri Oct 16 20:14:34 2020
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 435.00 (Mb)
+#setting min_area (0.207200) for layer METAL2 using TOPOFSTACK via via2ts
+#setting min_area (0.207200) for layer METAL3 using TOPOFSTACK via via3ts
+#setting min_area (0.207200) for layer METAL4 using TOPOFSTACK via via4ts
+#setting min_area (0.205200) for layer METAL5 using TOPOFSTACK via via5ts
+#WARNING (NRIG-39)  NanoRoute cannot route to pin xin because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin xout because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin RESET because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin hsync because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin vsync because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin rgb[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin Rx because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin Tx because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[15] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[14] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[13] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39)  NanoRoute cannot route to pin gpio[12] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39 Repeated 20 times. Will be suppressed.)  NanoRoute cannot route to pin gpio[11] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (EMS-27) Message (NRIG-39) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#WARNING (NRDB-976) The step 0.560000 for preferred direction tracks is smaller than the pitch 1.120000 for LAYER METAL5. This will cause routability problems for NanoRoute.
+#WARNING (NRDB-976) The step 0.990000 for preferred direction tracks is smaller than the pitch 1.320000 for LAYER METAL6. This will cause routability problems for NanoRoute.
+#NanoRoute Version v09.10-p020 NR091118-1115/USR62-UB
+#Loading the last recorded routing design signature
+#Summary of the placement changes since last routing:
+#  Number of instances deleted (including moved) = 2
+#  Number of instances resized = 54
+#  Total number of placement changes (moved instances are counted twice) = 56
+#WARNING (NREX-28) The height of the first routing layer METAL1 is 0.000000. It should be larger than 0.000000
+#WARNING (NREX-29) The metal thickness of routing layer METAL1 is 0.000000. It should be larger than 0.0. Add this to the technology information for better accuracy.
+#WARNING (NREX-30) Please also check the height and metal thickness values for the routing layers heigher than routing layer METAL1
+#WARNING (NREX-4) No Extended Cap Table was imported. Not enough process information was provided either and default Extended Cap Table database will be used.
+#Merging special wires...
+#Number of eco nets is 0
+#
+#Start data preparation...
+#
+#Data preparation is done.
+#
+#Analyzing routing resource...
+#Routing resource analysis is done.
+#  Resource Analysis:
+#
+#               Routing  #Total     %Gcell
+#  Layer      Direction   Gcell     Blocked
+#  ------------------------------------------
+#  Metal 1        H       95480      70.24%
+#  Metal 2        V       95480      66.03%
+#  Metal 3        H       95480      66.81%
+#  Metal 4        V       95480      66.98%
+#  Metal 5        H       95480      33.31%
+#  Metal 6        V       95480      33.40%
+#  ------------------------------------------
+#  Total                 572880      56.13%
+#
+#  560 nets (3.52%) with 1 preferred extra spacing.
+#  9 nets (0.06%) with 2 preferred extra spacing.
+#
+#
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 471.00 (Mb)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 472.00 (Mb)
+#
+#start global routing iteration 2...
+#cpu time = 00:00:04, elapsed time = 00:00:04, memory = 487.00 (Mb)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:04, elapsed time = 00:00:04, memory = 489.00 (Mb)
+#
+#start global routing iteration 4...
+#cpu time = 00:00:03, elapsed time = 00:00:03, memory = 489.00 (Mb)
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon       OverCon       OverCon       OverCon          
+#                  #Gcell        #Gcell        #Gcell        #Gcell    %Gcell
+#     Layer         (1-2)         (3-4)         (5-6)         (7-9)   OverCon
+#  --------------------------------------------------------------------------
+#   Metal 1      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 2     60(0.18%)     60(0.18%)     36(0.11%)     16(0.05%)   (0.53%)
+#   Metal 3      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 4      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 5      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 6      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#  --------------------------------------------------------------------------
+#     Total     60(0.02%)     60(0.02%)     36(0.01%)     16(0.01%)   (0.07%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 9
+#
+#Complete Global Routing.
+#Total wire length = 1474646 um.
+#Total half perimeter of net bounding box = 1248616 um.
+#Total wire length on LAYER METAL1 = 34759 um.
+#Total wire length on LAYER METAL2 = 345073 um.
+#Total wire length on LAYER METAL3 = 402731 um.
+#Total wire length on LAYER METAL4 = 258250 um.
+#Total wire length on LAYER METAL5 = 272163 um.
+#Total wire length on LAYER METAL6 = 161671 um.
+#Total number of vias = 101984
+#Up-Via Summary (total 101984):
+#           
+#-----------------------
+#  Metal 1        48219
+#  Metal 2        37866
+#  Metal 3         9730
+#  Metal 4         4477
+#  Metal 5         1692
+#-----------------------
+#                101984 
+#
+#Max overcon = 9 tracks.
+#Total overcon = 0.07%.
+#Worst layer Gcell overcon rate = 0.53%.
+#Cpu time = 00:00:16
+#Elapsed time = 00:00:16
+#Increased memory = 38.00 (Mb)
+#Total memory = 483.00 (Mb)
+#Peak memory = 530.00 (Mb)
+#
+#Start Detail Routing.
+#start initial detail routing ...
+#    completing 10% with 0 violations
+#    cpu time = 00:00:00, elapsed time = 00:00:00, memory = 483.00 (Mb)
+#    completing 20% with 12 violations
+#    cpu time = 00:00:07, elapsed time = 00:00:07, memory = 483.00 (Mb)
+#    completing 30% with 25 violations
+#    cpu time = 00:00:18, elapsed time = 00:00:18, memory = 483.00 (Mb)
+#    completing 40% with 61 violations
+#    cpu time = 00:00:40, elapsed time = 00:00:40, memory = 483.00 (Mb)
+#    completing 50% with 70 violations
+#    cpu time = 00:00:49, elapsed time = 00:00:50, memory = 483.00 (Mb)
+#    completing 60% with 76 violations
+#    cpu time = 00:00:56, elapsed time = 00:00:56, memory = 483.00 (Mb)
+#    completing 70% with 82 violations
+#    cpu time = 00:01:00, elapsed time = 00:01:00, memory = 483.00 (Mb)
+#    completing 80% with 82 violations
+#    cpu time = 00:01:01, elapsed time = 00:01:02, memory = 483.00 (Mb)
+#    completing 90% with 82 violations
+#    cpu time = 00:01:02, elapsed time = 00:01:03, memory = 483.00 (Mb)
+#    completing 100% with 82 violations
+#    cpu time = 00:01:03, elapsed time = 00:01:03, memory = 483.00 (Mb)
+# ECO: 0.0% of the total area was rechecked for DRC, and 40.0% required routing.
+#    number of violations = 82
+#cpu time = 00:01:03, elapsed time = 00:01:04, memory = 483.00 (Mb)
+#start 1st optimization iteration ...
+#    number of violations = 2
+#cpu time = 00:00:03, elapsed time = 00:00:03, memory = 483.00 (Mb)
+#start 2nd optimization iteration ...
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 483.00 (Mb)
+#Complete Detail Routing.
+#Total wire length = 1480190 um.
+#Total half perimeter of net bounding box = 1248616 um.
+#Total wire length on LAYER METAL1 = 99843 um.
+#Total wire length on LAYER METAL2 = 348947 um.
+#Total wire length on LAYER METAL3 = 374378 um.
+#Total wire length on LAYER METAL4 = 249400 um.
+#Total wire length on LAYER METAL5 = 249000 um.
+#Total wire length on LAYER METAL6 = 158621 um.
+#Total number of vias = 137611
+#Up-Via Summary (total 137611):
+#           
+#-----------------------
+#  Metal 1        60705
+#  Metal 2        52816
+#  Metal 3        16405
+#  Metal 4         5752
+#  Metal 5         1933
+#-----------------------
+#                137611 
+#
+#Total number of DRC violations = 0
+#Total number of violations on LAYER METAL1 = 0
+#Total number of violations on LAYER METAL2 = 0
+#Total number of violations on LAYER METAL3 = 0
+#Total number of violations on LAYER METAL4 = 0
+#Total number of violations on LAYER METAL5 = 0
+#Total number of violations on LAYER METAL6 = 0
+#detailRoute Statistics:
+#Cpu time = 00:01:06
+#Elapsed time = 00:01:07
+#Increased memory = 0.00 (Mb)
+#Total memory = 483.00 (Mb)
+#Peak memory = 530.00 (Mb)
+#Updating routing design signature
+#Created 650 library cell signatures
+#Created 15911 NETS and 0 SPECIALNETS signatures
+#Created 46604 instance signatures
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:01:26
+#Elapsed time = 00:01:26
+#Increased memory = 58.00 (Mb)
+#Total memory = 493.00 (Mb)
+#Peak memory = 530.00 (Mb)
+#Number of warnings = 27
+#Total number of warnings = 27
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Fri Oct 16 20:16:00 2020
+#
+**optDesign ... cpu = 0:05:49, real = 0:05:54, mem = 493.4M **
+-routeWithEco false                      # bool, default=false
+-routeSelectedNetOnly false              # bool, default=false
+-routeWithTimingDriven true              # bool, default=false, user setting
+-routeWithSiDriven false                 # bool, default=false, user setting
+-drouteStartIteration 0                  # int, default=0, user setting
+Extraction called for design 'chip_top' of instances=46603 and nets=15911 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+Detail RC Extraction called for design chip_top.
+**WARN: (ENCEXT-6166):	Using capacitance table file without EXTENDED section is not recommended and will result in lower accuracy for clock nets in preRoute extraction and for all nets when using postRoute extraction -effortLevel low. Regeneration of full capacitance table is recommended.
+Process corner(s) are loaded.
+Loading corner...  ../soc/work/STD_PLL_IO/ict_captbl/018cap_table_basic/smic_logic018_6lm_typ.CapTbl
+extractDetailRC Option : -outfile ./chip_top_ru502r_19451.rcdb.d -maxResLength 200  -basic
+RC Mode: Detail [Basic CapTable, LEF Resistances]
+Capacitance Scaling Factor   : 1.00000
+Resistance Scaling Factor    : 1.00000
+Coupling Cap. Scaling Factor : 1.00000
+Clock Cap. Scaling Factor    : 1.00000
+Clock Res. Scaling Factor    : 1.00000
+Shrink Factor                : 1.00000
+Checking LVS Completed (CPU Time= 0:00:00.3  MEM= 493.4M)
+Creating parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for storing RC.
+Extracted 10.0015% (CPU Time= 0:00:00.6  MEM= 493.5M)
+Extracted 20.0014% (CPU Time= 0:00:00.9  MEM= 493.5M)
+Extracted 30.0013% (CPU Time= 0:00:01.0  MEM= 493.5M)
+Extracted 40.0013% (CPU Time= 0:00:01.1  MEM= 493.5M)
+Extracted 50.0012% (CPU Time= 0:00:01.4  MEM= 493.5M)
+Extracted 60.0011% (CPU Time= 0:00:01.5  MEM= 493.5M)
+Extracted 70.001% (CPU Time= 0:00:01.6  MEM= 493.5M)
+Extracted 80.0009% (CPU Time= 0:00:01.8  MEM= 493.5M)
+Extracted 90.0009% (CPU Time= 0:00:02.2  MEM= 493.5M)
+Extracted 100% (CPU Time= 0:00:02.6  MEM= 493.5M)
+Nr. Extracted Resistors     : 267763
+Nr. Extracted Ground Cap.   : 282937
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for reading.
+Detail RC Extraction DONE (CPU Time: 0:00:02.9  Real Time: 0:00:04.0  MEM: 493.445M)
+Calculate delays in Single mode...
+Topological Sorting (CPU = 0:00:00.1, MEM = 493.4M)
+Number of Loop : 0
+Start delay calculation (mem=493.445M)...
+delayCal using detail RC...
+Opening parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq' for reading.
+RC Database In Completed (CPU Time= 0:00:00.3  MEM= 493.5M)
+Closing parasitic data file './chip_top_ru502r_19451.rcdb.d/header.seq'. 15260 times net's RC data read were performed.
+Delay calculation completed. (cpu=0:00:03.0 real=0:00:03.0 mem=493.445M 0)
+*** CDM Built up (cpu=0:00:04.4  real=0:00:05.0  mem= 493.4M) ***
+*** Timing NOT met, worst failing slack is -0.492
+*** Check timing (0:00:00.6)
+Clearing footprints for all libraries
+Loading footprints for 'common' libraries
+***** CTE Mode is Operational *****
+Info: 17 top-level, potential tri-state nets excluded from IPO operation.
+Info: 35 io nets excluded
+Info: 4 clock nets excluded from IPO operation.
+*** Starting new resizing ***
+density before resizing = 99.978%
+start postIPO sizing
+0 instances have been resized
+*summary:      0 instances changed cell type
+density after resizing = 99.978%
+*** Finish new resizing (cpu=0:00:03.0 mem=493.4M) ***
+*** Starting sequential cell resizing ***
+density before resizing = 99.978%
+*summary:      0 instances changed cell type
+density after resizing = 99.978%
+*** Finish sequential cell resizing (cpu=0:00:01.6 mem=493.4M) ***
+Instances Resized for DRV   : 0
+Instances Resized for Timing: 0
+Total Instances Resized     : 0
+Restoring original footprint information
+Clearing footprints for all libraries
+Loading footprints for 'common' libraries
+Reported timing to dir ./timingReports
+**optDesign ... cpu = 0:06:10, real = 0:06:16, mem = 493.4M **
+
+------------------------------------------------------------
+     optDesign Final Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):| -0.492  | -0.492  |  7.156  | -0.109  |  8.272  |   N/A   |
+|           TNS (ns):| -40.806 | -40.376 |  0.000  | -0.430  |  0.000  |   N/A   |
+|    Violating Paths:|   337   |   332   |    0    |    5    |    0    |   N/A   |
+|          All Paths:|  2971   |  2939   |   31    |   24    |    1    |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      1 (1)       |   -0.006   |      1 (1)       |
+|   max_tran     |      1 (1)       |   -0.171   |      1 (1)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 99.978%
+------------------------------------------------------------
+**optDesign ... cpu = 0:06:17, real = 0:06:25, mem = 493.4M **
+*** Finished optDesign ***
+<CMD> fit
+<CMD> fit
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 493.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 18.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:17.3  MEM: 91.6M)
+
+<CMD> selectWire 1158.3000 1635.3600 1665.8400 1636.1600 1 VDD
+<CMD> fit
+<CMD> clearDrc
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 -prefix FILLER -markFixed
+**WARN: (ENCSP-9057):	Fillers being added in a FIXED mode to the whole design. Some subsequent
+operations, such as antenna fixing, may fail due to fillers being marked
+as 'FIXED'. If this was not intended, use deleteFiller command to undo.
+*INFO: Adding fillers to top-module.
+*INFO:   Added 0 filler inst  (cell FILL64 / prefix FILLER).
+*INFO:   Added 0 filler inst  (cell FILL32 / prefix FILLER).
+*INFO:   Added 0 filler inst  (cell FILL16 / prefix FILLER).
+*INFO:   Added 0 filler inst  (cell FILL8 / prefix FILLER).
+*INFO:   Added 4 filler insts (cell FILL4 / prefix FILLER).
+*INFO:   Added 2 filler insts (cell FILL2 / prefix FILLER).
+*INFO:   Added 1 filler inst  (cell FILL1 / prefix FILLER).
+*INFO: Total 7 filler insts added - prefix FILLER (CPU: 0:00:00.5).
+*INFO: Checking for DRC violations on added fillers.
+**WARN: (ENCVFG-47):	Pin of Cell u0_uAHB2MEM_u_asic_rom_u3 at (1231.560, 1383.360), (1232.082, 1384.160) on Layer METAL1 is not connected to any net. Use globalNetConnect or GUI FloorPlan->Connect Global Nets to specify global net connection rules properly.
+
+*INFO: Iteration 0-#1, Found 0 DRC violation  (real: 0:00:03.0).
+*INFO: Adding fillers to top-module.
+*INFO:   Added 0 filler inst of any cell-type.
+*INFO: End DRC Checks. (real: 0:00:03.0 ).
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 499.3) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 16.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:16.4  MEM: 91.3M)
+
+<CMD> saveDesign chip_top_done_opt.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+Writing Netlist "chip_top_done_opt.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_done_opt.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_done_opt.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... 606 Drc markers are saved ...
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.1 real=0:00:00.0 mem=499.3M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.6 real=0:00:02.0 mem=499.3M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:23:58 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:23:59 **** Processed 5000 nets (Total 15911)
+**** 20:23:59 **** Processed 10000 nets (Total 15911)
+**** 20:24:00 **** Processed 15000 nets (Total 15911)
+
+VC Elapsed Time: 0:00:03.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:24:01 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.5  MEM: 0.004M)
+
+<CMD> clearDrc
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Oct 16 20:24:22 2020
+
+Design Name: chip_top
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2823.1370, 2812.6000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net xin: Found a geometry with bounding box (2422.56,2814.63) (2452.57,2818.62) outside design boundary.
+Violations for such geometries will be reported.
+**** 20:24:23 **** Processed 5000 nets (Total 15911)
+**** 20:24:23 **** Processed 10000 nets (Total 15911)
+**** 20:24:24 **** Processed 15000 nets (Total 15911)
+
+VC Elapsed Time: 0:00:04.0
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Oct 16 20:24:26 2020
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:03.8  MEM: 0.004M)
+
+<CMD> deselectAll
+<CMD> selectInst FILLER_27401
+<CMD> fit
+<CMD> deselectAll
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 499.4) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 4160
+  VERIFY GEOMETRY ...... SubArea : 1 of 16
+  VERIFY GEOMETRY ...... Cells          :  56 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 56 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 2 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 2 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 3 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 3 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 4 of 16
+  VERIFY GEOMETRY ...... Cells          :  60 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  14 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 4 complete 74 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 5 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 5 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 6 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 6 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 7 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 7 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 8 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 8 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 9 of 16
+  VERIFY GEOMETRY ...... Cells          :  44 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 9 complete 44 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 10 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 10 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 11 of 16
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 11 complete 0 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 12 of 16
+  VERIFY GEOMETRY ...... Cells          :  36 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 12 complete 36 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 13 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 13 complete 72 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 14 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 14 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 15 of 16
+  VERIFY GEOMETRY ...... Cells          :  48 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 15 complete 48 Viols. 0 Wrngs.
+  VERIFY GEOMETRY ...... SubArea : 16 of 16
+  VERIFY GEOMETRY ...... Cells          :  72 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 16 complete 72 Viols. 0 Wrngs.
+VG: elapsed time: 17.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 30
+  Overlap     : 576
+End Summary
+
+  Verification Complete : 606 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:16.3  MEM: 91.8M)
+
+<CMD> clearDrc
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> saveDesign chip_top_done_opt.enc
+Redoing specifyClockTree ...
+Checking spec file integrity...
+**WARN: (ENCSYT-3036):	Design directory chip_top_done_opt.enc.dat exists, rename it to chip_top_done_opt.enc.dat.tmp.
+If saveDesign succeeds, it will be deleted.
+Writing Netlist "chip_top_done_opt.enc.dat/chip_top.v.gz" ...
+Saving clock tree spec file 'chip_top_done_opt.enc.dat/chip_top.ctstch' ...
+Saving configuration ...
+Saving preference file chip_top_done_opt.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.1 real=0:00:00.0 mem=499.4M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.5 real=0:00:01.0 mem=499.4M) ***
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+Creating constraint file...
+
+*** Memory Usage v0.159.4.2 (Current mem = 499.367M, initial mem = 57.359M) ***
+--- Ending "Encounter" (totcpu=0:16:44, real=1:05:25, mem=499.4M) ---

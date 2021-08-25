@@ -1,0 +1,54 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Wed Jun 30 03:32:00 2021                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v13.10-p003_1 (64bit) 04/17/2013 15:43 (Linux 2.6)
+#@(#)CDS: NanoRoute v13.10-p002 NR130329-0035/13_10-UB (database version 2.30, 190.4.1) {superthreading v1.19}
+#@(#)CDS: CeltIC v13.10-p007_1 (64bit) 04/10/2013 12:20:57 (Linux 2.6.18-194.el5)
+#@(#)CDS: AAE 13.10-p003 (64bit) 04/17/2013 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 13.10-p009_1 (64bit) Apr 10 2013 05:43:58 (Linux 2.6.18-194.el5)
+#@(#)CDS: CPE v13.10-p010
+#@(#)CDS: IQRC/TQRC 12.1.0-s388 (64bit) Fri Mar 29 14:11:58 PDT 2013 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_routed.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+restoreDesign chip_top_routed.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+save_global Default.globals
+set init_lef_file {../../../../../Desktop/tmp2/smic180/digital/io/lef/SP018N_V1p0_6MT.lef ../../../../../Desktop/tmp2/smic180/digital/pll/S018PLLGS_500/S018PLLGS_500.lef ../../../../../Desktop/tmp2/smic180/digital/sc/lef/smic18_6lm.lef ../../../../../Desktop/tmp2/smic180/digital/sc/lef/smic18_6lm_antenna.lef}
+set init_verilog ../../syn/output/chip_top_v2.v
+set init_gnd_net VSS
+set init_design_settop 0
+set init_io_file ../pad.ioc
+set init_pwr_net VDD
+init_design
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+restoreDesign chip_top_filler_all.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+restoreDesign chip_top_filler_all.enc.dat chip_top
+encMessage warning 1
+encMessage debug 0
+encMessage info 1

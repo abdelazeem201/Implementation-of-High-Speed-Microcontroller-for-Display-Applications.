@@ -1,0 +1,463 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Fri Oct 16 15:23:28 2020                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+#@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+#@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+#@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+#@(#)CDS: CPE v09.10-p005
+
+loadConfig chip_top.conf 0
+setUIVar rda_Input ui_netlist {chip_top_dp.enc.dat/chip_top.v.gz ../syn_work/output/chip_top.v}
+commitConfig
+fit
+setDrawView fplan
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site smic18site -r 0.997200204468 0.673281 80.62 80.2 80.0 80.0
+uiSetTool select
+getIoFlowFlag
+fit
+addHaloToBlock 40 40 40 40 -allBlock
+setPlanDesignMode -groupHardMacro true -boundaryPlace true -congAware true
+planDesign
+setDrawView place
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin VDD -inst * -module {}
+globalNetConnect VDD -type net -net VDD -module {}
+globalNetConnect VSS -type pgpin -pin VSS -inst * -module {}
+globalNetConnect VSS -type net -net VSS -module {}
+selectInst PLL_inst
+deselectAll
+selectInst PLL_inst
+deselectAll
+getMultiCpuUsage -localCpu
+setPlaceMode -reset
+setPlaceMode -congEffort high -timingDriven 1 -modulePlan 1 -doCongOpt 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 1 -placeIOPins 1 -moduleAwareSpare 0 -checkPinLayerForAccess {  1 } -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+placeDesign -inPlaceOpt -prePlaceOpt
+fit
+saveDesign chip_top_fp.enc
+addRing -use_wire_group_bits 6 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -around core -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+fit
+selectInst u0_uAHB2MEM_u_asic_rom_u3
+selectInst u0_uAHB2MEM_u_asic_rom_u1
+selectInst u0_uAHB2MEM_u_asic_rom_u2
+addRing -use_wire_group_bits 2 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -around shared_cluster -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+deselectAll
+undo
+fit
+uiSetTool select
+addRing -use_wire_group_bits 2 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1696.367 347.104 1696.367 709.979 2487.304 709.979 2487.304 347.104} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+undo
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2486.505 344.946 2486.505 718.587 1692.125 718.587 1692.125 344.946} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+selectInst u0_uAHB2VGA_u_gen_iloveu
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1255.331 348.755 1255.331 996.279 344.885 996.279 344.885 348.755} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+fit
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2486.915 789.869 2486.915 1563.748 2111.981 1563.748 2111.981 789.869} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+undo
+uiSetTool select
+uiSetTool select
+uiSetTool select
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u1
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2490.547 1554.011 2490.547 771.766 2110.289 771.766 2110.289 1554.011} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u3
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u1
+undo
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2490.547 1564.875 2490.547 771.766 2110.289 771.766 2110.289 1564.875} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2055.967 1567.048 2055.967 1191.136 1254.166 1191.136 1254.166 1567.048} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {2485.626 1999.841 2485.626 1617.41 1688.171 1617.41 1688.171 1999.841} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1642.66 2466.361 1642.66 1676.447 1256.651 1676.447 1256.651 2466.361} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1162.066 2471.474 1162.066 1673.891 773.5 1673.891 773.5 2471.474} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {719.515 2471.324 719.515 1676.298 341.175 1676.298 341.175 2471.324} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+uiSetTool select
+uiSetTool select
+uiSetTool select
+deselectAll
+selectInst u0_uAHB2MEM_u_asic_rom_u0
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1138.757 1617.502 1138.757 1234.048 338.618 1234.048 338.618 1617.502} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {VSS VDD } -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+uiSetTool select
+addRing -use_wire_group_bits 4 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -center 1 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1741.656 2479.575 2336.38 2479.575 2336.38 2158.203 1741.656 2158.203} -around user_defined -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -type block_rings -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {avss avdd} -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+addRing -use_wire_group_bits 2 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1741.656 2479.575 2336.38 2479.575 2336.38 2158.203 1741.656 2158.203} -around core -jog_distance 0.66 -offset_bottom 0.66 -layer_top METAL5 -threshold 0.66 -offset_left 0.66 -spacing_right 0.46 -spacing_left 0.46 -offset_right 0.66 -offset_top 0.66 -layer_right METAL6 -nets {avss avdd} -stacked_via_bottom_layer METAL1 -layer_left METAL6
+deselectAll
+undo
+fit
+verifyGeometry
+fit
+addRing -use_wire_group_bits 2 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1741.656 2479.575 2336.38 2479.575 2336.38 2158.203 1741.656 2158.203} -around core -jog_distance 0.66 -layer_top METAL5 -threshold 0.66 -spacing_right 0.46 -spacing_left 0.46 -layer_right METAL6 -nets {avss avdd} -stacked_via_bottom_layer METAL1 -layer_left METAL6
+fit
+undo
+addRing -use_wire_group_bits 2 -spacing_bottom 0.28 -width_left 0.6 -width_bottom 0.6 -width_top 0.6 -use_interleaving_wire_group 1 -spacing_top 0.28 -layer_bottom METAL5 -stacked_via_top_layer METAL6 -width_right 0.6 -use_wire_group 1 -user_defined_region {1741.656 2479.575 2336.38 2479.575 2336.38 2158.203 1741.656 2158.203} -around core -jog_distance 0.66 -offset_bottom 5 -layer_top METAL5 -threshold 0.66 -offset_left 5 -spacing_right 0.46 -spacing_left 0.46 -offset_right 5 -offset_top 5 -layer_right METAL6 -nets {avss avdd} -stacked_via_bottom_layer METAL1 -layer_left METAL6
+selectWire 307.3600 307.0400 2516.7800 307.6400 5 avdd
+deselectAll
+selectWire 308.4200 309.6800 2515.7200 310.2800 5 avss
+deselectAll
+fit
+sroute -connect { padPin } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { VSS VDD avss avdd }
+selectWire 2542.9980 420.8760 2592.9170 446.4160 5 VDD
+deselectAll
+fit
+fit
+fit
+fit
+saveDesign chip_top_pp_0.enc
+selectWire 2550.4180 270.8800 2551.0180 2541.8600 6 VSS
+addStripe -use_wire_group_bits 4 -block_ring_top_layer_limit METAL6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL5 -number_of_sets 10 -split_vias 1 -break_at_selected_blocks 1 -use_interleaving_wire_group 1 -same_sized_stack_vias 1 -stacked_via_top_layer METAL6 -use_wire_group 1 -padcore_ring_top_layer_limit METAL6 -spacing 0.46 -merge_stripes_value 0.66 -layer METAL6 -block_ring_bottom_layer_limit METAL5 -width 0.6 -nets {VSS VDD  } -stacked_via_bottom_layer METAL1 -break_stripes_at_block_rings 1
+deselectAll
+selectInst u0_u_CORTEXM0INTEGRATION_u_logic/U6152
+deselectAll
+selectInst u0_u_CORTEXM0INTEGRATION_u_logic/Smjax6_reg
+fit
+fit
+deselectAll
+undo
+fit
+fit
+addStripe -use_wire_group_bits 4 -block_ring_top_layer_limit METAL6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL5 -number_of_sets 8 -split_vias 1 -break_at_selected_blocks 1 -use_interleaving_wire_group 1 -same_sized_stack_vias 1 -stacked_via_top_layer METAL6 -use_wire_group 1 -padcore_ring_top_layer_limit METAL6 -spacing 0.46 -merge_stripes_value 0.66 -layer METAL6 -block_ring_bottom_layer_limit METAL5 -width 0.6 -nets {VSS VDD  } -stacked_via_bottom_layer METAL1 -break_stripes_at_block_rings 1
+fit
+fit
+verifyGeometry
+fit
+addStripe -use_wire_group_bits 4 -block_ring_top_layer_limit METAL6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL4 -number_of_sets 8 -split_vias 1 -break_at_selected_blocks 1 -use_interleaving_wire_group 1 -same_sized_stack_vias 1 -stacked_via_top_layer METAL6 -use_wire_group 1 -padcore_ring_top_layer_limit METAL6 -spacing 0.28 -merge_stripes_value 0.66 -direction horizontal -layer METAL5 -block_ring_bottom_layer_limit METAL4 -width 0.6 -nets {VSS VDD  } -stacked_via_bottom_layer METAL1 -break_stripes_at_block_rings 1
+fit
+fit
+undo
+addStripe -use_wire_group_bits 4 -block_ring_top_layer_limit METAL6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL4 -number_of_sets 8 -split_vias 1 -break_at_selected_blocks 1 -use_interleaving_wire_group 1 -same_sized_stack_vias 1 -stacked_via_top_layer METAL6 -use_wire_group 1 -padcore_ring_top_layer_limit METAL6 -spacing 0.28 -merge_stripes_value 0.66 -direction horizontal -layer METAL5 -block_ring_bottom_layer_limit METAL4 -width 0.6 -nets {VSS VDD  } -stacked_via_bottom_layer METAL1 -break_stripes_at_block_rings 1
+fit
+undo
+verifyGeometry
+saveDesign chip_top_pp_1.enc
+addStripe -use_wire_group_bits 4 -block_ring_top_layer_limit METAL6 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL4 -number_of_sets 8 -split_vias 1 -break_at_selected_blocks 1 -use_interleaving_wire_group 1 -same_sized_stack_vias 1 -stacked_via_top_layer METAL6 -use_wire_group 1 -padcore_ring_top_layer_limit METAL6 -start_from top -spacing 0.28 -merge_stripes_value 0.66 -direction horizontal -layer METAL5 -block_ring_bottom_layer_limit METAL4 -width 1 -nets {VSS VDD  } -stacked_via_bottom_layer METAL1 -break_stripes_at_block_rings 1
+fit
+verifyGeometry
+fit
+fit
+fit
+fit
+violationBrowser -all -no_display_false
+::Rda_Browser::VB::violationBrowserSetObjs
+zoomBox 1699.902 1874.926 1703.902 1877.926
+zoomBox 1699.902 1874.926 1703.902 1877.926
+selectWire 1619.0880 1875.9260 1705.5020 1876.9260 5 VSS
+deselectAll
+selectWire 1621.6880 1874.6460 1700.9020 1875.6460 5 VDD
+deselectAll
+selectWire 1619.0880 1875.9260 1705.5020 1876.9260 5 VSS
+deselectAll
+selectWire 1621.6880 1874.6460 1700.9020 1875.6460 5 VDD
+deselectAll
+selectMarker 1700.9020 1875.9260 1702.9020 1876.9260 5 1 6
+deselectAll
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+deselectAll
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+deselectAll
+selectMarker 1700.9020 1875.9260 1702.9020 1876.9260 5 1 6
+deselectAll
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+uiSetTool cutWire
+editCutWire -x1 1701.425 -y1 1875.044 -x2 1701.425 -y2 1875.044
+uiSetTool select
+deselectAll
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+uiSetTool addWire
+uiSetTool select
+editTrim
+editTrim
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+editTrim
+selectWire 1621.6880 1874.6460 1700.9020 1875.6460 5 VDD
+editTrim
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+fit
+deselectAll
+selectWire 1619.0880 1868.2460 1700.0020 1869.2460 5 VSS
+deselectAll
+selectWire 1621.6880 1866.9660 1700.9020 1867.9660 5 VDD
+deselectAll
+selectWire 1621.6880 1869.5260 1702.9020 1870.5260 5 VDD
+deselectAll
+selectWire 1621.6880 1866.9660 1700.9020 1867.9660 5 VDD
+deselectAll
+selectWire 1619.0880 1868.2460 1700.0020 1869.2460 5 VSS
+deselectAll
+selectWire 1619.0880 1875.9260 1705.5020 1876.9260 5 VSS
+deselectAll
+selectWire 1621.6880 1874.6460 1700.9020 1875.6460 5 VDD
+deselectAll
+selectWire 1619.0880 1873.3660 1703.5020 1874.3660 5 VSS
+deselectAll
+selectWire 1621.6880 1872.0860 1700.9020 1873.0860 5 VDD
+deselectAll
+uiSetTool cutWire
+editCutWire -x1 1700.91 -y1 1874.534 -x2 1700.91 -y2 1877.005
+uiSetTool move
+selectWire 1700.9020 1874.6460 1702.9020 1878.2060 5 VDD
+editMove -1.824 2.587
+deselectAll
+selectVia 1700.9020 1877.2060 1702.9020 1878.2060 5 VDD
+editMove 0.585 1.035
+deselectAll
+selectVia 1700.9020 1875.7150 1702.9020 1878.2050 4 VDD
+editMove -4.937 1.502
+deleteSelectedFromFPlan
+selectWire 1699.0780 1877.2330 1701.0780 1880.7930 5 VDD
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectVia 1701.4870 1878.2410 1703.4870 1879.2410 5 VDD
+deleteSelectedFromFPlan
+selectWire 1700.9100 1875.9260 1705.5020 1876.9260 5 VSS
+deleteSelectedFromFPlan
+uiSetTool select
+fit
+selectWire 1240.3440 935.9550 2121.8370 936.9550 5 VDD
+deselectAll
+selectWire 1237.7440 937.2350 2124.4370 938.2350 5 VSS
+deselectAll
+selectWire 1240.3440 935.9550 2121.8370 936.9550 5 VDD
+deselectAll
+selectWire 1237.7440 937.2350 2124.4370 938.2350 5 VSS
+deselectAll
+selectWire 1240.3440 935.9550 2121.8370 936.9550 5 VDD
+deselectAll
+selectMarker 1238.3440 937.2350 1240.3440 938.2350 5 1 6
+uiSetTool move
+editMove 0.0 -1.463
+selectWire 1238.3440 935.9550 1240.3440 939.5150 5 VDD
+editMove -2.146 -3.531
+deleteSelectedFromFPlan
+uiSetTool select
+selectWire 1237.7440 937.2350 2124.4370 938.2350 5 VSS
+deselectAll
+selectWire 1240.3440 935.9550 2121.8370 936.9550 5 VDD
+fit
+fit
+windowSelect 1119.044 1569.751 1132.759 1551.357
+deselectAll
+selectWire 1123.3740 1556.6290 1268.6020 1557.6290 5 VDD
+uiSetTool addWire
+uiSetTool select
+editTrim
+editTrim
+editTrim
+uiSetTool cutWire
+editCutWire -x1 1130.208 -y1 1555.382 -x2 1130.208 -y2 1567.571
+uiSetTool move
+selectWire 1123.3740 1556.6290 1130.2080 1557.6290 5 VDD
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectWire 1121.3740 1556.6290 1123.3740 1560.1890 5 VDD
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectVia 1121.3740 1557.2650 1123.3740 1560.1890 4 VDD
+deleteSelectedFromFPlan
+selectWire 1118.7740 1557.9090 1130.2080 1558.9090 5 VSS
+deleteSelectedFromFPlan
+selectWire 1118.7740 1563.0290 1120.7740 1566.5890 5 VSS
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectWire 1118.7740 1563.0290 1130.2080 1564.0290 5 VSS
+deleteSelectedFromFPlan
+selectWire 1121.3740 1561.7490 1123.3740 1565.3090 5 VDD
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectVia 1121.3740 1561.7490 1123.3740 1564.2050 4 VDD
+deleteSelectedFromFPlan
+deleteSelectedFromFPlan
+selectWire 1121.3740 1561.7490 1130.2080 1562.7490 5 VDD
+deleteSelectedFromFPlan
+selectWire 1118.7740 1559.2850 1120.7740 1561.4690 5 VSS
+deleteSelectedFromFPlan
+selectWire 1121.3740 1559.1890 1130.2080 1560.1890 5 VDD
+deleteSelectedFromFPlan
+selectWire 1120.7740 1560.4690 1130.2080 1561.4690 5 VSS
+deleteSelectedFromFPlan
+selectWire 1120.7740 1565.5890 1130.2080 1566.5890 5 VSS
+deleteSelectedFromFPlan
+selectWire 1123.3740 1564.3090 1130.2080 1565.3090 5 VDD
+deleteSelectedFromFPlan
+fit
+uiSetTool cutWire
+editCutWire -x1 1250.352 -y1 934.045 -x2 1250.352 -y2 948.434
+uiSetTool select
+uiSetTool move
+uiSetTool select
+windowSelect 1235.605 947.360 1248.204 932.255
+deselectAll
+selectWire 1240.3440 935.9550 1250.3520 936.9550 5 VDD
+windowSelect 1235.748 947.575 1250.280 933.902
+windowSelect 1250.710 933.687 1244.052 949.007
+windowSelect 1239.184 949.508 1250.925 931.539
+deleteSelectedFromFPlan
+selectWire 1237.7440 937.2350 1250.3520 938.2350 5 VSS
+deleteSelectedFromFPlan
+selectWire 1235.7440 937.2350 1237.7440 938.6810 5 VSS
+deleteSelectedFromFPlan
+selectWire 1238.3440 938.5150 1240.3440 942.8950 5 VDD
+deleteSelectedFromFPlan
+selectWire 1238.3440 941.0750 1240.3440 942.8950 5 VDD
+deleteSelectedFromFPlan
+selectWire 1238.3440 943.6350 1250.3520 944.6350 5 VDD
+deleteSelectedFromFPlan
+selectWire 1237.7440 944.9150 1250.3520 945.9150 5 VSS
+deleteSelectedFromFPlan
+selectWire 1235.7440 944.9150 1237.7440 945.9810 5 VSS
+deleteSelectedFromFPlan
+fit
+windowSelect 1699.788 1880.986 1704.474 1876.604
+deselectAll
+deleteSelectedFromFPlan
+uiSetTool cutWire
+editCutWire -x1 1689.259 -y1 1864.799 -x2 1689.259 -y2 1879.16
+uiSetTool select
+windowSelect 1688.590 1878.734 1705.020 1864.555
+deleteSelectedFromFPlan
+windowSelect 1699.604 1881.838 1705.811 1867.537
+deleteSelectedFromFPlan
+selectWire 1699.0020 1870.8060 1705.5020 1871.8060 6 VSS
+deleteSelectedFromFPlan
+fit
+uiSetTool cutWire
+editCutWire -x1 1138.081 -y1 1554.992 -x2 1138.081 -y2 1567.284
+uiSetTool select
+windowSelect 1129.136 1567.345 1138.872 1554.810
+deleteSelectedFromFPlan
+fit
+verifyGeometry
+selectInst u0_uAHB2VGA_u_gen_iloveu
+fit
+fit
+fit
+fit
+fit
+fit
+deselectAll
+selectInst u0_uAHBGPIO_gpio_dataout_reg_2_
+deselectAll
+selectInst u0_uAHBGPIO_gpio_dataout_reg_1_
+deselectAll
+selectInst U2320
+deselectAll
+fit
+saveDesign chip_top_pp_fin.enc
+sroute -connect { floatingStripe } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestTarget } -checkAlignedSecondaryPin 1 -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { VSS VDD }
+fit
+fit
+fit
+verifyGeometry
+selectMarker 2192.6060 2180.8140 2192.7060 2180.9140 6 3 7
+deselectAll
+selectMarker 2192.6060 2180.8140 2192.7060 2180.9140 6 3 7
+deselectAll
+selectWire 2192.3560 1987.7750 2192.9560 2181.1640 6 VSS
+fit
+fit
+fit
+fit
+fit
+deselectAll
+selectWire 1621.6880 2179.8630 2554.1980 2180.8630 5 VDD
+deselectAll
+selectWire 1619.0880 2178.5830 2553.1380 2179.5830 5 VSS
+deselectAll
+selectWire 1621.6880 2177.3030 2554.1980 2178.3030 5 VDD
+deselectAll
+selectWire 1878.2400 1987.7750 1878.8400 2181.1640 6 VSS
+deselectAll
+selectMarker 1878.4900 2180.8140 1878.5900 2180.9140 6 3 7
+deselectAll
+fit
+sroute -connect { floatingStripe } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestTarget } -checkAlignedSecondaryPin 1 -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { avss avdd }
+fit
+selectWire 358.9990 634.0000 1235.7440 635.5780 5 VSS
+deselectAll
+selectInst u0_uAHB2VGA_u_gen_iloveu
+fit
+deselectAll
+selectWire 358.9990 634.0000 1235.7440 635.5780 5 VSS
+fit
+deleteSelectedFromFPlan
+fit
+fit
+verifyGeometry
+panPage 1 0
+panPage -1 0
+panPage 1 0
+fit
+fit
+fit
+selectWire 2194.4760 1987.7750 2195.0760 2181.1640 6 VSS
+fit
+deselectAll
+saveDesign chip_top_pp_final.enc
+fit
+selectObject Pin u0_uAHB2VGA_u_gen_iloveu/CENA
+deselectAll
+selectObject Pin u0_uAHB2VGA_u_gen_iloveu/WENA
+deselectAll
+fit
+fit
+addCTSCellList {BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL}
+clockDesign -genSpecOnly Clock.ctstch
+clockDesign -specFile Clock.ctstch -outDir clock_report -fixedInstBeforeCTS
+selectInst u0_u_CORTEXM0INTEGRATION_u_logic/H8gax6_reg
+deselectAll
+fit
+verifyGeometry
+fit
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_pp_final.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+fit
+fit
+fit
+fit
+fit
+optDesign -preCTS
+clockDesign -specFile Clock.ctstch -outDir clock_report -fixedInstBeforeCTS
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign chip_top_pp_final.enc.dat chip_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+addCTSCellList {BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL}
+clockDesign -genSpecOnly Clock.ctstch
+clockDesign -specFile Clock.ctstch -outDir clock_report -fixedInstBeforeCTS

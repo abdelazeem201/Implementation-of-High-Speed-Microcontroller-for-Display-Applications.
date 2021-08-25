@@ -1,0 +1,251 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 9.1 license checkout succeeded.
+This Encounter release has been compiled with OA version 22.04-p052.
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2009.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v09.10-p004_1 (32bit) 12/02/2009 20:50 (Linux 2.6)
+@(#)CDS: NanoRoute v09.10-p020 NR091118-1115/USR62-UB (database version 2.30, 86.1.1) {superthreading v1.13}
+@(#)CDS: CeltIC v09.10-p001_1 (32bit) 11/20/2009 16:06:17 (Linux 2.6.9-78.0.25.ELsmp)
+@(#)CDS: CTE 09.10-p003_1 (32bit) Dec  2 2009 16:44:23 (Linux 2.6.9-78.ELsmp)
+@(#)CDS: CPE v09.10-p005
+--- Starting "Encounter v09.10-p004_1" on Fri Oct 16 16:41:51 2020 (mem=57.4M) ---
+--- Running on work-eda (x86_64 w/Linux 2.6.32-431.el6.x86_64) ---
+This version was compiled on Wed Dec 2 20:50:10 PST 2009.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reading config file - chip_top_cts.enc.dat/chip_top.conf
+**ERROR: (ENCLF-81):	No MANUFACTURINGGRID value was given. It is set to
+minimum LEF unit of 0.001 um. If this value is not right, a MANUFACTURINGGRID
+statement must be added in the technology lef file.
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM1 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM2 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM3 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM4 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM5 GENERATE
+**WARN: (ENCPP-557):	a single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. You should remove this statement from your LEF file.
+	VIARULE TURNM6 GENERATE
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX2' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHX4' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFHXL' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'S' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+**WARN: (TECHLIB-436):	Attribute 'fanout_load' on output/inout pin 'CO' of cell 'ADDFX1' is not defined in the library. Either define this value in the library or use set_default_timing_library to pick these values from a default library.
+*** End library_loading (cpu=0.04min, mem=8.0M, fe_cpu=0.18min, fe_mem=302.9M) ***
+**WARN: (ENCEXT-2730):	Cap Table generated using Encounter 03.20-p005_1. may cause some accuracy degradation.
+It is highly recommended to regenerate the Cap Table using Encounter 4.1 or newer.
+To regenerate a Cap Table, use the standalone generateCapTbl utility, with following syntax:
+ generateCapTbl -ict <process.ict> -output <process.CapTbl>.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.036 will be used.
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 5 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 3 Ohms will be used.
+Set CTS cells: BUFX1 BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL DLY1X1 DLY2X1 DLY3X1 DLY4X1 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX8 INVXL
+**WARN: (ENCDB-1256):	Power pin AVDD of instance PLL_inst is connected to non-p/g net avdd.  Mark the net as power net and create associated snet.
+**WARN: (ENCDB-1257):	Ground pin AVSS of instance PLL_inst is connected to non-p/g net avss.  Mark the net as ground net and create associated snet.
+Loading preference file chip_top_cts.enc.dat/enc.pref.tcl ...
+Loading mode file chip_top_cts.enc.dat/chip_top.mode ...
+**WARN: (ENCSP-506):	Options '-congEffort' and '-fp' are mutually exclusive, using last option specified - '-congEffort'.
+loading place ...
+loading route ...
+<CMD> setDrawView place
+<CMD> selectInst u0_uAHB2MEM_u_asic_rom_u3
+<CMD> fit
+<CMD> sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { METAL1 METAL6 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer METAL1 -allowLayerChange 1 -targetViaTopLayer METAL6 -crossoverViaTopLayer METAL6 -targetViaBottomLayer METAL1 -nets { avss avdd VSS VDD }
+No routing obstructions were found in the design.
+*** Begin SPECIAL ROUTE on Fri Oct 16 16:43:43 2020 ***
+Sroute/fcroute version 8.1.46 promoted on 02/17/2009.
+SPECIAL ROUTE ran on directory: /home/work/encounter_work/soc_v3
+SPECIAL ROUTE ran on machine: work-eda (Linux 2.6.32-431.el6.x86_64 x86_64 3.80Ghz)
+
+Begin option processing ...
+(from .sroute_16255.conf) srouteConnectPowerBump set to false
+(from .sroute_16255.conf) routeSelectNet set to "avss avdd VSS VDD"
+(from .sroute_16255.conf) routeSpecial set to true
+(from .sroute_16255.conf) srouteConnectStripe set to false
+(from .sroute_16255.conf) srouteCrossoverViaTopLayer set to 6
+(from .sroute_16255.conf) srouteFollowCorePinEnd set to 3
+(from .sroute_16255.conf) srouteFollowPadPin set to true
+(from .sroute_16255.conf) srouteJogControl set to "preferWithChanges differentLayer"
+(from .sroute_16255.conf) sroutePadPinAllPorts set to true
+(from .sroute_16255.conf) sroutePreserveExistingRoutes set to true
+(from .sroute_16255.conf) srouteTopLayerLimit set to 6
+(from .sroute_16255.conf) srouteTopTargetLayerLimit set to 6
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 557.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 13 layers, 6 routing layers, 1 overlap layer
+Read in 649 macros, 159 used
+Read in 14687 components
+  14629 core components: 0 unplaced, 14629 placed, 0 fixed
+  44 pad components: 0 unplaced, 0 placed, 44 fixed
+  10 block/ring components: 0 unplaced, 0 placed, 10 fixed
+  4 other components: 0 unplaced, 0 placed, 4 fixed
+Read in 35 logical pins
+Read in 11 blockages
+Read in 35 nets
+Read in 4 special nets, 4 routed
+Read in 29282 terminals
+4 nets selected.
+
+Begin power routing ...
+**WARN: (ENCSR-1254):	Net VDD does not have block pins to be routed. Please check net list.
+**WARN: (ENCSR-1253):	Net avdd does not have standard cells to be routed. Please check net list.
+**WARN: (ENCSR-1254):	Net VSS does not have block pins to be routed. Please check net list.
+**WARN: (ENCSR-1253):	Net avss does not have standard cells to be routed. Please check net list.
+CPU time for FollowPin 0 seconds
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avdd
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avdd
+CPU time for FollowPin 0 seconds
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avss
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS avss
+  Number of IO ports routed: 0
+  Number of Block ports routed: 2
+  Number of Core ports routed: 2066  open: 66
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 1066
+End power routing: cpu: 0:00:03, real: 0:00:03, peak: 584.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 142 via definition ...
+
+sroute post-processing starts at Fri Oct 16 16:43:47 2020
+The viaGen is rebuilding shadow vias for net avss.
+sroute post-processing ends at Fri Oct 16 16:43:47 2020
+
+sroute post-processing starts at Fri Oct 16 16:43:47 2020
+The viaGen is rebuilding shadow vias for net avdd.
+sroute post-processing ends at Fri Oct 16 16:43:47 2020
+
+sroute post-processing starts at Fri Oct 16 16:43:47 2020
+The viaGen is rebuilding shadow vias for net VSS.
+sroute post-processing ends at Fri Oct 16 16:43:48 2020
+
+sroute post-processing starts at Fri Oct 16 16:43:48 2020
+The viaGen is rebuilding shadow vias for net VDD.
+sroute post-processing ends at Fri Oct 16 16:43:49 2020
+
+**WARN: (ENCPP-589):	The power planner detected wires that are close to the standard cell area.
+**WARN: (ENCPP-590):	Turn on violation markers and run verifyGeometry to display violation details.
+
+sroute: Total CPU time used = 0:0:6
+sroute: Total Real time used = 0:0:7
+sroute: Total Memory used = 20.73 megs
+sroute: Total Peak Memory used = 367.80 megs
+<CMD> deselectAll
+<CMD> selectWire 1732.9760 2208.0140 1773.4180 2214.9740 3 avdd
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectWire 1734.0360 2435.5960 1774.2850 2442.5560 3 avss
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectInst gpio_pad_io_10
+<CMD> deselectAll
+<CMD> selectInst gpio_pad_io_9
+<CMD> deselectAll
+<CMD> selectInst gpio_pad_io_8
+<CMD> deselectAll
+<CMD> selectInst PAD_cut1
+<CMD> deselectAll
+<CMD> selectInst PAD_cut0
+<CMD> deselectAll
+<CMD> selectInst PAD_cut1
+<CMD> deselectAll
+<CMD> selectInst PAD_cut0
+<CMD> deselectAll
+<CMD> selectInst avss_pll
+<CMD> deselectAll
+<CMD> selectInst avdd_pll
+<CMD> deselectAll
+<CMD> selectInst PAD_A_IO_VSS
+<CMD> deselectAll
+<CMD> selectInst PAD_A_IO_VDD
+<CMD> deselectAll
+<CMD> selectInst PAD_cut1
+<CMD> deselectAll
+<CMD> selectInst RESET_pad_in
+<CMD> deselectAll
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> uiSetTool select
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> uiSetTool select
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> uiSetTool select
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> uiSetTool select
+<CMD> uiSetTool defineArea ::Rda_Placement::WinPlace::setWindow
+<CMD> zoomBox 191.681 754.222 -101.253 1584.869
+<CMD> uiSetTool select
+<CMD> fit
+<CMD> addIoFiller -cell PFILL5AN -prefix FILLER -side w -from 1041.878 -to 1041.878
+**WARN: (ENCFP-127):	Incorrect LEF class of cell 'PFILL5AN', expected cell with class 'PAD SPACER'.
+Added 0 of filler cell 'PFILL5AN' on left side.
+Encounter terminated by external (TERM) signal.
+
+*** Memory Usage v0.159.4.2 (Current mem = 367.805M, initial mem = 57.359M) ***
+--- Ending "Encounter" (totcpu=0:01:19, real=0:15:03, mem=367.8M) ---
