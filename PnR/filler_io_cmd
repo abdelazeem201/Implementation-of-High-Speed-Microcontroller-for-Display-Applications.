@@ -1,0 +1,20 @@
+addIoFiller -cell PFILL50N -prefix IOFILLER -side w
+addIoFiller -cell PFILL22N -prefix IOFILLER -side w
+addIoFiller -cell PFILL20N -prefix IOFILLER -side w
+addIoFiller -cell PFILL10N -prefix IOFILLER -side w
+addIoFiller -cell PFILL5N -prefix IOFILLER -side w
+addIoFiller -cell PFILL2N -prefix IOFILLER -side w
+addIoFiller -cell PFILL1N -prefix IOFILLER -side w
+addIoFiller -cell PFILL01N -prefix IOFILLER -side w
+addIoFiller -cell PFILL001N -prefix IOFILLER -side w -fillAnyGap
+
+
+
+addIoFiller -cell PFILL50AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL20AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL10AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL5AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL2AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL1AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL01AN -prefix IOFILLER -side w -from 610  -to 1603
+addIoFiller -cell PFILL001AN -prefix IOFILLER -side w -fillAnyGap -from 610  -to 1603
