@@ -1,0 +1,51 @@
+Version: 1
+Pad: CORNER0 NW PCORNERN
+Pad: rgb_pad_out_0   N
+Pad: rgb_pad_out_1   N
+Pad: rgb_pad_out_2   N
+Pad: rgb_pad_out_3   N
+Pad: rgb_pad_out_4   N
+Pad: rgb_pad_out_5   N
+Pad: rgb_pad_out_6   N
+Pad: rgb_pad_out_7   N
+Pad: hsync_pad_out   N
+Pad: vsync_pad_out   N
+Pad: Tx_pad_out      N
+Pad: Rx_pad_in       N
+Pad: xtal_pad_special N
+Pad: CORNER1 NE PCORNERN
+Pad: RESET_pad_in     W
+Pad: PAD_cut0 W PDIODE8N
+Pad: avss_pll W
+Pad: avdd_pll W
+Pad: PAD_A_IO_VSS W PVSS5APN
+Pad: PAD_A_IO_VDD W PVDD5APN
+Pad: PAD_cut1 W PDIODE8N
+Pad: gpio_pad_io_8    W
+Pad: gpio_pad_io_9    W
+Pad: gpio_pad_io_10   W
+Pad: gpio_pad_io_11   W
+Pad: CORNER2 SW PCORNERN
+Pad: PAD_IOVDD1 S PVDD2N 
+Pad: PAD_IOVSS1 S PVSS2N
+Pad: gpio_pad_io_0   S
+Pad: gpio_pad_io_1   S
+Pad: gpio_pad_io_2   S
+Pad: gpio_pad_io_3   S
+Pad: gpio_pad_io_4   S
+Pad: gpio_pad_io_5   S
+Pad: gpio_pad_io_6   S
+Pad: gpio_pad_io_7   S
+Pad: CORNER3 SE PCORNERN
+Pad: PAD_VDD1 E PVDD1N 
+Pad: PAD_VSS1 E PVSS1N
+Pad: TCK_SWCLK_pad_in E
+Pad: TDI_NC_pad_in    E
+Pad: TDO_SWO_pad_out  E
+Pad: debugger_pad_io E
+Pad: gpio_pad_io_12   E
+Pad: gpio_pad_io_13   E
+Pad: gpio_pad_io_14   E
+Pad: gpio_pad_io_15   E
+
+
